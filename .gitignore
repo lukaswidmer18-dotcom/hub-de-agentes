@@ -1,0 +1,5 @@
+agent-hub/node_modules/
+agent-hub/.next/
+.claude/settings.local.json
+.DS_Store
+Thumbs.db
