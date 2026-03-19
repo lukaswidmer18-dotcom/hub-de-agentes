@@ -1,0 +1,37 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+Agent Hub
+[0] (284,35)<a class='text-sm text-neutral-600 hover:text-neutral-900' href='#features'>Funcionalidades />
+[1] (337,35)<a class='text-sm text-neutral-600 hover:text-neutral-900' href='#pricing'>Preços />
+[2] (387,35)<a class='text-sm text-neutral-600 hover:text-neutral-900' href='#docs'>Documentação />
+[3] (611,35)<a class='text-sm font-medium text-neutral-600 hover:text-neutral-900' href='/login'>Entrar />
+[4] (647,36)<a class='px-4 py-2 bg-primary text-white rounded-full text-sm font-medium hover:bg-primary-dark transition-colors' href='/signup'>Criar conta />
+Novo: Templates de Agentes
+Descubra e gerencie
+agentes de IA
+em um só lugar
+Crie, personalize e implante agentes de IA com uma interface visual intuitiva. Integre-se ao Claude Code e automatize seus fluxos de trabalho.
+[5] (40,392)<a class='inline-flex items-center gap-2 px-6 py-3 bg-primary text-white rounded-full font-medium hover:bg-primary-dark transition-colors' href='/agents'>Explorar Agentes />
+[6] (118,394)<a class='inline-flex items-center gap-2 px-6 py-3 border border-neutral-300 text-neutral-700 rounded-full font-medium hover:border-neutral-400 transition-colors' href='/templates'>Ver Templates />
+[7] (395,99)<div  />
+[8] (506,99)<div  />
+[9] (617,99)<div  />
+[10] (506,323)<div  />
+[11] (617,323)<div  />
+Tudo que você precisa
+Uma plataforma completa para criar, gerenciar e escalar seus agentes de IA
+Interface Visual
+Escolha agentes por avatares animados e personalize com poucos cliques
+Integração Claude
+Conecte-se diretamente ao Claude Code para criação e deploy de agentes
+Segurança Empresarial
+Autenticação SAML, criptografia e controle de acesso granular
+Agent Hub
+[12] (561,641)<a class='hover:text-white transition-colors' href='/terms'>Termos />
+[13] (607,641)<a class='hover:text-white transition-colors' href='/privacy'>Privacidade />
+[14] (653,641)<a class='hover:text-white transition-colors' href='/contact'>Contato />
+© 2025 Agent Hub. Todos os direitos reservados.
+
+</current_dom>

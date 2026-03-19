@@ -1,0 +1,402 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+Skip to content
+Navigation Menu
+[0] (25,40)<a aria-label='Homepage' class='tmp-mr-lg-3 color-fg-inherit flex-order-2 js-prevent-focus-on-mobile-nav' href='/' />
+[1] (67,40)<button class='NavDropdown-module__button__PEHWX js-details-target'>Platform />
+[2] (118,40)<button class='NavDropdown-module__button__PEHWX js-details-target'>Solutions />
+[3] (172,40)<button class='NavDropdown-module__button__PEHWX js-details-target'>Resources />
+[4] (233,40)<button class='NavDropdown-module__button__PEHWX js-details-target'>Open Source />
+[5] (294,40)<button class='NavDropdown-module__button__PEHWX js-details-target'>Enterprise />
+[6] (339,40)<a class='NavLink-module__link__EG3d4 MarketingNavigation-module__navLink__hUomM' href='https://github.com/pricing' />
+	[7] (339,40)<span >Pricing />
+[8] (792,40)<button aria-label='Search or jump to…' class='header-search-button placeholder input-button form-control d-flex flex-1 flex-self-stretch flex-items-center no-wrap width-full py-0 pl-2 pr-0 text-left border-0 box-shadow-none' placeholder='Search or jump to...' />
+	[9] (718,40)<div  />
+	[10] (792,40)<span >Search or jump to... />
+	[11] (868,40)<div  />
+[12] (899,40)<a class='HeaderMenu-link HeaderMenu-link--sign-in HeaderMenu-button flex-shrink-0 no-underline d-none d-lg-inline-flex border border-lg-0 rounded px-2 py-1' href='/login?return_to=https%3A%2F%2Fgithub.com%2Flukaswidmer18-dotcom%2Fhub-de-agentes%2Ftree%2Fmain'>Sign in />
+[13] (941,40)<a class='HeaderMenu-link HeaderMenu-link--sign-up HeaderMenu-button flex-shrink-0 d-flex d-lg-inline-flex no-underline border color-border-default rounded px-2 py-1' href='/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Ffiles%2Fdisambiguate&source=header-repo&source_repo=lukaswidmer18-dotcom%2Fhub-de-agentes'>Sign up />
+[14] (975,40)<button class='Button Button--iconOnly Button--invisible Button--medium AppHeader-button HeaderMenu-link border' id='icon-button-a832c3bd-6f6d-436c-bb9e-ccb72e9a5949' />
+[15] (83,113)<a class='url fn' href='/lukaswidmer18-dotcom'>lukaswidmer18-dotcom />
+/
+[16] (184,113)<a href='/lukaswidmer18-dotcom/hub-de-agentes'>hub-de-agentes />
+Public
+[17] (839,112)<a aria-label='You must be signed in to change notification settings' class='btn-sm btn' href='/login?return_to=%2Flukaswidmer18-dotcom%2Fhub-de-agentes' id='repository-details-watch-button'>Notifications />
+[18] (901,112)<a class='btn-sm btn' href='/login?return_to=%2Flukaswidmer18-dotcom%2Fhub-de-agentes' id='fork-button'>Fork />
+	[19] (915,112)<span >0 />
+[20] (957,112)<a aria-label='You must be signed in to star a repository' class='tooltipped tooltipped-sw btn-sm btn' href='/login?return_to=%2Flukaswidmer18-dotcom%2Fhub-de-agentes' />
+	[21] (958,112)<span >Star />
+	[22] (971,112)<span >0 />
+[23] (36,173)<a class='UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item selected' href='/lukaswidmer18-dotcom/hub-de-agentes/tree/main' id='code-tab' />
+	[24] (42,173)<span >Code />
+[25] (79,173)<a class='UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item' href='/lukaswidmer18-dotcom/hub-de-agentes/issues' id='issues-tab' />
+	[26] (85,173)<span >Issues />
+[27] (135,173)<a class='UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item' href='/lukaswidmer18-dotcom/hub-de-agentes/pulls' id='pull-requests-tab' />
+	[28] (141,173)<span >Pull requests />
+[29] (194,173)<a class='UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item' href='/lukaswidmer18-dotcom/hub-de-agentes/actions' id='actions-tab' />
+	[30] (200,173)<span >Actions />
+[31] (244,173)<a class='UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item' href='/lukaswidmer18-dotcom/hub-de-agentes/projects' id='projects-tab' />
+	[32] (250,173)<span >Projects />
+[33] (295,173)<a class='UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item' href='/lukaswidmer18-dotcom/hub-de-agentes/security' id='security-tab' />
+	[34] (302,173)<span >Security />
+[35] (346,173)<a class='UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item' href='/lukaswidmer18-dotcom/hub-de-agentes/pulse' id='insights-tab' />
+	[36] (353,173)<span >Insights />
+[37] (17,235)<button class='prc-Button-ButtonBase-9n-Xk position-relative ExpandFileTreeButton-module__expandButton__hDOcv fgColor-muted prc-Button-IconButton-fyge7' />
+Files
+[38] (17,288)<a class='prc-Button-ButtonBase-9n-Xk prc-Button-IconButton-fyge7' href='/lukaswidmer18-dotcom/hub-de-agentes/blob/master/src/app/globals.css' />
+[39] (81,288)<button aria-label='main branch' class='prc-Button-ButtonBase-9n-Xk react-repos-tree-pane-ref-selector width-full ref-selector-class RefSelectorAnchoredOverlay-module__RefSelectorOverlayBtn__a3WK3' id='ref-picker-repos-header-ref-selector' />
+	[40] (81,288)<span  />
+		[41] (75,288)<span  />
+			[42] (75,288)<div  />
+				[43] (35,288)<div  />
+				[44] (51,288)<div  />
+					[45] (51,288)<span >main />
+[46] (150,288)<button class='prc-Button-ButtonBase-9n-Xk SearchButton-module__IconButton__SBlqu prc-Button-IconButton-fyge7' />
+[47] (83,332)<span  />
+	[48] (17,332)<span  />
+	[49] (88,332)<input aria-label='Go to file' class='prc-components-Input-IwWrt' placeholder='Go to file' role='combobox' />
+[50] (79,738)<div  />
+	[51] (79,592)<li class='PRIVATE_TreeView-item prc-TreeView-TreeViewItem-Ter5f' id='src-item' role='treeitem' />
+		[52] (79,380)<div  />
+			[53] (13,380)<div  />
+			[54] (84,380)<div  />
+				[55] (25,380)<div  />
+					[56] (25,380)<div  />
+				[57] (90,380)<span  />
+					[58] (38,380)<span >src />
+		[59] (79,539)<li class='PRIVATE_TreeView-item prc-TreeView-TreeViewItem-Ter5f' id='src/app-item' role='treeitem' />
+			[60] (79,415)<div  />
+				[61] (10,415)<div  />
+					[62] (10,415)<div  />
+						[63] (10,415)<div  />
+				[64] (17,415)<div  />
+				[65] (86,415)<div  />
+					[66] (29,415)<div  />
+						[67] (29,415)<div  />
+					[68] (92,415)<span  />
+						[69] (44,415)<span >app />
+			[70] (79,451)<li class='PRIVATE_TreeView-item prc-TreeView-TreeViewItem-Ter5f' id='src/app/agents-item' role='treeitem' />
+				[71] (79,451)<div  />
+					[72] (13,451)<div  />
+						[73] (13,451)<div  />
+							[74] (10,451)<div  />
+							[75] (15,451)<div  />
+					[76] (21,451)<div  />
+					[77] (88,451)<div  />
+						[78] (33,450)<div  />
+							[79] (33,450)<div  />
+						[80] (94,451)<span  />
+							[81] (52,451)<span >agents />
+			[82] (79,486)<li class='PRIVATE_TreeView-item prc-TreeView-TreeViewItem-Ter5f' id='src/app/dashboard-item' role='treeitem' />
+				[83] (79,486)<div  />
+					[84] (13,486)<div  />
+						[85] (13,486)<div  />
+							[86] (10,486)<div  />
+							[87] (15,486)<div  />
+					[88] (21,486)<div  />
+					[89] (88,486)<div  />
+						[90] (33,486)<div  />
+							[91] (33,486)<div  />
+						[92] (94,486)<span  />
+							[93] (59,486)<span >dashboard />
+			[94] (79,521)<li class='PRIVATE_TreeView-item prc-TreeView-TreeViewItem-Ter5f' id='src/app/templates-item' role='treeitem' />
+				[95] (79,521)<div  />
+					[96] (13,521)<div  />
+						[97] (13,521)<div  />
+							[98] (10,521)<div  />
+							[99] (15,521)<div  />
+					[100] (21,521)<div  />
+					[101] (88,521)<div  />
+						[102] (33,521)<div  />
+							[103] (33,521)<div  />
+						[104] (94,521)<span  />
+							[105] (58,521)<span >templates />
+			[106] (79,557)<li class='PRIVATE_TreeView-item prc-TreeView-TreeViewItem-Ter5f' id='src/app/workspace-item' role='treeitem' />
+				[107] (79,557)<div  />
+					[108] (13,557)<div  />
+						[109] (13,557)<div  />
+							[110] (10,557)<div  />
+							[111] (15,557)<div  />
+					[112] (21,557)<div  />
+					[113] (88,557)<div  />
+						[114] (33,556)<div  />
+							[115] (33,556)<div  />
+						[116] (94,557)<span  />
+							[117] (59,557)<span >workspace />
+			[118] (79,592)<li class='PRIVATE_TreeView-item prc-TreeView-TreeViewItem-Ter5f' id='src/app/globals.css-item' role='treeitem' />
+				[119] (79,592)<div  />
+					[120] (13,592)<div  />
+						[121] (13,592)<div  />
+							[122] (10,592)<div  />
+							[123] (15,592)<div  />
+					[124] (88,592)<div  />
+						[125] (33,592)<div  />
+						[126] (94,592)<span  />
+							[127] (59,592)<span >globals.css />
+			[128] (79,627)<li class='PRIVATE_TreeView-item prc-TreeView-TreeViewItem-Ter5f' id='src/app/layout.tsx-item' role='treeitem' />
+				[129] (79,627)<div  />
+					[130] (13,627)<div  />
+						[131] (13,627)<div  />
+							[132] (10,627)<div  />
+							[133] (15,627)<div  />
+					[134] (88,627)<div  />
+						[135] (33,627)<div  />
+						[136] (94,627)<span  />
+							[137] (57,627)<span >layout.tsx />
+			[138] (79,663)<li class='PRIVATE_TreeView-item prc-TreeView-TreeViewItem-Ter5f' id='src/app/page.tsx-item' role='treeitem' />
+				[139] (79,663)<div  />
+					[140] (13,663)<div  />
+						[141] (13,663)<div  />
+							[142] (10,663)<div  />
+							[143] (15,663)<div  />
+					[144] (88,663)<div  />
+						[145] (33,662)<div  />
+						[146] (94,663)<span  />
+							[147] (55,663)<span >page.tsx />
+		[148] (79,698)<li class='PRIVATE_TreeView-item prc-TreeView-TreeViewItem-Ter5f' id='src/components-item' role='treeitem' />
+			[149] (79,698)<div  />
+				[150] (10,698)<div  />
+					[151] (10,698)<div  />
+						[152] (10,698)<div  />
+				[153] (17,698)<div  />
+				[154] (86,698)<div  />
+					[155] (29,698)<div  />
+						[156] (29,698)<div  />
+					[157] (92,698)<span  />
+						[158] (58,698)<span >components />
+		[159] (79,733)<li class='PRIVATE_TreeView-item prc-TreeView-TreeViewItem-Ter5f' id='src/hooks-item' role='treeitem' />
+			[160] (79,733)<div  />
+				[161] (10,733)<div  />
+					[162] (10,733)<div  />
+						[163] (10,733)<div  />
+				[164] (17,733)<div  />
+				[165] (86,733)<div  />
+					[166] (29,733)<div  />
+						[167] (29,733)<div  />
+					[168] (92,733)<span  />
+						[169] (47,733)<span >hooks />
+		[170] (79,769)<li class='PRIVATE_TreeView-item prc-TreeView-TreeViewItem-Ter5f' id='src/lib-item' role='treeitem' />
+			[171] (79,769)<div  />
+				[172] (10,769)<div  />
+					[173] (10,769)<div  />
+						[174] (10,769)<div  />
+				[175] (17,769)<div  />
+				[176] (86,769)<div  />
+					[177] (29,768)<div  />
+						[178] (29,768)<div  />
+					[179] (92,769)<span  />
+						[180] (41,769)<span >lib />
+		[181] (79,804)<li class='PRIVATE_TreeView-item prc-TreeView-TreeViewItem-Ter5f' id='src/types-item' role='treeitem' />
+			[182] (79,804)<div  />
+				[183] (10,804)<div  />
+					[184] (10,804)<div  />
+						[185] (10,804)<div  />
+				[186] (17,804)<div  />
+				[187] (86,804)<div  />
+					[188] (29,804)<div  />
+						[189] (29,804)<div  />
+					[190] (92,804)<span  />
+						[191] (46,804)<span >types />
+	[192] (79,839)<li class='PRIVATE_TreeView-item prc-TreeView-TreeViewItem-Ter5f' id='.gitignore-item' role='treeitem' />
+		[193] (79,839)<div  />
+			[194] (84,839)<div  />
+				[195] (25,839)<div  />
+				[196] (90,839)<span  />
+					[197] (49,839)<span >.gitignore />
+	[198] (79,875)<li class='PRIVATE_TreeView-item prc-TreeView-TreeViewItem-Ter5f' id='README.md-item' role='treeitem' />
+		[199] (79,875)<div  />
+			[200] (84,875)<div  />
+				[201] (25,874)<div  />
+				[202] (90,875)<span  />
+					[203] (53,875)<span >README.md />
+	[204] (79,910)<li class='PRIVATE_TreeView-item prc-TreeView-TreeViewItem-Ter5f' id='next.config.js-item' role='treeitem' />
+		[205] (79,910)<div  />
+			[206] (84,910)<div  />
+				[207] (25,910)<div  />
+				[208] (90,910)<span  />
+					[209] (54,910)<span >next.config.js />
+	[210] (79,945)<li class='PRIVATE_TreeView-item prc-TreeView-TreeViewItem-Ter5f' id='package-lock.json-item' role='treeitem' />
+		[211] (79,945)<div  />
+			[212] (84,945)<div  />
+				[213] (25,945)<div  />
+				[214] (90,945)<span  />
+					[215] (62,945)<span >package-lock.json />
+	[216] (79,981)<li class='PRIVATE_TreeView-item prc-TreeView-TreeViewItem-Ter5f' id='package.json-item' role='treeitem' />
+		[217] (79,981)<div  />
+			[218] (84,981)<div  />
+				[219] (25,980)<div  />
+				[220] (90,981)<span  />
+					[221] (54,981)<span >package.json />
+[222] (167,700)<div aria-label='Draggable pane splitter' class='prc-PageLayout-DraggableHandle-9s6B4' role='slider' />
+Breadcrumbs
+[223] (206,234)<a class='Breadcrumb-module__repoLink__O2Nbs prc-Link-Link-9ZwDx' href='/lukaswidmer18-dotcom/hub-de-agentes/tree/main'>hub-de-agentes />
+/
+[224] (253,234)<a class='Breadcrumb-module__directoryLink__kQy_t prc-Link-Link-9ZwDx' href='/lukaswidmer18-dotcom/hub-de-agentes/tree/main/src'>src />
+/
+[225] (277,234)<a class='Breadcrumb-module__directoryLink__kQy_t prc-Link-Link-9ZwDx' href='/lukaswidmer18-dotcom/hub-de-agentes/tree/main/src/app'>app />
+/
+globals.css
+[226] (347,235)<button class='prc-Button-ButtonBase-9n-Xk ml-2 prc-Button-IconButton-fyge7' />
+[227] (983,235)<button class='prc-Button-ButtonBase-9n-Xk js-blob-dropdown-click NavigationMenu-module__IconButton__HpX3G prc-Button-IconButton-fyge7' id='_r_ca_' />
+Latest commit
+[228] (190,295)<a class='Link__StyledLink-sc-1syctfj-0 prc-Link-Link-9ZwDx' href='/lukaswidmer18-dotcom' />
+	[229] (188,296)<img  />
+[230] (236,295)<a aria-label='commits by lukaswidmer18-dotcom' class='Link__StyledLink-sc-1syctfj-0 iIGVMW AuthorAvatar-module__authorHoverableLink__MHTT8 prc-Link-Link-9ZwDx' href='/lukaswidmer18-dotcom/hub-de-agentes/commits?author=lukaswidmer18-dotcom'>lukaswidmer18-dotcom />
+[231] (397,295)<a class='Link--secondary' href='/lukaswidmer18-dotcom/hub-de-agentes/commit/7eed5aa2ec83ae1da431f792f172a01b2f728a5a'>feat: tradução para PT/BR e implementação das páginas /templates e /w… />
+[232] (527,295)<button class='prc-Button-ButtonBase-9n-Xk LatestCommit-module__IconButton__mkJr_ prc-Button-IconButton-fyge7' />
+[233] (887,295)<a aria-label='Commit 7eed5aa' class='Link--secondary prc-Link-Link-9ZwDx' href='/lukaswidmer18-dotcom/hub-de-agentes/commit/7eed5aa2ec83ae1da431f792f172a01b2f728a5a'>7eed5aa />
+·
+History
+[234] (967,295)<a class='prc-Button-ButtonBase-9n-Xk d-none d-lg-flex LinkButton-module__linkButton__nFnov flex-items-center fgColor-default' href='/lukaswidmer18-dotcom/hub-de-agentes/commits/main/src/app/globals.css' />
+	[235] (967,295)<span  />
+		[236] (972,295)<span  />
+			[237] (972,294)<span >History />
+File metadata and controls
+[238] (196,363)<button class='prc-SegmentedControl-Button-E48xz' />
+	[239] (196,363)<span  />
+		[240] (196,363)<div >Code />
+[241] (228,363)<button class='prc-SegmentedControl-Button-E48xz' />
+	[242] (228,363)<span  />
+		[243] (228,363)<div >Blame />
+81 lines (71 loc) · 1.63 KB
+[244] (898,363)<a class='prc-Button-ButtonBase-9n-Xk LinkButton-module__linkButton__nFnov BlobViewHeader-module__LinkButton__X9kx2' href='https://github.com/lukaswidmer18-dotcom/hub-de-agentes/raw/refs/heads/main/src/app/globals.css' />
+	[245] (898,363)<span  />
+		[246] (898,363)<span >Raw />
+[247] (915,363)<button class='prc-Button-ButtonBase-9n-Xk prc-Button-IconButton-fyge7' />
+[248] (929,363)<button class='prc-Button-ButtonBase-9n-Xk BlobViewHeader-module__downloadButton__ef459 prc-Button-IconButton-fyge7' />
+[249] (961,363)<button class='prc-Button-ButtonBase-9n-Xk prc-Button-IconButton-fyge7' id='_r_d2_' />
+[250] (980,363)<button class='prc-Button-ButtonBase-9n-Xk BlobViewHeader-module__IconButton_2__RyjZg prc-Button-IconButton-fyge7' id='symbols-button' />
+[251] (203,408)<div >1 />
+[252] (203,430)<div >2 />
+[253] (203,452)<div >3 />
+[254] (203,474)<div >4 />
+[255] (203,496)<div >5 />
+[256] (203,518)<div >6 />
+[257] (203,540)<div >7 />
+[258] (203,562)<div >8 />
+[259] (203,584)<div >9 />
+[260] (202,606)<div >10 />
+[261] (202,628)<div >11 />
+[262] (202,650)<div >12 />
+[263] (202,672)<div >13 />
+[264] (202,694)<div >14 />
+[265] (202,716)<div >15 />
+[266] (202,738)<div >16 />
+[267] (202,760)<div >17 />
+[268] (202,782)<div >18 />
+[269] (202,804)<div >19 />
+[270] (202,825)<div >20 />
+[271] (202,847)<div >21 />
+[272] (202,869)<div >22 />
+[273] (202,891)<div >23 />
+[274] (202,913)<div >24 />
+[275] (202,935)<div >25 />
+[276] (202,957)<div >26 />
+[277] (202,979)<div >27 />
+28
+@import
+"tailwindcss"
+;
+:
+root
+{
+/* Cores do PRD */
+--color-primary
+:
+#
+1F6FEB
+;
+--color-primary-dark
+:
+#
+1557C7
+;
+--color-primary-light
+:
+#
+4B8FF7
+;
+--color-secondary
+:
+#
+2FD2C9
+;
+--color-secondary-dark
+:
+#
+26B3AB
+;
+--color-secondary-light
+:
+#
+5DDDD7
+;
+--color-accent
+:
+#
+FFC857
+;
+--color-accent-dark
+:
+#
+E6B34E
+;
+--color-accent-light
+:
+#
+FFD98C
+;
+--color-neutral-900
+:
+#
+101820
+;
+--color-neutral-700
+:
+#
+4B5563
+;
+--color-neutral-500
+:
+#
+9CA3AF
+;
+--color-neutral-300
+:
+#
+D1D5DB
+;
+--color-neutral-100
+:
+#
+F7FAFC
+;
+--color-error
+:
+#
+FF4D4F
+;
+--color-success
+:
+#
+32D583
+;
+}
+*
+{
+box-sizing
+:
+border-box;
+padding
+:
+0
+;
+margin
+:
+0
+;
+}
+
+</current_dom>

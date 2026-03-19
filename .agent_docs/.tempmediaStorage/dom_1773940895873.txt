@@ -1,0 +1,133 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (222,36)<a class='flex items-center gap-2 group' href='/' />
+	[1] (194,36)<div  />
+	[2] (234,36)<span >Agent Hub />
+[3] (472,36)<input class='w-full pl-11 pr-4 py-2.5 bg-white/5 border border-white/10 rounded-xl text-sm text-white placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-sky-500/20 focus:border-sky-500/40 transition-all duration-300' placeholder='Buscar agentes...' />
+[4] (723,36)<button class='hidden sm:flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-brand-primary to-brand-secondary text-white rounded-xl text-sm font-semibold shadow-lg shadow-sky-500/25 hover:shadow-sky-500/40 transition-shadow'>Criar Agente />
+	Criar Agente
+[5] (777,36)<button class='p-2.5 rounded-xl hover:bg-white/5 text-slate-400 hover:text-white border border-transparent hover:border-white/10 transition-all relative' />
+[6] (804,36)<button class='p-2 rounded-full hover:bg-neutral-100 transition-colors' />
+Principal
+[7] (66,156)<a class='flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium transition-all duration-300 group bg-sky-500/10 text-sky-400 border border-sky-500/20 shadow-[0_0_15px_rgba(14,165,233,0.05)]' href='/dashboard'>Início />
+[8] (66,206)<a class='flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium transition-all duration-300 group text-slate-400 hover:bg-white/5 hover:text-white border border-transparent hover:border-white/5' href='/agents'>Meus Agentes />
+[9] (66,257)<a class='flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium transition-all duration-300 group text-slate-400 hover:bg-white/5 hover:text-white border border-transparent hover:border-white/5' href='/workspace'>Conversar />
+[10] (66,307)<a class='flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium transition-all duration-300 group text-slate-400 hover:bg-white/5 hover:text-white border border-transparent hover:border-white/5' href='/templates'>Modelos />
+[11] (66,358)<a class='flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium transition-all duration-300 group text-slate-400 hover:bg-white/5 hover:text-white border border-transparent hover:border-white/5' href='/analytics'>Relatórios />
+[12] (66,408)<a class='flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium transition-all duration-300 group text-slate-400 hover:bg-white/5 hover:text-white border border-transparent hover:border-white/5' href='/integrations'>Integrações />
+Pessoal
+[13] (66,524)<a class='flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-slate-400 hover:bg-white/5 hover:text-white border border-transparent hover:border-white/10 transition-all duration-300 group' href='/favorites'>Favoritos />
+[14] (66,570)<a class='flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-slate-400 hover:bg-white/5 hover:text-white border border-transparent hover:border-white/10 transition-all duration-300 group' href='/collections'>Coleções />
+Configurações
+Painel de Controle
+Sua infraestrutura de inteligência em tempo real
+Agentes Ativos
+12
++2 este mês
+Crédito Restante
+8.5k
+Renova em 15 dias
+Latência Média
+420ms
+-12% vs mês passado
+Taxa de Sucesso
+98.2%
++1.5% vs mês passado
+Agentes Recentes
+4
+AGENTES
+[15] (934,467)<a class='text-sm font-bold text-sky-400 hover:text-sky-300 transition-colors flex items-center gap-1 group' href='/agents'>Ver catálogo completo />
+[16] (253,757)<div  />
+	[17] (333,554)<button class='absolute top-4 right-4 z-10 p-2 rounded-xl bg-white/5 border border-white/10 backdrop-blur-md opacity-0 group-hover:opacity-100 transition-all duration-300' />
+	[18] (253,615)<div  />
+		[19] (253,615)<div  />
+			[20] (253,615)<div  />
+	[21] (253,854)<div  />
+		[22] (253,753)<div  />
+			[23] (214,753)<h3 >Assistente de Código />
+		[24] (253,807)<p >Ajuda com revisão de código, depuração e sugestões de otimização />
+		[25] (253,867)<div  />
+			[26] (181,867)<span >code />
+			[27] (215,867)<span >review />
+			[28] (252,867)<span >debug />
+		[29] (253,939)<div  />
+			[30] (204,950)<div  />
+				[31] (187,950)<div >1247
+USOS />
+					[32] (169,950)<span  />
+				[33] (228,950)<div >450
+MS />
+					[34] (216,950)<span  />
+			[35] (329,959)<button class='p-2.5 rounded-xl bg-gradient-to-r from-brand-primary to-brand-secondary text-white shadow-lg shadow-sky-500/20 opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-300' />
+[36] (462,757)<div  />
+	[37] (396,549)<div  />
+		[38] (396,551)<span >Template />
+	[39] (543,554)<button class='absolute top-4 right-4 z-10 p-2 rounded-xl bg-white/5 border border-white/10 backdrop-blur-md opacity-0 group-hover:opacity-100 transition-all duration-300' />
+	[40] (462,615)<div  />
+		[41] (462,615)<div  />
+			[42] (462,615)<div  />
+	[43] (462,854)<div  />
+		[44] (462,753)<div  />
+			[45] (422,753)<h3 >Analisador de Dados />
+		[46] (462,807)<p >Processa e analisa conjuntos de dados, gera insights e visualizações />
+		[47] (462,867)<div  />
+			[48] (390,867)<span >data />
+			[49] (429,867)<span >analytics />
+			[50] (473,867)<span >python />
+		[51] (413,950)<div  />
+			[52] (395,950)<div >892
+USOS />
+				[53] (378,950)<span  />
+			[54] (435,950)<div >620
+MS />
+				[55] (423,950)<span  />
+[56] (671,757)<div  />
+	[57] (752,554)<button class='absolute top-4 right-4 z-10 p-2 rounded-xl bg-white/5 border border-white/10 backdrop-blur-md opacity-0 group-hover:opacity-100 transition-all duration-300' />
+	[58] (671,615)<div  />
+		[59] (671,615)<div  />
+			[60] (671,615)<div  />
+	[61] (671,841)<div  />
+		[62] (671,753)<div  />
+			[63] (616,753)<h3 >Copywriter IA />
+		[64] (671,794)<p >Cria copy para marketing, emails e redes sociais />
+		[65] (671,842)<div  />
+			[66] (600,842)<span >copy />
+			[67] (641,842)<span >marketing />
+			[68] (687,842)<span >creative />
+		[69] (671,914)<div  />
+			[70] (623,925)<div  />
+				[71] (605,925)<div >2156
+USOS />
+					[72] (588,925)<span  />
+				[73] (647,925)<div >380
+MS />
+					[74] (635,925)<span  />
+			[75] (747,934)<button class='p-2.5 rounded-xl bg-gradient-to-r from-brand-primary to-brand-secondary text-white shadow-lg shadow-sky-500/20 opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-300' />
+[76] (881,757)<div  />
+	[77] (814,549)<div  />
+		[78] (814,551)<span >Template />
+	[79] (961,554)<button class='absolute top-4 right-4 z-10 p-2 rounded-xl bg-white/5 border border-white/10 backdrop-blur-md opacity-0 group-hover:opacity-100 transition-all duration-300' />
+	[80] (881,615)<div  />
+		[81] (881,615)<div  />
+			[82] (881,615)<div  />
+	[83] (881,854)<div  />
+		[84] (881,753)<div  />
+			[85] (831,753)<h3 >Suporte Técnico />
+		[86] (881,807)<p >Responde dúvidas técnicas e guia a resolução de problemas />
+		[87] (881,867)<div  />
+			[88] (814,867)<span >support />
+			[89] (858,867)<span >helpdesk />
+			[90] (912,867)<span >troubleshoot />
+		[91] (881,939)<div  />
+			[92] (833,950)<div  />
+				[93] (815,950)<div >3421
+USOS />
+					[94] (797,950)<span  />
+				[95] (857,950)<div >290
+MS />
+					[96] (844,950)<span  />
+			[97] (957,959)<button class='p-2.5 rounded-xl bg-gradient-to-r from-brand-primary to-brand-secondary text-white shadow-lg shadow-sky-500/20 opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-300' />
+
+</current_dom>

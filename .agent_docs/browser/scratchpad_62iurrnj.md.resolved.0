@@ -1,0 +1,16 @@
+# Verificação do Agent Hub - Design "Digital Premium"
+
+## Checklist
+
+- [ ] Visitar a Home (/) e capturar screenshot
+- [ ] Visitar o Dashboard (/dashboard) e capturar screenshot
+- [ ] Visitar o Workspace (/workspace) e capturar screenshot
+- [ ] Visitar Agents (/agents) e capturar screenshot
+- [ ] Visitar Templates (/templates) e capturar screenshot
+- [ ] Verificar fluidez das animações (AgentCard e Workspace)
+- [ ] Avaliar a consistência visual "Oscar-Worthy"
+
+## Observações
+
+- Servidor deve estar rodando em http://localhost:3000
+- Focar em capturar a estética "Digital Premium" e animações.

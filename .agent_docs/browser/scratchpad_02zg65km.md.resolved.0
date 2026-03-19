@@ -1,0 +1,27 @@
+# Plano de Verificação de Avatares Tomodachi
+
+## Checklist de Tarefas
+- [ ] Verificar Landing Page (http://localhost:3000/)
+    - [ ] Avatares Tomodachi exibidos
+    - [ ] Animação de flutuação (breathe) funcionando
+    - [ ] Movimento seguindo o mouse funcionando
+    - [ ] Capturar screenshot
+- [ ] Verificar Dashboard (/dashboard)
+    - [ ] Avatares Tomodachi exibidos
+    - [ ] Animação de flutuação (breathe) funcionando
+    - [ ] Movimento seguindo o mouse funcionando
+    - [ ] Capturar screenshot
+- [ ] Verificar Catálogo de Agentes (/agents)
+    - [ ] Avatares Tomodachi exibidos
+    - [ ] Animação de flutuação (breathe) funcionando
+    - [ ] Movimento seguindo o mouse funcionando
+    - [ ] Capturar screenshot
+- [ ] Verificar Workspace (/workspace)
+    - [ ] Avatares Tomodachi exibidos
+    - [ ] Animação de flutuação (breathe) funcionando
+    - [ ] Movimento seguindo o mouse funcionando
+    - [ ] Capturar screenshot
+
+## Notas e Observações
+- Os avatares devem ser baseados na pasta "File Free tomodachi".
+- As animações são críticas para a experiência UI/UX Pro Max.

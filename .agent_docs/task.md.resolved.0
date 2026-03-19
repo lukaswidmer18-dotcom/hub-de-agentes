@@ -1,0 +1,8 @@
+# Task: Continue Development of Sistema Frigorífico Industrial
+
+## Progress
+- [/] Research current state of "Paradas" tab and "Unit Isolation" logic
+- [ ] Complete implementation of "Paradas" tab (KPIs and Pareto Chart)
+- [ ] Implement/Fix Unit Isolation (Composite Key: Unit + Center ID)
+- [ ] Verify changes locally
+- [ ] Finalize and provide walkthrough

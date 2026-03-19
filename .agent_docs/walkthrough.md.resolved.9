@@ -1,0 +1,34 @@
+# Walkthrough: Agent Hub - Tradução e Novas Páginas
+
+Concluímos a tradução completa do sistema para Português do Brasil e a implementação das páginas de Modelos e Workspace. O erro de build que impedia a visualização também foi resolvido.
+
+## Mudanças Realizadas
+
+### 1. Tradução Completa (PT/BR)
+- **Dashboard**: Todos os cards de estatísticas ("Agentes Ativos", "Crédito Restante", etc.) e a lista de agentes recentes foram traduzidos.
+- **Meus Agentes**: Categorias de filtro e nomes dos agentes atualizados para o português.
+- **Navegação**: Sidebar traduzida com termos como "Início", "Meus Agentes", "Conversar" e "Modelos".
+- **Landing Page**: Texto hero, recursos e rodapé agora em PT/BR.
+
+### 2. Novas Páginas Implementadas
+- **Modelos (`/templates`)**: Uma nova interface para explorar templates de agentes, com filtros por categoria e busca funcional.
+- **Conversar (`/workspace`)**: Interface de chat completa, permitindo interagir com agentes, visualizar histórico e enviar mensagens.
+
+### 3. Correções Técnicas
+- **Build Fix**: Corrigido um erro no [src/app/globals.css](file:///c:/Users/LUKAS.WIDMER/Downloads/Claude%20code/agent-hub/src/app/globals.css) onde uma regra `@import` mal posicionada causava falha na compilação do Next.js.
+
+## Verificação de Resultados
+
+O sistema foi testado localmente e sincronizado integralmente com o GitHub. A estrutura do repositório agora contém a pasta raiz `Claude code` com todos os seus subdiretórios.
+
+### Como Rodar o Projeto
+Para iniciar o servidor localmente, utilize:
+```bash
+npm run dev
+```
+O sistema estará disponível em [http://localhost:3000](http://localhost:3000).
+Para iniciar o servidor localmente, utilize:
+```bash
+npm run dev
+```
+O sistema estará disponível em [http://localhost:3000](http://localhost:3000).

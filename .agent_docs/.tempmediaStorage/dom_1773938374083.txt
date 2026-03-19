@@ -1,0 +1,167 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (34,35)<a class='flex items-center gap-2' href='/' />
+	[1] (8,35)<div  />
+	[2] (45,35)<span >Agent Hub />
+[3] (322,36)<input class='w-full pl-10 pr-4 py-2 bg-neutral-100 border border-transparent rounded-full text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary/30 transition-all' placeholder='Buscar agentes...' />
+[4] (603,35)<button class='hidden sm:flex items-center gap-2 px-4 py-2 bg-primary text-white rounded-full text-sm font-medium'>Criar Agente />
+	Criar Agente
+[5] (641,35)<button class='p-2 rounded-full hover:bg-neutral-100 transition-colors relative' />
+[6] (658,35)<button class='p-2 rounded-full hover:bg-neutral-100 transition-colors' />
+Principal
+[7] (66,100)<a class='flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors text-neutral-600 hover:bg-neutral-100 hover:text-neutral-900' href='/dashboard'>Início />
+[8] (66,122)<a class='flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors bg-primary/10 text-primary' href='/agents'>Meus Agentes />
+[9] (66,144)<a class='flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors text-neutral-600 hover:bg-neutral-100 hover:text-neutral-900' href='/workspace'>Conversar />
+[10] (66,166)<a class='flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors text-neutral-600 hover:bg-neutral-100 hover:text-neutral-900' href='/templates'>Modelos />
+[11] (66,188)<a class='flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors text-neutral-600 hover:bg-neutral-100 hover:text-neutral-900' href='/analytics'>Relatórios />
+[12] (66,210)<a class='flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors text-neutral-600 hover:bg-neutral-100 hover:text-neutral-900' href='/integrations'>Integrações />
+Pessoal
+[13] (66,249)<a class='flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium text-neutral-600 hover:bg-neutral-100 hover:text-neutral-900 transition-colors' href='/favorites'>Favoritos />
+[14] (66,271)<a class='flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium text-neutral-600 hover:bg-neutral-100 hover:text-neutral-900 transition-colors' href='/collections'>Coleções />
+Agentes
+Explore e gerencie seus agentes de IA
+[15] (250,147)<input class='w-full pl-10 pr-4 py-2.5 bg-white border border-neutral-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary/30 transition-all' placeholder='Buscar agentes...' />
+[16] (386,146)<button class='px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-colors bg-primary text-white'>Todos />
+[17] (431,146)<button class='px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-colors bg-white text-neutral-600 border border-neutral-200 hover:border-neutral-300'>Desenvolvimento />
+[18] (478,146)<button class='px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-colors bg-white text-neutral-600 border border-neutral-200 hover:border-neutral-300'>Dados />
+[19] (512,146)<button class='px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-colors bg-white text-neutral-600 border border-neutral-200 hover:border-neutral-300'>Marketing />
+[20] (548,146)<button class='px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-colors bg-white text-neutral-600 border border-neutral-200 hover:border-neutral-300'>Suporte />
+[21] (592,146)<button class='px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-colors bg-white text-neutral-600 border border-neutral-200 hover:border-neutral-300'>Produtividade />
+[22] (629,146)<button class='p-2 rounded-md transition-colors bg-primary/10 text-primary' />
+[23] (642,146)<button class='p-2 rounded-md transition-colors text-neutral-400 hover:text-neutral-600' />
+[24] (237,301)<div  />
+	[25] (330,182)<button class='absolute top-3 right-3 z-10 p-1.5 rounded-full bg-white/80 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity' />
+	[26] (237,248)<div  />
+		[27] (237,248)<div  />
+			[28] (237,248)<div  />
+	[29] (237,389)<div  />
+		[30] (237,349)<div  />
+			[31] (177,349)<h3 >Assistente de Código />
+		[32] (237,384)<p >Ajuda com revisão de código, depuração e sugestões de otimização />
+		[33] (237,415)<div  />
+			[34] (141,415)<span >code />
+			[35] (161,415)<span >review />
+			[36] (184,415)<span >debug />
+		[37] (237,433)<div  />
+			[38] (166,434)<div  />
+				[39] (149,434)<span >1247
+usos />
+				[40] (171,434)<span  />
+				[41] (188,434)<span >450
+ms />
+			[42] (336,434)<button class='p-2 rounded-full bg-primary text-white opacity-0 group-hover:opacity-100 transition-opacity' />
+[43] (457,301)<div  />
+	[44] (374,187)<div  />
+		[45] (374,188)<span >Template />
+	[46] (549,182)<button class='absolute top-3 right-3 z-10 p-1.5 rounded-full bg-white/80 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity' />
+	[47] (457,248)<div  />
+		[48] (457,248)<div  />
+			[49] (457,248)<div  />
+	[50] (457,389)<div  />
+		[51] (457,349)<div  />
+			[52] (395,349)<h3 >Analisador de Dados />
+		[53] (457,384)<p >Processa e analisa conjuntos de dados, gera insights e visualizações />
+		[54] (457,415)<div  />
+			[55] (360,415)<span >data />
+			[56] (383,415)<span >analytics />
+			[57] (409,415)<span >python />
+		[58] (457,433)<div  />
+			[59] (385,434)<div  />
+				[60] (367,434)<span >892
+usos />
+				[61] (388,434)<span  />
+				[62] (406,434)<span >620
+ms />
+			[63] (556,434)<button class='p-2 rounded-full bg-primary text-white opacity-0 group-hover:opacity-100 transition-opacity' />
+[64] (677,301)<div  />
+	[65] (769,182)<button class='absolute top-3 right-3 z-10 p-1.5 rounded-full bg-white/80 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity' />
+	[66] (677,248)<div  />
+		[67] (677,248)<div  />
+			[68] (677,248)<div  />
+	[69] (677,378)<div  />
+		[70] (677,349)<div  />
+			[71] (601,349)<h3 >Copywriter IA />
+		[72] (677,373)<p >Cria copy para marketing, emails e redes sociais />
+		[73] (677,393)<div  />
+			[74] (581,393)<span >copy />
+			[75] (606,393)<span >marketing />
+			[76] (636,393)<span >creative />
+		[77] (677,411)<div  />
+			[78] (606,412)<div  />
+				[79] (588,412)<span >2156
+usos />
+				[80] (610,412)<span  />
+				[81] (628,412)<span >380
+ms />
+			[82] (776,412)<button class='p-2 rounded-full bg-primary text-white opacity-0 group-hover:opacity-100 transition-opacity' />
+[83] (896,301)<div  />
+	[84] (813,187)<div  />
+		[85] (813,188)<span >Template />
+	[86] (989,182)<button class='absolute top-3 right-3 z-10 p-1.5 rounded-full bg-white/80 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity' />
+	[87] (896,248)<div  />
+		[88] (896,248)<div  />
+			[89] (896,248)<div  />
+	[90] (896,389)<div  />
+		[91] (896,349)<div  />
+			[92] (826,349)<h3 >Suporte Técnico />
+		[93] (896,384)<p >Responde dúvidas técnicas e guia a resolução de problemas />
+		[94] (896,415)<div  />
+			[95] (805,415)<span >support />
+			[96] (833,415)<span >helpdesk />
+			[97] (868,415)<span >troubleshoot />
+		[98] (896,433)<div  />
+			[99] (826,434)<div  />
+				[100] (808,434)<span >3421
+usos />
+				[101] (831,434)<span  />
+				[102] (848,434)<span >290
+ms />
+			[103] (995,434)<button class='p-2 rounded-full bg-primary text-white opacity-0 group-hover:opacity-100 transition-opacity' />
+[104] (237,612)<div  />
+	[105] (330,493)<button class='absolute top-3 right-3 z-10 p-1.5 rounded-full bg-white/80 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity' />
+	[106] (237,559)<div  />
+		[107] (237,559)<div  />
+			[108] (237,559)<div  />
+	[109] (237,700)<div  />
+		[110] (237,660)<div  />
+			[111] (175,660)<h3 >Tradutor Multilíngue />
+		[112] (237,695)<p >Tradução precisa entre múltiplos idiomas com contexto cultural />
+		[113] (237,726)<div  />
+			[114] (149,726)<span >translation />
+			[115] (182,726)<span >language />
+			[116] (204,726)<span >i18n />
+		[117] (237,744)<div  />
+			[118] (165,744)<div  />
+				[119] (147,744)<span >567
+usos />
+				[120] (168,744)<span  />
+				[121] (185,744)<span >520
+ms />
+			[122] (336,744)<button class='p-2 rounded-full bg-primary text-white opacity-0 group-hover:opacity-100 transition-opacity' />
+[123] (457,612)<div  />
+	[124] (374,497)<div  />
+		[125] (374,499)<span >Template />
+	[126] (549,493)<button class='absolute top-3 right-3 z-10 p-1.5 rounded-full bg-white/80 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity' />
+	[127] (457,559)<div  />
+		[128] (457,559)<div  />
+			[129] (457,559)<div  />
+	[130] (457,689)<div  />
+		[131] (457,660)<div  />
+			[132] (401,660)<h3 >Assistente de Reuniões />
+		[133] (457,684)<p >Resume reuniões, extrai action items e gera atas />
+		[134] (457,704)<div  />
+			[135] (367,704)<span >meetings />
+			[136] (398,704)<span >summary />
+			[137] (432,704)<span >productivity />
+		[138] (457,722)<div  />
+			[139] (385,722)<div  />
+				[140] (369,722)<span >1823
+usos />
+				[141] (391,722)<span  />
+				[142] (408,722)<span >410
+ms />
+			[143] (556,722)<button class='p-2 rounded-full bg-primary text-white opacity-0 group-hover:opacity-100 transition-opacity' />
+
+</current_dom>

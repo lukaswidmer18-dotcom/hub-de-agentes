@@ -1,0 +1,48 @@
+# Projeto: Agent Hub UI/UX Oscar Edition 🏆
+
+Este plano detalha a reformulação estética completa do Agent Hub para elevar o nível visual e a percepção de valor.
+
+## Auditoria Visual Atual (Problemas)
+- **Cores**: Genéricas (azul padrão), baixo contraste de profundidade.
+- **Tipografia**: Hierarquia inconsistente, fontes padrão sem personalidade.
+- **Espaçamento**: Inconsistente e desperdiçado em áreas críticas.
+- **Efeitos**: Ausência de sombras suaves, degradês modernos e micro-animações.
+
+## Conceito de Design Implementado: Digital Premium (Dark & High-Tech) 🌌
+A estética escolhida combina a sofisticação do **Glassmorphism** com a profundidade de um tema **Deep Space**.
+- **Cores**: Fundo `#020617` (Deep Blue), detalhes em Sky Blue (`#0ea5e9`) e Cyan.
+- **Efeitos**: Backdrop blur intenso, bordas luminosas (neon) e tipografia com brilho sutil.
+- **Experiência**: Foco em tridimensionalidade, feedback visual imediato e transições suaves.
+
+## Próximos Passos (Fase 2)
+1. Implementar [src/components/ui/button.tsx](file:///c:/Users/LUKAS.WIDMER/Downloads/Claude%20code/agent-hub/src/components/ui/button.tsx) usando `class-variance-authority`.
+2.- [x] Refatorar Páginas (Landing, Dashboard, Sidebar, Agents, Templates) para usar o novo [Button](file:///c:/Users/LUKAS.WIDMER/Downloads/Claude%20code/agent-hub/src/components/ui/button.tsx#37-42).
+
+## Fase 3: Avatares Tomodachi & Motion Graphics ✅
+Refatoração concluída com suporte a PNGs 3D, animações de flutuação e interatividade 3D.
+
+## Fase 4: Diversificação & Detalhes (Upgrade do "Oscar")
+O usuário solicitou avatares mais coloridos e menos monocromáticos. Vamos migrar do catálogo "General" para o "Ordinary", que possui roupas e tons de pele variados.
+
+### [Componente] src/components/avatar/agent-avatar.tsx
+- Garantir que nomes de arquivos com espaços em `ordinary` sejam carregados sem problemas.
+- Manter o efeito de glow baseado na cor de destaque do agente.
+
+### [Mock Data] src/app/agents/page.tsx & src/app/dashboard/page.tsx
+Atualizar o mapeamento para personagens específicos:
+- **Code Assistant**: `/avatars/tomodachi/ordinary/1 - Ordinary Male - Neutral - Black.png`
+- **Data Analyzer**: `/avatars/tomodachi/ordinary/2 - Ordinary Female - Happy - White.png`
+- **Copywriter**: `/avatars/tomodachi/ordinary/3 - Ordinary Male - Happy - Black.png`
+- **Tech Support**: `/avatars/tomodachi/ordinary/4 - Ordinary Female - Neutral - White.png`
+- **Sales Strategist**: `/avatars/tomodachi/ordinary/5 - Ordinary Male - Happy - White.png`
+
+## Verificação Plan
+### Automated Tests
+- Verificação visual via browser para garantir que as novas imagens de alta definição não afetam o desempenho.
+- Check 404 em todos os caminhos de mapeamento manual.
+
+### Animações (Motion Graphics)
+- Efeito de respiração (Float/Breathe) usando `animate={{ y: [-5, 5] }}`.
+- Interatividade de "seguro" com o mouse utilizando `rotateX` e `rotateY`.
+- Reveal de entrada luxuoso com `staggerChildren`.
+3. Ajustar grids e containers para seguir princípios de "Auto Layout" (Flex/Gap consistente).

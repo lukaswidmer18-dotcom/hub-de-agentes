@@ -1,0 +1,36 @@
+# Implementation Plan - Agent Hub New Pages
+
+This plan covers the implementation of the `/templates` and `/workspace` pages, which are currently empty in the Agent Hub project.
+
+## Proposed Changes
+
+### [Component Name]
+
+#### [NEW] [templates/page.tsx](file:///c:/Users/LUKAS.WIDMER/Downloads/Claude%20code/agent-hub/src/app/templates/page.tsx)
+- Create a grid layout using `AgentGrid`.
+- Fetch (or mock) a list of [Template](file:///c:/Users/LUKAS.WIDMER/Downloads/Claude%20code/agent-hub/src/types/index.ts#92-100) objects from [src/types/index.ts](file:///c:/Users/LUKAS.WIDMER/Downloads/Claude%20code/agent-hub/src/types/index.ts).
+- Include a search bar and category filters (Development, Marketing, etc.).
+- Add a "Use Template" action to each card.
+
+#### [NEW] [workspace/page.tsx](file:///c:/Users/LUKAS.WIDMER/Downloads/Claude%20code/agent-hub/src/app/workspace/page.tsx)
+- Implement a chat-like interface.
+- Left sidebar: List of recently used agents or active conversations.
+- Main area: Scrollable message list using the [Message](file:///c:/Users/LUKAS.WIDMER/Downloads/Claude%20code/agent-hub/src/types/index.ts#84-91) type.
+- Bottom: Text input for sending messages with a "Send" button.
+- Integrate [AgentAvatar](file:///c:/Users/LUKAS.WIDMER/Downloads/Claude%20code/agent-hub/src/types/index.ts#36-42) for the active assistant.
+
+## Verification Plan
+
+### Automated Tests
+- No existing test suite found. We will focus on manual verification of the UI.
+
+### Manual Verification
+1. Navigate to `/templates` and verify:
+   - The grid of templates loads correctly.
+   - Search and filtering by category work as expected.
+   - The "Use Template" button is visible and interactive.
+2. Navigate to `/workspace` and verify:
+   - The chat layout is responsive and correctly aligned.
+   - Messages can be "sent" (added to the local state).
+   - The agent avatar is displayed and animates correctly.
+   - Switching between agents in the sidebar (if implemented) updates the chat context.

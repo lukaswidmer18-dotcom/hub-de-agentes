@@ -1,0 +1,7 @@
+# Tarefas de Verificação do Repositório GitHub
+
+- [ ] Acessar https://github.com/lukaswidmer18-dotcom/hub-de-agentes/tree/main
+- [ ] Verificar presença de `src/app/templates`
+- [ ] Verificar presença de `src/app/workspace`
+- [ ] Verificar correção do `@import` em `src/app/globals.css`
+- [ ] Avaliar se falta algo para "todo o projeto"

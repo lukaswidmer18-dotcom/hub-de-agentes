@@ -1,0 +1,9 @@
+# Browser Verification Task
+
+- [ ] Open `http://localhost:3000`
+- [ ] Check for 500 error or Turbopack error
+- [ ] Navigate to Dashboard
+- [ ] Navigate to Agent Hub
+- [ ] Verify Button components
+- [ ] Take screenshots of the updated layout
+- [ ] Check console logs if errors occur

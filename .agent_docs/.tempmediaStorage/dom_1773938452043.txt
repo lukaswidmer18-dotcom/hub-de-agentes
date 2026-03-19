@@ -1,0 +1,128 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (34,35)<a class='flex items-center gap-2' href='/' />
+	[1] (8,35)<div  />
+	[2] (45,35)<span >Agent Hub />
+[3] (322,36)<input class='w-full pl-10 pr-4 py-2 bg-neutral-100 border border-transparent rounded-full text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary/30 transition-all' placeholder='Buscar agentes...' />
+[4] (603,35)<button class='hidden sm:flex items-center gap-2 px-4 py-2 bg-primary text-white rounded-full text-sm font-medium'>Criar Agente />
+	Criar Agente
+[5] (641,35)<button class='p-2 rounded-full hover:bg-neutral-100 transition-colors relative' />
+[6] (658,35)<button class='p-2 rounded-full hover:bg-neutral-100 transition-colors' />
+Principal
+[7] (66,100)<a class='flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors bg-primary/10 text-primary' href='/dashboard'>Início />
+[8] (66,122)<a class='flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors text-neutral-600 hover:bg-neutral-100 hover:text-neutral-900' href='/agents'>Meus Agentes />
+[9] (66,144)<a class='flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors text-neutral-600 hover:bg-neutral-100 hover:text-neutral-900' href='/workspace'>Conversar />
+[10] (66,166)<a class='flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors text-neutral-600 hover:bg-neutral-100 hover:text-neutral-900' href='/templates'>Modelos />
+[11] (66,188)<a class='flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors text-neutral-600 hover:bg-neutral-100 hover:text-neutral-900' href='/analytics'>Relatórios />
+[12] (66,210)<a class='flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors text-neutral-600 hover:bg-neutral-100 hover:text-neutral-900' href='/integrations'>Integrações />
+Pessoal
+[13] (66,249)<a class='flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium text-neutral-600 hover:bg-neutral-100 hover:text-neutral-900 transition-colors' href='/favorites'>Favoritos />
+[14] (66,271)<a class='flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium text-neutral-600 hover:bg-neutral-100 hover:text-neutral-900 transition-colors' href='/collections'>Coleções />
+Painel de Controle
+Visão geral dos seus agentes e métricas
+Agentes Ativos
+12
++2 este mês
+Crédito Restante
+8.5k
+Renova em 15 dias
+Latência Média
+420ms
+-12% vs mês passado
+Taxa de Sucesso
+98.2%
++1.5% vs mês passado
+Agentes Recentes
+[15] (983,225)<a class='text-sm text-primary hover:text-primary-dark' href='/agents'>Ver todos />
+[16] (237,383)<div  />
+	[17] (330,263)<button class='absolute top-3 right-3 z-10 p-1.5 rounded-full bg-white/80 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity' />
+	[18] (237,329)<div  />
+		[19] (237,329)<div  />
+			[20] (237,329)<div  />
+	[21] (237,470)<div  />
+		[22] (237,430)<div  />
+			[23] (177,430)<h3 >Assistente de Código />
+		[24] (237,465)<p >Ajuda com revisão de código, depuração e sugestões de otimização />
+		[25] (237,496)<div  />
+			[26] (141,496)<span >code />
+			[27] (161,496)<span >review />
+			[28] (184,496)<span >debug />
+		[29] (237,514)<div  />
+			[30] (166,515)<div  />
+				[31] (149,515)<span >1247
+usos />
+				[32] (171,515)<span  />
+				[33] (188,515)<span >450
+ms />
+			[34] (336,515)<button class='p-2 rounded-full bg-primary text-white opacity-0 group-hover:opacity-100 transition-opacity' />
+[35] (457,383)<div  />
+	[36] (374,268)<div  />
+		[37] (374,269)<span >Template />
+	[38] (549,263)<button class='absolute top-3 right-3 z-10 p-1.5 rounded-full bg-white/80 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity' />
+	[39] (457,329)<div  />
+		[40] (457,329)<div  />
+			[41] (457,329)<div  />
+	[42] (457,470)<div  />
+		[43] (457,430)<div  />
+			[44] (395,430)<h3 >Analisador de Dados />
+		[45] (457,465)<p >Processa e analisa conjuntos de dados, gera insights e visualizações />
+		[46] (457,496)<div  />
+			[47] (360,496)<span >data />
+			[48] (383,496)<span >analytics />
+			[49] (409,496)<span >python />
+		[50] (457,514)<div  />
+			[51] (385,515)<div  />
+				[52] (367,515)<span >892
+usos />
+				[53] (388,515)<span  />
+				[54] (406,515)<span >620
+ms />
+			[55] (556,515)<button class='p-2 rounded-full bg-primary text-white opacity-0 group-hover:opacity-100 transition-opacity' />
+[56] (677,383)<div  />
+	[57] (769,263)<button class='absolute top-3 right-3 z-10 p-1.5 rounded-full bg-white/80 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity' />
+	[58] (677,329)<div  />
+		[59] (677,329)<div  />
+			[60] (677,329)<div  />
+	[61] (677,459)<div  />
+		[62] (677,430)<div  />
+			[63] (601,430)<h3 >Copywriter IA />
+		[64] (677,454)<p >Cria copy para marketing, emails e redes sociais />
+		[65] (677,474)<div  />
+			[66] (581,474)<span >copy />
+			[67] (606,474)<span >marketing />
+			[68] (636,474)<span >creative />
+		[69] (677,492)<div  />
+			[70] (606,493)<div  />
+				[71] (588,493)<span >2156
+usos />
+				[72] (610,493)<span  />
+				[73] (628,493)<span >380
+ms />
+			[74] (776,493)<button class='p-2 rounded-full bg-primary text-white opacity-0 group-hover:opacity-100 transition-opacity' />
+[75] (896,383)<div  />
+	[76] (813,268)<div  />
+		[77] (813,269)<span >Template />
+	[78] (989,263)<button class='absolute top-3 right-3 z-10 p-1.5 rounded-full bg-white/80 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity' />
+	[79] (896,329)<div  />
+		[80] (896,329)<div  />
+			[81] (896,329)<div  />
+	[82] (896,470)<div  />
+		[83] (896,430)<div  />
+			[84] (826,430)<h3 >Suporte Técnico />
+		[85] (896,465)<p >Responde dúvidas técnicas e guia a resolução de problemas />
+		[86] (896,496)<div  />
+			[87] (805,496)<span >support />
+			[88] (833,496)<span >helpdesk />
+			[89] (868,496)<span >troubleshoot />
+		[90] (896,514)<div  />
+			[91] (826,515)<div  />
+				[92] (808,515)<span >3421
+usos />
+				[93] (831,515)<span  />
+				[94] (848,515)<span >290
+ms />
+			[95] (995,515)<button class='p-2 rounded-full bg-primary text-white opacity-0 group-hover:opacity-100 transition-opacity' />
+
+</current_dom>

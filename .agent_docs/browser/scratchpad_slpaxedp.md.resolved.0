@@ -1,0 +1,22 @@
+# Task: UI Verification of Agent Hub
+
+## Checklist
+- [ ] Open http://localhost:3000 (Landing Page)
+- [ ] Verify Landing Page (Glass/Neon aesthetic, Buttons)
+- [ ] Screenshot Landing Page
+- [ ] Navigate to Dashboard
+- [ ] Verify Dashboard
+- [ ] Screenshot Dashboard
+- [ ] Navigate to Agents
+- [ ] Verify Agents Page
+- [ ] Screenshot Agents
+- [ ] Navigate to Templates
+- [ ] Verify Templates Page
+- [ ] Screenshot Templates
+- [ ] Navigate to Workspace
+- [ ] Verify Workspace Page
+- [ ] Screenshot Workspace
+- [ ] Confirm consistency across all pages.
+
+## Observations
+- 

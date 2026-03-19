@@ -1,0 +1,32 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (34,29)<a class='flex items-center gap-2' href='/' />
+	[1] (8,29)<div  />
+	[2] (45,29)<span >Agent Hub />
+[3] (322,30)<input class='w-full pl-10 pr-4 py-2 bg-neutral-100 border border-transparent rounded-full text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary/30 transition-all' placeholder='Buscar agentes...' />
+[4] (603,29)<button class='hidden sm:flex items-center gap-2 px-4 py-2 bg-primary text-white rounded-full text-sm font-medium'>Criar Agente />
+	Criar Agente
+[5] (641,29)<button class='p-2 rounded-full hover:bg-neutral-100 transition-colors relative' />
+[6] (658,29)<button class='p-2 rounded-full hover:bg-neutral-100 transition-colors' />
+Principal
+[7] (63,100)<a class='flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors text-neutral-600 hover:bg-neutral-100 hover:text-neutral-900' href='/dashboard'>Início />
+[8] (63,122)<a class='flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors text-neutral-600 hover:bg-neutral-100 hover:text-neutral-900' href='/agents'>Meus Agentes />
+[9] (63,144)<a class='flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors text-neutral-600 hover:bg-neutral-100 hover:text-neutral-900' href='/workspace'>Conversar />
+[10] (63,166)<a class='flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors bg-primary/10 text-primary' href='/templates'>Modelos />
+[11] (63,188)<a class='flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors text-neutral-600 hover:bg-neutral-100 hover:text-neutral-900' href='/analytics'>Relatórios />
+[12] (63,210)<a class='flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors text-neutral-600 hover:bg-neutral-100 hover:text-neutral-900' href='/integrations'>Integrações />
+Pessoal
+[13] (63,249)<a class='flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium text-neutral-600 hover:bg-neutral-100 hover:text-neutral-900 transition-colors' href='/favorites'>Favoritos />
+[14] (63,271)<a class='flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium text-neutral-600 hover:bg-neutral-100 hover:text-neutral-900 transition-colors' href='/collections'>Coleções />
+Modelos de Agentes
+Comece rapidamente com configurações pré-definidas para diferentes necessidades
+Todos
+Criatividade
+Marketing
+Educação
+Jurídico
+Produtividade
+
+</current_dom>

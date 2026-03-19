@@ -1,0 +1,125 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (34,35)<a class='flex items-center gap-2' href='/' />
+	[1] (8,35)<div  />
+	[2] (45,35)<span >Agent Hub />
+[3] (322,36)<input class='w-full pl-10 pr-4 py-2 bg-neutral-100 border border-transparent rounded-full text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary/30 transition-all' placeholder='Buscar agentes...' />
+[4] (603,35)<button class='hidden sm:flex items-center gap-2 px-4 py-2 bg-primary text-white rounded-full text-sm font-medium'>Criar Agente />
+	Criar Agente
+[5] (641,35)<button class='p-2 rounded-full hover:bg-neutral-100 transition-colors relative' />
+[6] (658,35)<button class='p-2 rounded-full hover:bg-neutral-100 transition-colors' />
+Principal
+[7] (66,100)<a class='flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors text-neutral-600 hover:bg-neutral-100 hover:text-neutral-900' href='/dashboard'>Início />
+[8] (66,122)<a class='flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors text-neutral-600 hover:bg-neutral-100 hover:text-neutral-900' href='/agents'>Meus Agentes />
+[9] (66,144)<a class='flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors text-neutral-600 hover:bg-neutral-100 hover:text-neutral-900' href='/workspace'>Conversar />
+[10] (66,166)<a class='flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors bg-primary/10 text-primary' href='/templates'>Modelos />
+[11] (66,188)<a class='flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors text-neutral-600 hover:bg-neutral-100 hover:text-neutral-900' href='/analytics'>Relatórios />
+[12] (66,210)<a class='flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors text-neutral-600 hover:bg-neutral-100 hover:text-neutral-900' href='/integrations'>Integrações />
+Pessoal
+[13] (66,249)<a class='flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium text-neutral-600 hover:bg-neutral-100 hover:text-neutral-900 transition-colors' href='/favorites'>Favoritos />
+[14] (66,271)<a class='flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium text-neutral-600 hover:bg-neutral-100 hover:text-neutral-900 transition-colors' href='/collections'>Coleções />
+Modelos de Agentes
+Comece rapidamente com configurações pré-definidas para diferentes necessidades
+[15] (250,147)<input class='w-full pl-10 pr-4 py-2.5 bg-white border border-neutral-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary/30 transition-all' placeholder='Buscar modelos...' />
+[16] (386,146)<button class='px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-colors bg-primary text-white'>Todos />
+[17] (422,146)<button class='px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-colors bg-white text-neutral-600 border border-neutral-200 hover:border-neutral-300'>Criatividade />
+[18] (466,146)<button class='px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-colors bg-white text-neutral-600 border border-neutral-200 hover:border-neutral-300'>Marketing />
+[19] (506,146)<button class='px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-colors bg-white text-neutral-600 border border-neutral-200 hover:border-neutral-300'>Educação />
+[20] (543,146)<button class='px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-colors bg-white text-neutral-600 border border-neutral-200 hover:border-neutral-300'>Jurídico />
+[21] (586,146)<button class='px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-colors bg-white text-neutral-600 border border-neutral-200 hover:border-neutral-300'>Produtividade />
+[22] (237,301)<div  />
+	[23] (154,187)<div  />
+		[24] (154,188)<span >Template />
+	[25] (330,182)<button class='absolute top-3 right-3 z-10 p-1.5 rounded-full bg-white/80 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity' />
+	[26] (237,248)<div  />
+		[27] (237,248)<div  />
+			[28] (237,248)<div  />
+	[29] (237,378)<div  />
+		[30] (237,349)<div  />
+			[31] (193,349)<h3 >Assistente de Escrita Criativa />
+		[32] (237,373)<p >Um modelo otimizado para gerar contos, poesias e roteiros. />
+		[33] (237,393)<div  />
+			[34] (144,393)<span >escrita />
+			[35] (168,393)<span >criativo />
+			[36] (195,393)<span >literatura />
+		[37] (237,411)<div  />
+			[38] (165,412)<div  />
+				[39] (148,412)<span >450
+usos />
+				[40] (169,412)<span  />
+				[41] (186,412)<span >500
+ms />
+			[42] (336,412)<button class='p-2 rounded-full bg-primary text-white opacity-0 group-hover:opacity-100 transition-opacity' />
+[43] (457,301)<div  />
+	[44] (374,187)<div  />
+		[45] (374,188)<span >Template />
+	[46] (549,182)<button class='absolute top-3 right-3 z-10 p-1.5 rounded-full bg-white/80 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity' />
+	[47] (457,248)<div  />
+		[48] (457,248)<div  />
+			[49] (457,248)<div  />
+	[50] (457,389)<div  />
+		[51] (457,349)<div  />
+			[52] (386,349)<h3 >Analista de SEO />
+		[53] (457,384)<p >Expert em otimização de conteúdo para mecanismos de busca. />
+		[54] (457,415)<div  />
+			[55] (359,415)<span >seo />
+			[56] (382,415)<span >marketing />
+			[57] (406,415)<span >web />
+		[58] (457,433)<div  />
+			[59] (385,434)<div  />
+				[60] (367,434)<span >890
+usos />
+				[61] (388,434)<span  />
+				[62] (406,434)<span >420
+ms />
+			[63] (556,434)<button class='p-2 rounded-full bg-primary text-white opacity-0 group-hover:opacity-100 transition-opacity' />
+[64] (677,301)<div  />
+	[65] (593,187)<div  />
+		[66] (593,188)<span >Template />
+	[67] (769,182)<button class='absolute top-3 right-3 z-10 p-1.5 rounded-full bg-white/80 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity' />
+	[68] (677,248)<div  />
+		[69] (677,248)<div  />
+			[70] (677,248)<div  />
+	[71] (677,378)<div  />
+		[72] (677,349)<div  />
+			[73] (622,349)<h3 >Mentor de Programação />
+		[74] (677,373)<p >Lógica ríguida e explicações didáticas para iniciantes. />
+		[75] (677,393)<div  />
+			[76] (584,393)<span >coding />
+			[77] (610,393)<span >mentoria />
+			[78] (638,393)<span >didático />
+		[79] (677,411)<div  />
+			[80] (606,412)<div  />
+				[81] (588,412)<span >1200
+usos />
+				[82] (611,412)<span  />
+				[83] (628,412)<span >600
+ms />
+			[84] (776,412)<button class='p-2 rounded-full bg-primary text-white opacity-0 group-hover:opacity-100 transition-opacity' />
+[85] (896,301)<div  />
+	[86] (813,187)<div  />
+		[87] (813,188)<span >Template />
+	[88] (989,182)<button class='absolute top-3 right-3 z-10 p-1.5 rounded-full bg-white/80 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity' />
+	[89] (896,248)<div  />
+		[90] (896,248)<div  />
+			[91] (896,248)<div  />
+	[92] (896,378)<div  />
+		[93] (896,349)<div  />
+			[94] (832,349)<h3 >Assistente Jurídico />
+		[95] (896,373)<p >Auxilia na revisão de contratos e termos de uso. />
+		[96] (896,393)<div  />
+			[97] (800,393)<span >legal />
+			[98] (824,393)<span >contratos />
+			[99] (852,393)<span >revisão />
+		[100] (896,411)<div  />
+			[101] (825,412)<div  />
+				[102] (807,412)<span >320
+usos />
+				[103] (828,412)<span  />
+				[104] (846,412)<span >800
+ms />
+			[105] (995,412)<button class='p-2 rounded-full bg-primary text-white opacity-0 group-hover:opacity-100 transition-opacity' />
+
+</current_dom>

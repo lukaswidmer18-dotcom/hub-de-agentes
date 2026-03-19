@@ -1,0 +1,236 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+Skip to content
+Navigation Menu
+[0] (25,40)<a aria-label='Homepage' class='tmp-mr-lg-3 color-fg-inherit flex-order-2 js-prevent-focus-on-mobile-nav' href='/' />
+[1] (67,40)<button class='NavDropdown-module__button__PEHWX js-details-target'>Platform />
+[2] (118,40)<button class='NavDropdown-module__button__PEHWX js-details-target'>Solutions />
+[3] (172,40)<button class='NavDropdown-module__button__PEHWX js-details-target'>Resources />
+[4] (233,40)<button class='NavDropdown-module__button__PEHWX js-details-target'>Open Source />
+[5] (294,40)<button class='NavDropdown-module__button__PEHWX js-details-target'>Enterprise />
+[6] (339,40)<a class='NavLink-module__link__EG3d4 MarketingNavigation-module__navLink__hUomM' href='https://github.com/pricing' />
+	[7] (339,40)<span >Pricing />
+[8] (792,40)<button aria-label='Search or jump to…' class='header-search-button placeholder input-button form-control d-flex flex-1 flex-self-stretch flex-items-center no-wrap width-full py-0 pl-2 pr-0 text-left border-0 box-shadow-none' placeholder='Search or jump to...' />
+	[9] (718,40)<div  />
+	[10] (792,40)<span >Search or jump to... />
+	[11] (868,40)<div  />
+[12] (899,40)<a class='HeaderMenu-link HeaderMenu-link--sign-in HeaderMenu-button flex-shrink-0 no-underline d-none d-lg-inline-flex border border-lg-0 rounded px-2 py-1' href='/login?return_to=https%3A%2F%2Fgithub.com%2Flukaswidmer18-dotcom%2Fhub-de-agentes%2Ftree%2Fmain'>Sign in />
+[13] (941,40)<a class='HeaderMenu-link HeaderMenu-link--sign-up HeaderMenu-button flex-shrink-0 d-flex d-lg-inline-flex no-underline border color-border-default rounded px-2 py-1' href='/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Ffiles%2Fdisambiguate&source=header-repo&source_repo=lukaswidmer18-dotcom%2Fhub-de-agentes'>Sign up />
+[14] (975,40)<button class='Button Button--iconOnly Button--invisible Button--medium AppHeader-button HeaderMenu-link border' id='icon-button-a832c3bd-6f6d-436c-bb9e-ccb72e9a5949' />
+[15] (83,113)<a class='url fn' href='/lukaswidmer18-dotcom'>lukaswidmer18-dotcom />
+/
+[16] (184,113)<a href='/lukaswidmer18-dotcom/hub-de-agentes'>hub-de-agentes />
+Public
+[17] (839,112)<a aria-label='You must be signed in to change notification settings' class='btn-sm btn' href='/login?return_to=%2Flukaswidmer18-dotcom%2Fhub-de-agentes' id='repository-details-watch-button'>Notifications />
+[18] (901,112)<a class='btn-sm btn' href='/login?return_to=%2Flukaswidmer18-dotcom%2Fhub-de-agentes' id='fork-button'>Fork />
+	[19] (915,112)<span >0 />
+[20] (957,112)<a aria-label='You must be signed in to star a repository' class='tooltipped tooltipped-sw btn-sm btn' href='/login?return_to=%2Flukaswidmer18-dotcom%2Fhub-de-agentes' />
+	[21] (958,112)<span >Star />
+	[22] (971,112)<span >0 />
+[23] (36,173)<a class='UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item selected' href='/lukaswidmer18-dotcom/hub-de-agentes/tree/main' id='code-tab' />
+	[24] (42,173)<span >Code />
+[25] (79,173)<a class='UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item' href='/lukaswidmer18-dotcom/hub-de-agentes/issues' id='issues-tab' />
+	[26] (85,173)<span >Issues />
+[27] (135,173)<a class='UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item' href='/lukaswidmer18-dotcom/hub-de-agentes/pulls' id='pull-requests-tab' />
+	[28] (141,173)<span >Pull requests />
+[29] (194,173)<a class='UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item' href='/lukaswidmer18-dotcom/hub-de-agentes/actions' id='actions-tab' />
+	[30] (200,173)<span >Actions />
+[31] (244,173)<a class='UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item' href='/lukaswidmer18-dotcom/hub-de-agentes/projects' id='projects-tab' />
+	[32] (250,173)<span >Projects />
+[33] (295,173)<a class='UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item' href='/lukaswidmer18-dotcom/hub-de-agentes/security' id='security-tab' />
+	[34] (302,173)<span >Security />
+[35] (346,173)<a class='UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item' href='/lukaswidmer18-dotcom/hub-de-agentes/pulse' id='insights-tab' />
+	[36] (353,173)<span >Insights />
+lukaswidmer18-dotcom/hub-de-agentes
+[37] (211,244)<button aria-label='main branch' class='prc-Button-ButtonBase-9n-Xk overview-ref-selector width-full RefSelectorAnchoredOverlay-module__RefSelectorOverlayBtn__a3WK3' id='ref-picker-repos-header-ref-selector' />
+	[38] (211,244)<span  />
+		[39] (205,244)<span  />
+			[40] (205,244)<div  />
+				[41] (194,244)<div  />
+				[42] (210,244)<div  />
+					[43] (210,244)<span >main />
+[44] (269,244)<a class='prc-Button-ButtonBase-9n-Xk OverviewContent-module__Button___Uotu' href='/lukaswidmer18-dotcom/hub-de-agentes/branches' />
+	[45] (269,244)<span  />
+		[46] (275,244)<span  />
+			[47] (275,244)<span >Branches />
+				[48] (261,244)<strong >2 />
+[49] (315,244)<a class='prc-Button-ButtonBase-9n-Xk OverviewContent-module__Button___Uotu' href='/lukaswidmer18-dotcom/hub-de-agentes/tags' />
+	[50] (315,244)<span  />
+		[51] (321,244)<span  />
+			[52] (321,244)<span >Tags />
+				[53] (314,244)<strong >0 />
+[54] (540,244)<span  />
+	[55] (494,244)<span  />
+	[56] (544,244)<input aria-label='Go to file' class='prc-components-Input-IwWrt' placeholder='Go to file' role='combobox' />
+[57] (626,244)<button class='prc-Button-ButtonBase-9n-Xk' id='_r_6m_' />
+	[58] (626,244)<span  />
+		[59] (626,244)<span >Code />
+This branch is up to date with
+master
+.
+Folders and files
+Latest commit
+[60] (198,381)<a class='Link__StyledLink-sc-1syctfj-0 prc-Link-Link-9ZwDx' href='/lukaswidmer18-dotcom' />
+	[61] (196,382)<img  />
+[62] (244,381)<a aria-label='commits by lukaswidmer18-dotcom' class='Link__StyledLink-sc-1syctfj-0 iIGVMW AuthorAvatar-module__authorHoverableLink__MHTT8 prc-Link-Link-9ZwDx' href='/lukaswidmer18-dotcom/hub-de-agentes/commits?author=lukaswidmer18-dotcom'>lukaswidmer18-dotcom />
+[63] (405,381)<a class='Link--secondary' href='/lukaswidmer18-dotcom/hub-de-agentes/commit/7eed5aa2ec83ae1da431f792f172a01b2f728a5a'>feat: tradução para PT/BR e implementação das páginas /templates e /w… />
+[64] (514,381)<button class='prc-Button-ButtonBase-9n-Xk LatestCommit-module__IconButton__mkJr_ prc-Button-IconButton-fyge7' />
+[65] (537,381)<a aria-label='Commit 7eed5aa' class='Link--secondary prc-Link-Link-9ZwDx' href='/lukaswidmer18-dotcom/hub-de-agentes/commit/7eed5aa2ec83ae1da431f792f172a01b2f728a5a'>7eed5aa />
+·
+History
+[66] (622,381)<a class='prc-Button-ButtonBase-9n-Xk d-none d-lg-flex LinkButton-module__linkButton__nFnov flex-items-center fgColor-default' href='/lukaswidmer18-dotcom/hub-de-agentes/commits/main/' />
+	[67] (622,381)<span  />
+		[68] (627,381)<span  />
+			[69] (627,380)<span >2 Commits />
+[70] (419,432)<tr  />
+	[71] (210,432)<a aria-label='src, (Directory)' class='Link--primary' href='/lukaswidmer18-dotcom/hub-de-agentes/tree/main/src' title='src'>src />
+	[72] (499,432)<a class='Link--secondary' href='/lukaswidmer18-dotcom/hub-de-agentes/commit/7eed5aa2ec83ae1da431f792f172a01b2f728a5a' title='feat: tradução para PT/BR e implementação das páginas /templates e /workspace'>feat: tradução para PT/BR e implementação das páginas /templates e /w… />
+[73] (419,477)<tr  />
+	[74] (221,477)<a aria-label='.gitignore, (File)' class='Link--primary' href='/lukaswidmer18-dotcom/hub-de-agentes/blob/main/.gitignore' title='.gitignore'>.gitignore />
+	[75] (428,477)<a class='Link--secondary' href='/lukaswidmer18-dotcom/hub-de-agentes/commit/937c4c151fd1c1d85845a54be28b5dd72548b880' title='Estrutura inicial do Agent Hub
+
+- Next.js 16 + React 19 + TypeScript
+- Tailwind CSS v4 com configuração personalizada
+- Componentes de avatar animados (Framer Motion)
+- Páginas: Landing, Dashboard, Agents
+- Design System seguindo especificações do PRD
+- Suporte a prefers-reduced-motion
+
+Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>'>Estrutura inicial do Agent Hub />
+[76] (419,522)<tr  />
+	[77] (226,523)<a aria-label='README.md, (File)' class='Link--primary' href='/lukaswidmer18-dotcom/hub-de-agentes/blob/main/README.md' title='README.md'>README.md />
+	[78] (428,523)<a class='Link--secondary' href='/lukaswidmer18-dotcom/hub-de-agentes/commit/937c4c151fd1c1d85845a54be28b5dd72548b880' title='Estrutura inicial do Agent Hub
+
+- Next.js 16 + React 19 + TypeScript
+- Tailwind CSS v4 com configuração personalizada
+- Componentes de avatar animados (Framer Motion)
+- Páginas: Landing, Dashboard, Agents
+- Design System seguindo especificações do PRD
+- Suporte a prefers-reduced-motion
+
+Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>'>Estrutura inicial do Agent Hub />
+[79] (419,567)<tr  />
+	[80] (227,568)<a aria-label='next.config.js, (File)' class='Link--primary' href='/lukaswidmer18-dotcom/hub-de-agentes/blob/main/next.config.js' title='next.config.js'>next.config.js />
+	[81] (428,568)<a class='Link--secondary' href='/lukaswidmer18-dotcom/hub-de-agentes/commit/937c4c151fd1c1d85845a54be28b5dd72548b880' title='Estrutura inicial do Agent Hub
+
+- Next.js 16 + React 19 + TypeScript
+- Tailwind CSS v4 com configuração personalizada
+- Componentes de avatar animados (Framer Motion)
+- Páginas: Landing, Dashboard, Agents
+- Design System seguindo especificações do PRD
+- Suporte a prefers-reduced-motion
+
+Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>'>Estrutura inicial do Agent Hub />
+[82] (419,612)<tr  />
+	[83] (235,613)<a aria-label='package-lock.json, (File)' class='Link--primary' href='/lukaswidmer18-dotcom/hub-de-agentes/blob/main/package-lock.json' title='package-lock.json'>package-lock.json />
+	[84] (428,613)<a class='Link--secondary' href='/lukaswidmer18-dotcom/hub-de-agentes/commit/937c4c151fd1c1d85845a54be28b5dd72548b880' title='Estrutura inicial do Agent Hub
+
+- Next.js 16 + React 19 + TypeScript
+- Tailwind CSS v4 com configuração personalizada
+- Componentes de avatar animados (Framer Motion)
+- Páginas: Landing, Dashboard, Agents
+- Design System seguindo especificações do PRD
+- Suporte a prefers-reduced-motion
+
+Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>'>Estrutura inicial do Agent Hub />
+[85] (419,657)<tr  />
+	[86] (227,658)<a aria-label='package.json, (File)' class='Link--primary' href='/lukaswidmer18-dotcom/hub-de-agentes/blob/main/package.json' title='package.json'>package.json />
+	[87] (428,658)<a class='Link--secondary' href='/lukaswidmer18-dotcom/hub-de-agentes/commit/937c4c151fd1c1d85845a54be28b5dd72548b880' title='Estrutura inicial do Agent Hub
+
+- Next.js 16 + React 19 + TypeScript
+- Tailwind CSS v4 com configuração personalizada
+- Componentes de avatar animados (Framer Motion)
+- Páginas: Landing, Dashboard, Agents
+- Design System seguindo especificações do PRD
+- Suporte a prefers-reduced-motion
+
+Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>'>Estrutura inicial do Agent Hub />
+[88] (419,702)<tr  />
+	[89] (232,703)<a aria-label='postcss.config.js, (File)' class='Link--primary' href='/lukaswidmer18-dotcom/hub-de-agentes/blob/main/postcss.config.js' title='postcss.config.js'>postcss.config.js />
+	[90] (428,703)<a class='Link--secondary' href='/lukaswidmer18-dotcom/hub-de-agentes/commit/937c4c151fd1c1d85845a54be28b5dd72548b880' title='Estrutura inicial do Agent Hub
+
+- Next.js 16 + React 19 + TypeScript
+- Tailwind CSS v4 com configuração personalizada
+- Componentes de avatar animados (Framer Motion)
+- Páginas: Landing, Dashboard, Agents
+- Design System seguindo especificações do PRD
+- Suporte a prefers-reduced-motion
+
+Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>'>Estrutura inicial do Agent Hub />
+[91] (419,747)<tr  />
+	[92] (232,748)<a aria-label='tailwind.config.js, (File)' class='Link--primary' href='/lukaswidmer18-dotcom/hub-de-agentes/blob/main/tailwind.config.js' title='tailwind.config.js'>tailwind.config.js />
+	[93] (428,748)<a class='Link--secondary' href='/lukaswidmer18-dotcom/hub-de-agentes/commit/937c4c151fd1c1d85845a54be28b5dd72548b880' title='Estrutura inicial do Agent Hub
+
+- Next.js 16 + React 19 + TypeScript
+- Tailwind CSS v4 com configuração personalizada
+- Componentes de avatar animados (Framer Motion)
+- Páginas: Landing, Dashboard, Agents
+- Design System seguindo especificações do PRD
+- Suporte a prefers-reduced-motion
+
+Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>'>Estrutura inicial do Agent Hub />
+[94] (419,792)<tr  />
+	[95] (226,793)<a aria-label='tsconfig.json, (File)' class='Link--primary' href='/lukaswidmer18-dotcom/hub-de-agentes/blob/main/tsconfig.json' title='tsconfig.json'>tsconfig.json />
+	[96] (428,793)<a class='Link--secondary' href='/lukaswidmer18-dotcom/hub-de-agentes/commit/937c4c151fd1c1d85845a54be28b5dd72548b880' title='Estrutura inicial do Agent Hub
+
+- Next.js 16 + React 19 + TypeScript
+- Tailwind CSS v4 com configuração personalizada
+- Componentes de avatar animados (Framer Motion)
+- Páginas: Landing, Dashboard, Agents
+- Design System seguindo especificações do PRD
+- Suporte a prefers-reduced-motion
+
+Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>'>Estrutura inicial do Agent Hub />
+Repository files navigation
+[97] (213,861)<a class='prc-components-UnderlineItem-7fP-n' href='#' />
+	[98] (196,861)<span  />
+	[99] (219,861)<span >README />
+[100] (641,860)<button aria-label='Outline' class='prc-Button-ButtonBase-9n-Xk OverviewRepoFiles-module__ActionMenu_Button__OKDYV' id='_r_74_' />
+Agent Hub
+[101] (193,945)<a aria-label='Permalink: Agent Hub' class='anchor' href='#agent-hub' id='user-content-agent-hub' />
+Hub web para descoberta, seleção e gestão de agentes de IA criados via Claude Code.
+About
+Sistema de hub de agenters
+Resources
+[102] (695,325)<a class='Link--muted' href='#readme-ov-file'>Readme />
+[103] (694,357)<a class='Link Link--muted' href='/lukaswidmer18-dotcom/hub-de-agentes/activity' />
+	[104] (701,357)<span >Activity />
+Stars
+[105] (693,389)<a class='Link Link--muted' href='/lukaswidmer18-dotcom/hub-de-agentes/stargazers'>stars />
+	[106] (692,389)<strong >0 />
+Watchers
+[107] (700,421)<a class='Link Link--muted' href='/lukaswidmer18-dotcom/hub-de-agentes/watchers'>watching />
+	[108] (692,421)<strong >0 />
+Forks
+[109] (693,453)<a class='Link Link--muted' href='/lukaswidmer18-dotcom/hub-de-agentes/forks'>forks />
+	[110] (692,453)<strong >0 />
+[111] (703,485)<a class='Link--muted' href='/contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Flukaswidmer18-dotcom%2Fhub-de-agentes&report=lukaswidmer18-dotcom+%28user%29'>Report repository />
+[112] (691,545)<a class='Link--primary no-underline Link' href='/lukaswidmer18-dotcom/hub-de-agentes/releases'>Releases />
+No releases published
+[113] (746,645)<a class='Link--primary no-underline Link d-flex flex-items-center' href='/users/lukaswidmer18-dotcom/packages?repo_name=hub-de-agentes'>Packages />
+No packages published
+[114] (746,745)<a class='Link--primary no-underline Link d-flex flex-items-center' href='/lukaswidmer18-dotcom/hub-de-agentes/graphs/contributors'>Contributors />
+	[115] (730,745)<span >2 />
+[116] (683,794)<a class='mr-2' href='https://github.com/lukaswidmer18-dotcom' />
+	[117] (683,794)<img  />
+[118] (734,794)<a class='Link--primary no-underline flex-self-center' href='https://github.com/lukaswidmer18-dotcom' />
+	[119] (734,794)<strong >lukaswidmer18-dotcom />
+[120] (683,838)<a class='mr-2' href='https://github.com/claude' />
+	[121] (683,838)<img  />
+[122] (719,838)<a class='Link--primary no-underline flex-self-center' href='https://github.com/claude' />
+	[123] (707,838)<strong >claude />
+	[124] (731,838)<span >Claude />
+Languages
+[125] (705,971)<a class='d-inline-flex flex-items-center flex-nowrap Link--secondary no-underline text-small tmp-mr-3' href='/lukaswidmer18-dotcom/hub-de-agentes/search?l=typescript' />
+	[126] (702,971)<span >TypeScript />
+	[127] (728,971)<span >95.2% />
+[128] (774,971)<a class='d-inline-flex flex-items-center flex-nowrap Link--secondary no-underline text-small tmp-mr-3' href='/lukaswidmer18-dotcom/hub-de-agentes/search?l=javascript' />
+	[129] (773,971)<span >JavaScript />
+	[130] (796,971)<span >2.7% />
+[131] (694,996)<a class='d-inline-flex flex-items-center flex-nowrap Link--secondary no-underline text-small tmp-mr-3' href='/lukaswidmer18-dotcom/hub-de-agentes/search?l=css' />
+	[132] (693,996)<span >CSS />
+	[133] (707,996)<span >2.1% />
+
+</current_dom>

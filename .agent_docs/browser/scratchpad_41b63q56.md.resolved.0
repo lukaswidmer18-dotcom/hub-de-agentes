@@ -1,0 +1,13 @@
+# Plano de Verificação dos Avatares Tomodachi
+
+## Checklist
+- [ ] Acessar `http://localhost:3000/`
+- [ ] Verificar Dashboard (Avatares e animações)
+- [ ] Verificar página de Agents
+- [ ] Verificar página de Workspace
+- [ ] Capturar screenshots de alta qualidade
+- [ ] Validar animação "breathe" e movimento de seguir o mouse
+
+## Notas
+- Verificar se os arquivos em `public/avatars/tomodachi/` estão carregando.
+- O movimento do mouse pode ser difícil de "ver" em screenshot estática, mas posso observar a mudança de posição se eu mover o mouse e tirar outra screenshot.

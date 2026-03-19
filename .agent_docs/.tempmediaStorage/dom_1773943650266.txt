@@ -1,0 +1,146 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (222,36)<a class='flex items-center gap-2 group' href='/' />
+	[1] (194,36)<div  />
+	[2] (234,36)<span >Agent Hub />
+[3] (472,36)<input class='w-full pl-11 pr-4 py-2.5 bg-white/5 border border-white/10 rounded-xl text-sm text-white placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-sky-500/20 focus:border-sky-500/40 transition-all duration-300' placeholder='Buscar agentes...' />
+[4] (723,36)<button class='hidden sm:flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-brand-primary to-brand-secondary text-white rounded-xl text-sm font-semibold shadow-lg shadow-sky-500/25 hover:shadow-sky-500/40 transition-shadow'>Criar Agente />
+	Criar Agente
+[5] (777,36)<button class='p-2.5 rounded-xl hover:bg-white/5 text-slate-400 hover:text-white border border-transparent hover:border-white/10 transition-all relative' />
+[6] (804,36)<button class='p-2 rounded-full hover:bg-neutral-100 transition-colors' />
+Principal
+[7] (66,159)<a class='inline-flex items-center whitespace-nowrap rounded-xl text-sm font-bold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500/50 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 active:scale-95 bg-white/5 backdrop-blur-md border hover:bg-white/10 hover:border-white/20 shadow-xl px-6 py-2 w-full justify-start gap-3 h-12 text-sky-400 border-sky-500/20' href='/dashboard'>Início />
+[8] (66,216)<a class='inline-flex items-center whitespace-nowrap rounded-xl text-sm font-bold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500/50 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 active:scale-95 hover:bg-white/5 hover:text-white border border-transparent hover:border-white/5 px-6 py-2 w-full justify-start gap-3 h-12 text-slate-400' href='/agents'>Meus Agentes />
+[9] (66,273)<a class='inline-flex items-center whitespace-nowrap rounded-xl text-sm font-bold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500/50 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 active:scale-95 hover:bg-white/5 hover:text-white border border-transparent hover:border-white/5 px-6 py-2 w-full justify-start gap-3 h-12 text-slate-400' href='/workspace'>Conversar />
+[10] (66,330)<a class='inline-flex items-center whitespace-nowrap rounded-xl text-sm font-bold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500/50 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 active:scale-95 hover:bg-white/5 hover:text-white border border-transparent hover:border-white/5 px-6 py-2 w-full justify-start gap-3 h-12 text-slate-400' href='/templates'>Modelos />
+[11] (66,387)<a class='inline-flex items-center whitespace-nowrap rounded-xl text-sm font-bold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500/50 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 active:scale-95 hover:bg-white/5 hover:text-white border border-transparent hover:border-white/5 px-6 py-2 w-full justify-start gap-3 h-12 text-slate-400' href='/analytics'>Relatórios />
+[12] (66,445)<a class='inline-flex items-center whitespace-nowrap rounded-xl text-sm font-bold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500/50 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 active:scale-95 hover:bg-white/5 hover:text-white border border-transparent hover:border-white/5 px-6 py-2 w-full justify-start gap-3 h-12 text-slate-400' href='/integrations'>Integrações />
+Pessoal
+[13] (66,571)<a class='inline-flex items-center whitespace-nowrap rounded-xl text-sm font-bold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500/50 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 active:scale-95 hover:bg-white/5 hover:text-white border border-transparent hover:border-white/5 px-6 py-2 w-full justify-start gap-3 text-slate-400 h-12' href='/favorites'>Favoritos />
+[14] (66,623)<a class='inline-flex items-center whitespace-nowrap rounded-xl text-sm font-bold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500/50 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 active:scale-95 hover:bg-white/5 hover:text-white border border-transparent hover:border-white/5 px-6 py-2 w-full justify-start gap-3 text-slate-400 h-12' href='/collections'>Coleções />
+[15] (66,973)<a class='flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium transition-all duration-300 group text-slate-400 hover:bg-white/5 hover:text-white border border-transparent hover:border-white/5' href='/settings'>Configurações />
+Painel de Controle
+Sua infraestrutura de inteligência em tempo real
+Agentes Ativos
+12
++2 este mês
+Crédito Restante
+8.5k
+Renova em 15 dias
+Latência Média
+420ms
+-12% vs mês passado
+Taxa de Sucesso
+98.2%
++1.5% vs mês passado
+Agentes Recentes
+4
+AGENTES
+[16] (933,467)<a class='inline-flex items-center justify-center whitespace-nowrap rounded-xl text-sm font-bold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500/50 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 active:scale-95 underline-offset-4 hover:underline text-sky-400 hover:text-sky-300 gap-2 p-0 h-auto' href='/agents'>Ver catálogo completo />
+[17] (253,762)<div  />
+	[18] (331,560)<button class='inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-xl text-sm font-bold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500/50 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 active:scale-95 bg-white/5 backdrop-blur-md border border-white/10 text-white hover:bg-white/10 hover:border-white/20 shadow-xl h-11 w-11 absolute top-4 right-4 z-10 opacity-0 group-hover:opacity-100 transition-all duration-300' />
+	[19] (253,615)<div  />
+		[20] (253,615)<div  />
+			[21] (253,615)<div  />
+				[22] (253,615)<div  />
+					[23] (253,619)<div  />
+						[24] (253,619)<img  />
+	[25] (253,858)<div  />
+		[26] (253,753)<div  />
+			[27] (214,753)<h3 >Assistente de Código />
+		[28] (253,807)<p >Ajuda com revisão de código, depuração e sugestões de otimização />
+		[29] (253,867)<div  />
+			[30] (181,867)<span >code />
+			[31] (215,867)<span >review />
+			[32] (252,867)<span >debug />
+		[33] (253,943)<div  />
+			[34] (204,954)<div  />
+				[35] (187,954)<div >1247
+USOS />
+					[36] (169,954)<span  />
+				[37] (228,954)<div >450
+MS />
+					[38] (216,954)<span  />
+			[39] (327,963)<button class='inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-xl text-sm font-bold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500/50 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 active:scale-95 bg-gradient-to-r from-brand-primary to-brand-secondary text-white shadow-lg hover:shadow-sky-500/40 hover:brightness-110 h-11 w-11 opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 shadow-sky-500/20' />
+[40] (462,762)<div  />
+	[41] (396,549)<div  />
+		[42] (396,551)<span >Template />
+	[43] (540,560)<button class='inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-xl text-sm font-bold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500/50 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 active:scale-95 bg-white/5 backdrop-blur-md border border-white/10 text-white hover:bg-white/10 hover:border-white/20 shadow-xl h-11 w-11 absolute top-4 right-4 z-10 opacity-0 group-hover:opacity-100 transition-all duration-300' />
+	[44] (462,615)<div  />
+		[45] (462,615)<div  />
+			[46] (462,615)<div  />
+				[47] (462,615)<div  />
+					[48] (462,619)<div  />
+						[49] (462,619)<img  />
+	[50] (462,858)<div  />
+		[51] (462,753)<div  />
+			[52] (422,753)<h3 >Analisador de Dados />
+		[53] (462,807)<p >Processa e analisa conjuntos de dados, gera insights e visualizações />
+		[54] (462,867)<div  />
+			[55] (390,867)<span >data />
+			[56] (429,867)<span >analytics />
+			[57] (473,867)<span >python />
+		[58] (462,943)<div  />
+			[59] (413,954)<div  />
+				[60] (395,954)<div >892
+USOS />
+					[61] (378,954)<span  />
+				[62] (435,954)<div >620
+MS />
+					[63] (423,954)<span  />
+[64] (671,762)<div  />
+	[65] (749,560)<button class='inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-xl text-sm font-bold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500/50 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 active:scale-95 bg-white/5 backdrop-blur-md border border-white/10 text-white hover:bg-white/10 hover:border-white/20 shadow-xl h-11 w-11 absolute top-4 right-4 z-10 opacity-0 group-hover:opacity-100 transition-all duration-300' />
+	[66] (671,615)<div  />
+		[67] (671,615)<div  />
+			[68] (671,615)<div  />
+				[69] (671,615)<div  />
+					[70] (671,619)<div  />
+						[71] (671,619)<img  />
+	[72] (671,846)<div  />
+		[73] (671,753)<div  />
+			[74] (616,753)<h3 >Copywriter IA />
+		[75] (671,794)<p >Cria copy para marketing, emails e redes sociais />
+		[76] (671,842)<div  />
+			[77] (600,842)<span >copy />
+			[78] (641,842)<span >marketing />
+			[79] (687,842)<span >creative />
+		[80] (671,918)<div  />
+			[81] (623,929)<div  />
+				[82] (605,929)<div >2156
+USOS />
+					[83] (588,929)<span  />
+				[84] (647,929)<div >380
+MS />
+					[85] (635,929)<span  />
+			[86] (745,938)<button class='inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-xl text-sm font-bold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500/50 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 active:scale-95 bg-gradient-to-r from-brand-primary to-brand-secondary text-white shadow-lg hover:shadow-sky-500/40 hover:brightness-110 h-11 w-11 opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 shadow-sky-500/20' />
+[87] (881,762)<div  />
+	[88] (814,549)<div  />
+		[89] (814,551)<span >Template />
+	[90] (959,560)<button class='inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-xl text-sm font-bold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500/50 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 active:scale-95 bg-white/5 backdrop-blur-md border border-white/10 text-white hover:bg-white/10 hover:border-white/20 shadow-xl h-11 w-11 absolute top-4 right-4 z-10 opacity-0 group-hover:opacity-100 transition-all duration-300' />
+	[91] (881,615)<div  />
+		[92] (881,615)<div  />
+			[93] (881,615)<div  />
+				[94] (881,615)<div  />
+					[95] (881,619)<div  />
+						[96] (881,619)<img  />
+	[97] (881,858)<div  />
+		[98] (881,753)<div  />
+			[99] (831,753)<h3 >Suporte Técnico />
+		[100] (881,807)<p >Responde dúvidas técnicas e guia a resolução de problemas />
+		[101] (881,867)<div  />
+			[102] (814,867)<span >support />
+			[103] (858,867)<span >helpdesk />
+			[104] (912,867)<span >troubleshoot />
+		[105] (881,943)<div  />
+			[106] (833,954)<div  />
+				[107] (815,954)<div >3421
+USOS />
+					[108] (797,954)<span  />
+				[109] (857,954)<div >290
+MS />
+					[110] (844,954)<span  />
+			[111] (955,963)<button class='inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-xl text-sm font-bold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500/50 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 active:scale-95 bg-gradient-to-r from-brand-primary to-brand-secondary text-white shadow-lg hover:shadow-sky-500/40 hover:brightness-110 h-11 w-11 opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 shadow-sky-500/20' />
+
+</current_dom>

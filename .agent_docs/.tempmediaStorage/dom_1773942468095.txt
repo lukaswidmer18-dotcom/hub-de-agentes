@@ -1,0 +1,60 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (222,36)<a class='flex items-center gap-2 group' href='/' />
+	[1] (194,36)<div  />
+	[2] (234,36)<span >Agent Hub />
+[3] (472,36)<input class='w-full pl-11 pr-4 py-2.5 bg-white/5 border border-white/10 rounded-xl text-sm text-white placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-sky-500/20 focus:border-sky-500/40 transition-all duration-300' placeholder='Buscar agentes...' />
+[4] (723,36)<button class='hidden sm:flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-brand-primary to-brand-secondary text-white rounded-xl text-sm font-semibold shadow-lg shadow-sky-500/25 hover:shadow-sky-500/40 transition-shadow'>Criar Agente />
+	Criar Agente
+[5] (777,36)<button class='p-2.5 rounded-xl hover:bg-white/5 text-slate-400 hover:text-white border border-transparent hover:border-white/10 transition-all relative' />
+[6] (804,36)<button class='p-2 rounded-full hover:bg-neutral-100 transition-colors' />
+Principal
+[7] (66,159)<a class='inline-flex items-center whitespace-nowrap rounded-xl text-sm font-bold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500/50 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 active:scale-95 hover:bg-white/5 hover:text-white border border-transparent hover:border-white/5 px-6 py-2 w-full justify-start gap-3 h-12 text-slate-400' href='/dashboard'>Início />
+[8] (66,216)<a class='inline-flex items-center whitespace-nowrap rounded-xl text-sm font-bold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500/50 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 active:scale-95 bg-white/5 backdrop-blur-md border hover:bg-white/10 hover:border-white/20 shadow-xl px-6 py-2 w-full justify-start gap-3 h-12 text-sky-400 border-sky-500/20' href='/agents'>Meus Agentes />
+[9] (66,273)<a class='inline-flex items-center whitespace-nowrap rounded-xl text-sm font-bold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500/50 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 active:scale-95 hover:bg-white/5 hover:text-white border border-transparent hover:border-white/5 px-6 py-2 w-full justify-start gap-3 h-12 text-slate-400' href='/workspace'>Conversar />
+[10] (66,330)<a class='inline-flex items-center whitespace-nowrap rounded-xl text-sm font-bold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500/50 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 active:scale-95 hover:bg-white/5 hover:text-white border border-transparent hover:border-white/5 px-6 py-2 w-full justify-start gap-3 h-12 text-slate-400' href='/templates'>Modelos />
+[11] (66,387)<a class='inline-flex items-center whitespace-nowrap rounded-xl text-sm font-bold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500/50 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 active:scale-95 hover:bg-white/5 hover:text-white border border-transparent hover:border-white/5 px-6 py-2 w-full justify-start gap-3 h-12 text-slate-400' href='/analytics'>Relatórios />
+[12] (66,445)<a class='inline-flex items-center whitespace-nowrap rounded-xl text-sm font-bold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500/50 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 active:scale-95 hover:bg-white/5 hover:text-white border border-transparent hover:border-white/5 px-6 py-2 w-full justify-start gap-3 h-12 text-slate-400' href='/integrations'>Integrações />
+Pessoal
+[13] (66,571)<a class='inline-flex items-center whitespace-nowrap rounded-xl text-sm font-bold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500/50 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 active:scale-95 hover:bg-white/5 hover:text-white border border-transparent hover:border-white/5 px-6 py-2 w-full justify-start gap-3 text-slate-400 h-12' href='/favorites'>Favoritos />
+[14] (66,623)<a class='inline-flex items-center whitespace-nowrap rounded-xl text-sm font-bold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500/50 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 active:scale-95 hover:bg-white/5 hover:text-white border border-transparent hover:border-white/5 px-6 py-2 w-full justify-start gap-3 text-slate-400 h-12' href='/collections'>Coleções />
+[15] (66,973)<a class='flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium transition-all duration-300 group text-slate-400 hover:bg-white/5 hover:text-white border border-transparent hover:border-white/5' href='/settings'>Configurações />
+Catálogo de Agentes
+Explore a biblioteca neural de inteligência avançada
+[16] (304,282)<input class='w-full pl-12 pr-4 py-3.5 bg-white/5 border border-white/10 rounded-2xl text-sm text-white placeholder:text-slate-600 focus:outline-none focus:ring-1 focus:ring-white/20 focus:bg-white/[0.08] transition-all' placeholder='Buscar por nome, função ou tecnologia...' />
+[17] (490,282)<button class='inline-flex items-center justify-center gap-2 whitespace-nowrap font-bold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500/50 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 active:scale-95 hover:bg-white/5 hover:text-white hover:border-white/5 text-xs px-5 py-2.5 rounded-xl uppercase tracking-widest transition-all duration-300 border h-auto bg-white/5 text-slate-500 border-white/5'>Todos />
+[18] (565,282)<button class='inline-flex items-center justify-center gap-2 whitespace-nowrap font-bold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500/50 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 active:scale-95 hover:bg-white/5 hover:text-white hover:border-white/5 text-xs px-5 py-2.5 rounded-xl uppercase tracking-widest transition-all duration-300 border h-auto bg-white/5 text-slate-500 border-white/5'>Desenvolvimento />
+[19] (640,282)<button class='inline-flex items-center justify-center gap-2 whitespace-nowrap font-bold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500/50 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 active:scale-95 backdrop-blur-md hover:bg-white/10 hover:border-white/20 shadow-xl text-xs px-5 py-2.5 rounded-xl uppercase tracking-widest transition-all duration-300 border h-auto bg-sky-500/20 text-sky-400 border-sky-500/30 shadow-sky-500/10'>Dados />
+[20] (701,282)<button class='inline-flex items-center justify-center gap-2 whitespace-nowrap font-bold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500/50 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 active:scale-95 hover:bg-white/5 hover:text-white hover:border-white/5 text-xs px-5 py-2.5 rounded-xl uppercase tracking-widest transition-all duration-300 border h-auto bg-white/5 text-slate-500 border-white/5'>Marketing />
+[21] (766,282)<button class='inline-flex items-center justify-center gap-2 whitespace-nowrap font-bold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500/50 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 active:scale-95 hover:bg-white/5 hover:text-white hover:border-white/5 text-xs px-5 py-2.5 rounded-xl uppercase tracking-widest transition-all duration-300 border h-auto bg-white/5 text-slate-500 border-white/5'>Suporte />
+[22] (839,282)<button class='inline-flex items-center justify-center gap-2 whitespace-nowrap font-bold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500/50 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 active:scale-95 hover:bg-white/5 hover:text-white hover:border-white/5 text-xs px-5 py-2.5 rounded-xl uppercase tracking-widest transition-all duration-300 border h-auto bg-white/5 text-slate-500 border-white/5'>Produtividade />
+[23] (941,282)<button class='inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-xl text-sm font-bold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500/50 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 active:scale-95 bg-white/5 backdrop-blur-md border border-white/10 hover:bg-white/10 hover:border-white/20 shadow-xl h-10 w-10 transition-all text-white' />
+[24] (965,282)<button class='inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-xl text-sm font-bold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500/50 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 active:scale-95 hover:bg-white/5 hover:text-white border border-transparent hover:border-white/5 h-10 w-10 transition-all text-slate-600' />
+[25] (253,609)<div  />
+	[26] (186,396)<div  />
+		[27] (186,398)<span >Template />
+	[28] (331,407)<button class='inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-xl text-sm font-bold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500/50 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 active:scale-95 bg-white/5 backdrop-blur-md border border-white/10 text-white hover:bg-white/10 hover:border-white/20 shadow-xl h-11 w-11 absolute top-4 right-4 z-10 opacity-0 group-hover:opacity-100 transition-all duration-300' />
+	[29] (253,462)<div  />
+		[30] (253,462)<div  />
+			[31] (253,462)<div  />
+	[32] (253,706)<div  />
+		[33] (253,600)<div  />
+			[34] (212,600)<h3 >Analisador de Dados />
+		[35] (253,654)<p >Processa e analisa conjuntos de dados, gera insights e visualizações />
+		[36] (253,715)<div  />
+			[37] (180,715)<span >data />
+			[38] (220,715)<span >analytics />
+			[39] (264,715)<span >python />
+		[40] (253,790)<div  />
+			[41] (203,802)<div  />
+				[42] (185,802)<div >892
+USOS />
+					[43] (169,802)<span  />
+				[44] (226,802)<div >620
+MS />
+					[45] (213,802)<span  />
+			[46] (327,811)<button class='inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-xl text-sm font-bold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500/50 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 active:scale-95 bg-gradient-to-r from-brand-primary to-brand-secondary text-white shadow-lg hover:shadow-sky-500/40 hover:brightness-110 h-11 w-11 opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 shadow-sky-500/20' />
+
+</current_dom>

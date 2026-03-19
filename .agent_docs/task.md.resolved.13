@@ -1,0 +1,32 @@
+# Tarefa: Reformulação Estética Premium (Agent Hub UI/UX)
+
+## Desenvolvimento
+- [x] Definir Design System (Cores, Tipografia, Efeitos) no [globals.css](file:///c:/Users/LUKAS.WIDMER/Downloads/Claude%20code/agent-hub/src/app/globals.css)
+- [x] Refatorar Layout Principal (Header & Sidebar)
+- [x] Implementar Hero Section Dinâmico na Landing Page
+- [x] Estilizar Cards de Dashboard (Efeito Glassmorphism + Glow)
+- [x] Refatorar Interface de Chat (Workspace/Área de Conversa)
+- [x] Adicionar Micro-interações e Estados de Hover Refinados
+
+## Verificação
+- [x] Auditoria de UX/Acessibilidade (Scripts)
+- [x] Walkthrough Visual com Gravação
+
+## Fase 2: UI Kit & Refinamento (Figma Reference)
+- [x] Implementar Componente de Botão Universal (`cva`)
+- [x] Padronizar Espaçamento e Grids (Auto-layout principles)
+- [x] Atualizar todos os botões do sistema para o novo padrão
+- [x] Corrigir Erro de Hidratação (suppressHydrationWarning)
+
+## Fase 3: Avatares Tomodachi & Motion Graphics
+- [x] Refatorar Componente [AgentAvatar](file:///c:/Users/LUKAS.WIDMER/Downloads/Claude%20code/agent-hub/src/components/avatar/agent-avatar.tsx#38-157) para Suportar Imagens PNG
+- [x] Implementar Mapeamento de Skins para Ativos "Tomodachi"
+- [x] Adicionar Animações Premium (Motion Graphics)
+- [x] Atualizar Mock Data com os Novos Avatares
+- [x] Validar Visual e Interatividade Final
+
+## Fase 4: Diversificação & Detalhes (Avatares Coloridos)
+- [ ] Mapear Personagens "Ordinary" para Agentes Específicos
+- [ ] Atualizar `mockAgents` em Agentes e Dashboard
+- [ ] Garantir Consistência no Workspace
+- [ ] Validar Renderização e Performance dos Novos Ativos

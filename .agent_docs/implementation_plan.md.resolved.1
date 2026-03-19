@@ -1,0 +1,40 @@
+# Plano de Implementação - Novas Páginas e Tradução
+
+Este plano cobre a tradução completa do sistema para Português do Brasil e a implementação das páginas `/templates` (Modelos) e `/workspace` (Espaço de Trabalho), que estão atualmente vazias.
+
+## Mudanças Propostas
+
+### Internacionalização (Tradução)
+
+#### [MODIFICAR] [app/dashboard/page.tsx](file:///c:/Users/LUKAS.WIDMER/Downloads/Claude%20code/agent-hub/src/app/dashboard/page.tsx)
+- Traduzir `mockAgents` (nomes, descrições, categorias, logs).
+- Traduzir `statsCards` (rótulos e textos de variação).
+
+#### [MODIFICAR] [app/agents/page.tsx](file:///c:/Users/LUKAS.WIDMER/Downloads/Claude%20code/agent-hub/src/app/agents/page.tsx)
+- Traduzir `mockAgents` e categorias de filtro.
+
+#### [MODIFICAR] [components/layout/sidebar.tsx](file:///c:/Users/LUKAS.WIDMER/Downloads/Claude%20code/agent-hub/src/components/layout/sidebar.tsx)
+- Traduzir os nomes dos itens de menu (Agentes, Workspace, Templates, etc.).
+
+### Novas Funcionalidades
+
+#### [NOVO] [templates/page.tsx](file:///c:/Users/LUKAS.WIDMER/Downloads/Claude%20code/agent-hub/src/app/templates/page.tsx)
+- Criar o layout de grade usando `AgentGrid`.
+- Usar a lista traduzida de modelos.
+- Incluir barra de busca e filtros de categoria.
+
+#### [NOVO] [workspace/page.tsx](file:///c:/Users/LUKAS.WIDMER/Downloads/Claude%20code/agent-hub/src/app/workspace/page.tsx)
+- Implementar interface de chat interativa.
+- Barra lateral esquerda: Lista de agentes recentes ou conversas ativas.
+- Área principal: Histórico de mensagens rolável.
+- Campo de entrada de texto e botão "Enviar".
+
+## Plano de Verificação
+
+### Testes Automatizados
+- Não foram encontrados testes automatizados. O foco será na verificação manual da interface.
+
+### Verificação Manual
+1. Navegar por todas as páginas e verificar se todos os textos estão em PT/BR.
+2. Na página `/templates`, verificar a grade de modelos e o funcionamento dos filtros.
+3. Na página `/workspace`, testar o envio de mensagens e a renderização do avatar do agente.

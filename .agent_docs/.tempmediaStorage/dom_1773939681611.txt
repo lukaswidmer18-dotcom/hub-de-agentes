@@ -1,0 +1,227 @@
+Skip to content
+Navigation Menu
+[0] (25,40)<a aria-label='Homepage' class='tmp-mr-lg-3 color-fg-inherit flex-order-2 js-prevent-focus-on-mobile-nav' href='/' />
+[1] (67,40)<button class='NavDropdown-module__button__PEHWX js-details-target'>Platform />
+[2] (118,40)<button class='NavDropdown-module__button__PEHWX js-details-target'>Solutions />
+[3] (172,40)<button class='NavDropdown-module__button__PEHWX js-details-target'>Resources />
+[4] (233,40)<button class='NavDropdown-module__button__PEHWX js-details-target'>Open Source />
+[5] (294,40)<button class='NavDropdown-module__button__PEHWX js-details-target'>Enterprise />
+[6] (339,40)<a class='NavLink-module__link__EG3d4 MarketingNavigation-module__navLink__hUomM' href='https://github.com/pricing' />
+	[7] (339,40)<span >Pricing />
+[8] (792,40)<button aria-label='Search or jump to…' class='header-search-button placeholder input-button form-control d-flex flex-1 flex-self-stretch flex-items-center no-wrap width-full py-0 pl-2 pr-0 text-left border-0 box-shadow-none' placeholder='Search or jump to...' />
+	[9] (718,40)<div  />
+	[10] (792,40)<span >Search or jump to... />
+	[11] (868,40)<div  />
+[12] (899,40)<a class='HeaderMenu-link HeaderMenu-link--sign-in HeaderMenu-button flex-shrink-0 no-underline d-none d-lg-inline-flex border border-lg-0 rounded px-2 py-1' href='/login?return_to=https%3A%2F%2Fgithub.com%2Flukaswidmer18-dotcom%2Fhub-de-agentes%2Ftree%2Fmain'>Sign in />
+[13] (941,40)<a class='HeaderMenu-link HeaderMenu-link--sign-up HeaderMenu-button flex-shrink-0 d-flex d-lg-inline-flex no-underline border color-border-default rounded px-2 py-1' href='/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Ffiles%2Fdisambiguate&source=header-repo&source_repo=lukaswidmer18-dotcom%2Fhub-de-agentes'>Sign up />
+[14] (975,40)<button class='Button Button--iconOnly Button--invisible Button--medium AppHeader-button HeaderMenu-link border' id='icon-button-8a0c865c-74f8-4663-b886-83390c1ef78d' />
+[15] (83,113)<a class='url fn' href='/lukaswidmer18-dotcom'>lukaswidmer18-dotcom />
+/
+[16] (184,113)<a href='/lukaswidmer18-dotcom/hub-de-agentes'>hub-de-agentes />
+Public
+[17] (839,112)<a aria-label='You must be signed in to change notification settings' class='btn-sm btn' href='/login?return_to=%2Flukaswidmer18-dotcom%2Fhub-de-agentes' id='repository-details-watch-button'>Notifications />
+[18] (901,112)<a class='btn-sm btn' href='/login?return_to=%2Flukaswidmer18-dotcom%2Fhub-de-agentes' id='fork-button'>Fork />
+	[19] (915,112)<span >0 />
+[20] (957,112)<a aria-label='You must be signed in to star a repository' class='tooltipped tooltipped-sw btn-sm btn' href='/login?return_to=%2Flukaswidmer18-dotcom%2Fhub-de-agentes' />
+	[21] (958,112)<span >Star />
+	[22] (971,112)<span >0 />
+[23] (36,173)<a class='UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item selected' href='/lukaswidmer18-dotcom/hub-de-agentes/tree/main' id='code-tab' />
+	[24] (42,173)<span >Code />
+[25] (79,173)<a class='UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item' href='/lukaswidmer18-dotcom/hub-de-agentes/issues' id='issues-tab' />
+	[26] (85,173)<span >Issues />
+[27] (135,173)<a class='UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item' href='/lukaswidmer18-dotcom/hub-de-agentes/pulls' id='pull-requests-tab' />
+	[28] (141,173)<span >Pull requests />
+[29] (194,173)<a class='UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item' href='/lukaswidmer18-dotcom/hub-de-agentes/actions' id='actions-tab' />
+	[30] (200,173)<span >Actions />
+[31] (244,173)<a class='UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item' href='/lukaswidmer18-dotcom/hub-de-agentes/projects' id='projects-tab' />
+	[32] (250,173)<span >Projects />
+[33] (295,173)<a class='UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item' href='/lukaswidmer18-dotcom/hub-de-agentes/security' id='security-tab' />
+	[34] (302,173)<span >Security />
+[35] (346,173)<a class='UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item' href='/lukaswidmer18-dotcom/hub-de-agentes/pulse' id='insights-tab' />
+	[36] (353,173)<span >Insights />
+[37] (17,235)<button class='prc-Button-ButtonBase-9n-Xk position-relative ExpandFileTreeButton-module__expandButton__hDOcv fgColor-muted prc-Button-IconButton-fyge7' />
+Files
+[38] (81,288)<button aria-label='main branch' class='prc-Button-ButtonBase-9n-Xk react-repos-tree-pane-ref-selector width-full ref-selector-class RefSelectorAnchoredOverlay-module__RefSelectorOverlayBtn__a3WK3' id='ref-picker-repos-header-ref-selector' />
+	[39] (81,288)<span  />
+		[40] (75,288)<span  />
+			[41] (75,288)<div  />
+				[42] (35,288)<div  />
+				[43] (51,288)<div  />
+					[44] (51,288)<span >main />
+[45] (150,288)<button class='prc-Button-ButtonBase-9n-Xk SearchButton-module__IconButton__SBlqu prc-Button-IconButton-fyge7' />
+[46] (83,332)<span  />
+	[47] (17,332)<span  />
+	[48] (88,332)<input aria-label='Go to file' class='prc-components-Input-IwWrt' placeholder='Go to file' role='combobox' />
+[49] (79,579)<div  />
+	[50] (79,380)<li class='PRIVATE_TreeView-item prc-TreeView-TreeViewItem-Ter5f' id='.agent-item' role='treeitem' />
+		[51] (79,380)<div  />
+			[52] (13,380)<div  />
+			[53] (84,380)<div  />
+				[54] (25,380)<div  />
+					[55] (25,380)<div  />
+				[56] (90,380)<span  />
+					[57] (43,380)<span >.agent />
+	[58] (79,574)<li class='PRIVATE_TreeView-item prc-TreeView-TreeViewItem-Ter5f' id='agent-hub-item' role='treeitem' />
+		[59] (79,415)<div  />
+			[60] (13,415)<div  />
+			[61] (84,415)<div  />
+				[62] (25,415)<div  />
+					[63] (25,415)<div  />
+				[64] (90,415)<span  />
+					[65] (50,415)<span >agent-hub />
+		[66] (79,451)<li class='PRIVATE_TreeView-item prc-TreeView-TreeViewItem-Ter5f' id='agent-hub/src-item' role='treeitem' />
+			[67] (79,451)<div  />
+				[68] (10,451)<div  />
+					[69] (10,451)<div  />
+						[70] (10,451)<div  />
+				[71] (17,451)<div  />
+				[72] (86,451)<div  />
+					[73] (29,450)<div  />
+						[74] (29,450)<div  />
+					[75] (92,451)<span  />
+						[76] (42,451)<span >src />
+		[77] (79,486)<li class='PRIVATE_TreeView-item prc-TreeView-TreeViewItem-Ter5f' id='agent-hub/.gitignore-item' role='treeitem' />
+			[78] (79,486)<div  />
+				[79] (10,486)<div  />
+					[80] (10,486)<div  />
+						[81] (10,486)<div  />
+				[82] (86,486)<div  />
+					[83] (29,486)<div  />
+					[84] (92,486)<span  />
+						[85] (53,486)<span >.gitignore />
+		[86] (79,521)<li class='PRIVATE_TreeView-item prc-TreeView-TreeViewItem-Ter5f' id='agent-hub/README.md-item' role='treeitem' />
+			[87] (79,521)<div  />
+				[88] (10,521)<div  />
+					[89] (10,521)<div  />
+						[90] (10,521)<div  />
+				[91] (86,521)<div  />
+					[92] (29,521)<div  />
+					[93] (92,521)<span  />
+						[94] (58,521)<span >README.md />
+		[95] (79,557)<li class='PRIVATE_TreeView-item prc-TreeView-TreeViewItem-Ter5f' id='agent-hub/next.config.js-item' role='treeitem' />
+			[96] (79,557)<div  />
+				[97] (10,557)<div  />
+					[98] (10,557)<div  />
+						[99] (10,557)<div  />
+				[100] (86,557)<div  />
+					[101] (29,556)<div  />
+					[102] (92,557)<span  />
+						[103] (58,557)<span >next.config.js />
+		[104] (79,592)<li class='PRIVATE_TreeView-item prc-TreeView-TreeViewItem-Ter5f' id='agent-hub/package-lock.json-item' role='treeitem' />
+			[105] (79,592)<div  />
+				[106] (10,592)<div  />
+					[107] (10,592)<div  />
+						[108] (10,592)<div  />
+				[109] (86,592)<div  />
+					[110] (29,592)<div  />
+					[111] (92,592)<span  />
+						[112] (66,592)<span >package-lock.json />
+		[113] (79,627)<li class='PRIVATE_TreeView-item prc-TreeView-TreeViewItem-Ter5f' id='agent-hub/package.json-item' role='treeitem' />
+			[114] (79,627)<div  />
+				[115] (10,627)<div  />
+					[116] (10,627)<div  />
+						[117] (10,627)<div  />
+				[118] (86,627)<div  />
+					[119] (29,627)<div  />
+					[120] (92,627)<span  />
+						[121] (58,627)<span >package.json />
+		[122] (79,663)<li class='PRIVATE_TreeView-item prc-TreeView-TreeViewItem-Ter5f' id='agent-hub/postcss.config.js-item' role='treeitem' />
+			[123] (79,663)<div  />
+				[124] (10,663)<div  />
+					[125] (10,663)<div  />
+						[126] (10,663)<div  />
+				[127] (86,663)<div  />
+					[128] (29,662)<div  />
+					[129] (92,663)<span  />
+						[130] (63,663)<span >postcss.config.js />
+		[131] (79,698)<li class='PRIVATE_TreeView-item prc-TreeView-TreeViewItem-Ter5f' id='agent-hub/tailwind.config.js-item' role='treeitem' />
+			[132] (79,698)<div  />
+				[133] (10,698)<div  />
+					[134] (10,698)<div  />
+						[135] (10,698)<div  />
+				[136] (86,698)<div  />
+					[137] (29,698)<div  />
+					[138] (92,698)<span  />
+						[139] (64,698)<span >tailwind.config.js />
+		[140] (79,733)<li class='PRIVATE_TreeView-item prc-TreeView-TreeViewItem-Ter5f' id='agent-hub/tsconfig.json-item' role='treeitem' />
+			[141] (79,733)<div  />
+				[142] (10,733)<div  />
+					[143] (10,733)<div  />
+						[144] (10,733)<div  />
+				[145] (86,733)<div  />
+					[146] (29,733)<div  />
+					[147] (92,733)<span  />
+						[148] (58,733)<span >tsconfig.json />
+	[149] (79,769)<li class='PRIVATE_TreeView-item prc-TreeView-TreeViewItem-Ter5f' id='.gitignore-item' role='treeitem' />
+		[150] (79,769)<div  />
+			[151] (84,769)<div  />
+				[152] (25,768)<div  />
+				[153] (90,769)<span  />
+					[154] (49,769)<span >.gitignore />
+[155] (167,700)<div aria-label='Draggable pane splitter' class='prc-PageLayout-DraggableHandle-9s6B4' role='slider' />
+Breadcrumbs
+[156] (206,234)<a class='Breadcrumb-module__repoLink__O2Nbs prc-Link-Link-9ZwDx' href='/lukaswidmer18-dotcom/hub-de-agentes/tree/main'>hub-de-agentes />
+/
+agent-hub
+/
+[157] (310,235)<button class='prc-Button-ButtonBase-9n-Xk ml-2 prc-Button-IconButton-fyge7' />
+Directory actions
+More options
+[158] (983,235)<button class='prc-Button-ButtonBase-9n-Xk CodeViewHeader-module__IconButton__PYSHU prc-Button-IconButton-fyge7' id='_r_19_' title='More options' />
+Latest commit
+[159] (190,295)<a class='Link__StyledLink-sc-1syctfj-0 prc-Link-Link-9ZwDx' href='/lukaswidmer18-dotcom' />
+	[160] (188,296)<img  />
+[161] (236,295)<a aria-label='commits by lukaswidmer18-dotcom' class='Link__StyledLink-sc-1syctfj-0 iIGVMW AuthorAvatar-module__authorHoverableLink__MHTT8 prc-Link-Link-9ZwDx' href='/lukaswidmer18-dotcom/hub-de-agentes/commits?author=lukaswidmer18-dotcom'>lukaswidmer18-dotcom />
+[162] (382,295)<a class='Link--secondary' href='/lukaswidmer18-dotcom/hub-de-agentes/commit/7a89c7c5deea66f93d1cdb5fdaac2d3cc880b3c0'>feat: salvando todo o conteúdo da pasta Claude code no GitHub />
+[163] (890,295)<a aria-label='Commit 7a89c7c' class='Link--secondary prc-Link-Link-9ZwDx' href='/lukaswidmer18-dotcom/hub-de-agentes/commit/7a89c7c5deea66f93d1cdb5fdaac2d3cc880b3c0'>7a89c7c />
+·
+History
+[164] (967,295)<a class='prc-Button-ButtonBase-9n-Xk d-none d-lg-flex LinkButton-module__linkButton__nFnov flex-items-center fgColor-default' href='/lukaswidmer18-dotcom/hub-de-agentes/commits/main/agent-hub' />
+	[165] (967,295)<span  />
+		[166] (972,295)<span  />
+			[167] (972,294)<span >History />
+This branch is
+[168] (260,364)<a class='prc-Link-Link-9ZwDx' href='/lukaswidmer18-dotcom/hub-de-agentes/compare/master...main'>1 commit
+ahead of />
+and
+[169] (336,364)<a class='prc-Link-Link-9ZwDx' href='/lukaswidmer18-dotcom/hub-de-agentes/compare/main...master'>2 commits
+behind />
+master
+.
+Folders and files
+Name
+Last commit message
+Last commit date
+[170] (584,477)<tr  />
+	parent directory
+	[171] (584,478)<a aria-label='Parent directory' class='DirectoryRow-module__PrimerLink__COEaW prc-Link-Link-9ZwDx' href='/lukaswidmer18-dotcom/hub-de-agentes/tree/main' />
+		[172] (584,478)<div >.. />
+[173] (584,522)<tr  />
+	[174] (202,523)<a aria-label='src, (Directory)' class='Link--primary' href='/lukaswidmer18-dotcom/hub-de-agentes/tree/main/agent-hub/src' title='src'>src />
+	[175] (614,523)<a class='Link--secondary' href='/lukaswidmer18-dotcom/hub-de-agentes/commit/7a89c7c5deea66f93d1cdb5fdaac2d3cc880b3c0' title='feat: salvando todo o conteúdo da pasta Claude code no GitHub'>feat: salvando todo o conteúdo da pasta Claude code no GitHub />
+[176] (584,567)<tr  />
+	[177] (213,568)<a aria-label='.gitignore, (File)' class='Link--primary' href='/lukaswidmer18-dotcom/hub-de-agentes/blob/main/agent-hub/.gitignore' title='.gitignore'>.gitignore />
+	[178] (614,568)<a class='Link--secondary' href='/lukaswidmer18-dotcom/hub-de-agentes/commit/7a89c7c5deea66f93d1cdb5fdaac2d3cc880b3c0' title='feat: salvando todo o conteúdo da pasta Claude code no GitHub'>feat: salvando todo o conteúdo da pasta Claude code no GitHub />
+[179] (584,612)<tr  />
+	[180] (218,613)<a aria-label='README.md, (File)' class='Link--primary' href='/lukaswidmer18-dotcom/hub-de-agentes/blob/main/agent-hub/README.md' title='README.md'>README.md />
+	[181] (614,613)<a class='Link--secondary' href='/lukaswidmer18-dotcom/hub-de-agentes/commit/7a89c7c5deea66f93d1cdb5fdaac2d3cc880b3c0' title='feat: salvando todo o conteúdo da pasta Claude code no GitHub'>feat: salvando todo o conteúdo da pasta Claude code no GitHub />
+[182] (584,657)<tr  />
+	[183] (219,658)<a aria-label='next.config.js, (File)' class='Link--primary' href='/lukaswidmer18-dotcom/hub-de-agentes/blob/main/agent-hub/next.config.js' title='next.config.js'>next.config.js />
+	[184] (614,658)<a class='Link--secondary' href='/lukaswidmer18-dotcom/hub-de-agentes/commit/7a89c7c5deea66f93d1cdb5fdaac2d3cc880b3c0' title='feat: salvando todo o conteúdo da pasta Claude code no GitHub'>feat: salvando todo o conteúdo da pasta Claude code no GitHub />
+[185] (584,702)<tr  />
+	[186] (227,703)<a aria-label='package-lock.json, (File)' class='Link--primary' href='/lukaswidmer18-dotcom/hub-de-agentes/blob/main/agent-hub/package-lock.json' title='package-lock.json'>package-lock.json />
+	[187] (614,703)<a class='Link--secondary' href='/lukaswidmer18-dotcom/hub-de-agentes/commit/7a89c7c5deea66f93d1cdb5fdaac2d3cc880b3c0' title='feat: salvando todo o conteúdo da pasta Claude code no GitHub'>feat: salvando todo o conteúdo da pasta Claude code no GitHub />
+[188] (584,747)<tr  />
+	[189] (219,748)<a aria-label='package.json, (File)' class='Link--primary' href='/lukaswidmer18-dotcom/hub-de-agentes/blob/main/agent-hub/package.json' title='package.json'>package.json />
+	[190] (614,748)<a class='Link--secondary' href='/lukaswidmer18-dotcom/hub-de-agentes/commit/7a89c7c5deea66f93d1cdb5fdaac2d3cc880b3c0' title='feat: salvando todo o conteúdo da pasta Claude code no GitHub'>feat: salvando todo o conteúdo da pasta Claude code no GitHub />
+[191] (584,792)<tr  />
+	[192] (224,793)<a aria-label='postcss.config.js, (File)' class='Link--primary' href='/lukaswidmer18-dotcom/hub-de-agentes/blob/main/agent-hub/postcss.config.js' title='postcss.config.js'>postcss.config.js />
+	[193] (614,793)<a class='Link--secondary' href='/lukaswidmer18-dotcom/hub-de-agentes/commit/7a89c7c5deea66f93d1cdb5fdaac2d3cc880b3c0' title='feat: salvando todo o conteúdo da pasta Claude code no GitHub'>feat: salvando todo o conteúdo da pasta Claude code no GitHub />
+[194] (584,837)<tr  />
+	[195] (225,838)<a aria-label='tailwind.config.js, (File)' class='Link--primary' href='/lukaswidmer18-dotcom/hub-de-agentes/blob/main/agent-hub/tailwind.config.js' title='tailwind.config.js'>tailwind.config.js />
+	[196] (614,838)<a class='Link--secondary' href='/lukaswidmer18-dotcom/hub-de-agentes/commit/7a89c7c5deea66f93d1cdb5fdaac2d3cc880b3c0' title='feat: salvando todo o conteúdo da pasta Claude code no GitHub'>feat: salvando todo o conteúdo da pasta Claude code no GitHub />
+[197] (584,882)<tr  />
+	[198] (218,883)<a aria-label='tsconfig.json, (File)' class='Link--primary' href='/lukaswidmer18-dotcom/hub-de-agentes/blob/main/agent-hub/tsconfig.json' title='tsconfig.json'>tsconfig.json />
+	[199] (614,883)<a class='Link--secondary' href='/lukaswidmer18-dotcom/hub-de-agentes/commit/7a89c7c5deea66f93d1cdb5fdaac2d3cc880b3c0' title='feat: salvando todo o conteúdo da pasta Claude code no GitHub'>feat: salvando todo o conteúdo da pasta Claude code no GitHub />
+[200] (203,948)<a class='DirectoryReadmePreview-module__readmeLink__JEGBK prc-Link-Link-9ZwDx' href='#readme'>README.md />
+[201] (980,948)<button class='prc-Button-ButtonBase-9n-Xk TableOfContents-module__IconButton__jrlNM prc-Button-IconButton-fyge7' />
