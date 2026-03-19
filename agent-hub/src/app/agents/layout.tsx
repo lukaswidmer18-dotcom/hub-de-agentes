@@ -7,7 +7,7 @@ export default function AgentsLayout({
   children: React.ReactNode
 }) {
   return (
-    <div className="min-h-screen bg-neutral-100">
+    <div className="min-h-screen bg-slate-950">
       <Header />
       <div className="flex">
         <Sidebar />

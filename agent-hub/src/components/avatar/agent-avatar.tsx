@@ -1,142 +1,71 @@
 'use client'
 
-import { motion, useMotionValue, useTransform, useSpring } from 'framer-motion'
+import { motion, useMotionValue, useTransform, useSpring, AnimatePresence } from 'framer-motion'
 import { useRef, useState } from 'react'
 import { cn } from '@/lib/utils'
-import { useReducedMotion } from '@/hooks/use-reduced-motion'
+import Image from 'next/image'
 
 interface AgentAvatarProps {
   size?: 'sm' | 'md' | 'lg' | 'xl'
-  color?: string
-  skin?: 'default' | 'blue' | 'purple' | 'green' | 'orange'
+  type?: 'vector' | 'image'
+  skin?: string
+  state?: 'idle' | 'listening' | 'thinking' | 'speaking'
   isAnimated?: boolean
   isInteractive?: boolean
-  state?: 'idle' | 'listening' | 'thinking' | 'speaking'
   className?: string
+  imageUrl?: string
+  characterType?: 'general' | 'ordinary'
 }
 
 const sizeMap = {
-  sm: { width: 64, height: 80 },
-  md: { width: 96, height: 120 },
-  lg: { width: 144, height: 180 },
-  xl: { width: 200, height: 250 },
+  sm: { width: 48, height: 48 },
+  md: { width: 80, height: 80 },
+  lg: { width: 160, height: 160 },
+  xl: { width: 240, height: 240 },
 }
 
-const colorMap = {
-  default: { primary: '#1F6FEB', secondary: '#2FD2C9' },
-  blue: { primary: '#1F6FEB', secondary: '#4B8FF7' },
-  purple: { primary: '#7C3AED', secondary: '#A78BFA' },
-  green: { primary: '#10B981', secondary: '#34D399' },
-  orange: { primary: '#F59E0B', secondary: '#FBBF24' },
+// Mapeamento de skins para arquivos General Character
+const generalCharacterMap: Record<string, string> = {
+  'default': 'General Character.png',
+  'blue': 'General Character - Blue.png',
+  'green': 'General Character - Green.png',
+  'pink': 'General Character - Pink.png',
+  'purple': 'General Character - Purple.png',
+  'red': 'General Character - Red.png',
+  'yellow': 'General Character - Yellow.png',
 }
 
 export function AgentAvatar({
   size = 'md',
-  color = 'default',
+  type = 'image',
   skin = 'default',
+  state = 'idle',
   isAnimated = true,
   isInteractive = true,
-  state = 'idle',
   className,
+  imageUrl,
+  characterType = 'general'
 }: AgentAvatarProps) {
   const containerRef = useRef<HTMLDivElement>(null)
   const [isHovered, setIsHovered] = useState(false)
-  const prefersReducedMotion = useReducedMotion()
-
-  // Respeita preferência de acessibilidade
-  const shouldAnimate = isAnimated && !prefersReducedMotion
-  const shouldBeInteractive = isInteractive && !prefersReducedMotion
 
   const mouseX = useMotionValue(0)
   const mouseY = useMotionValue(0)
 
-  // Suavização do movimento para seguir o cursor
-  const springConfig = { stiffness: 150, damping: 15 }
-  const rotateX = useSpring(useTransform(mouseY, [-0.5, 0.5], [6, -6]), springConfig)
-  const rotateY = useSpring(useTransform(mouseX, [-0.5, 0.5], [-6, 6]), springConfig)
-  const translateX = useSpring(useTransform(mouseX, [-0.5, 0.5], [-4, 4]), springConfig)
+  // Suavização do movimento 3D premium
+  const springConfig = { stiffness: 100, damping: 20 }
+  const rotateX = useSpring(useTransform(mouseY, [-0.5, 0.5], [15, -15]), springConfig)
+  const rotateY = useSpring(useTransform(mouseX, [-0.5, 0.5], [-15, 15]), springConfig)
+  const shadowX = useTransform(mouseX, [-0.5, 0.5], [10, -10])
+  const shadowY = useTransform(mouseY, [-0.5, 0.5], [10, -10])
 
-  const colors = colorMap[skin]
   const dimensions = sizeMap[size]
 
-  // Animação de respiração (idle)
-  const breatheVariants = {
-    idle: {
-      scaleY: [1, 1.012, 1],
-      y: [0, -1.5, 0],
-      transition: {
-        duration: 3.2,
-        ease: 'easeInOut' as const,
-        repeat: Infinity,
-        repeatType: 'loop' as const,
-      },
-    },
-    listening: {
-      scaleY: [1, 1.02, 1],
-      y: [0, -2, 0],
-      transition: {
-        duration: 1.5,
-        ease: 'easeInOut' as const,
-        repeat: Infinity,
-      },
-    },
-    thinking: {
-      scaleY: [1, 1.008, 1],
-      y: [0, -1, 0],
-      transition: {
-        duration: 0.8,
-        ease: 'easeInOut' as const,
-        repeat: Infinity,
-      },
-    },
-    speaking: {
-      scaleY: [1, 1.015, 1],
-      y: [0, -2, 0],
-      transition: {
-        duration: 0.4,
-        ease: 'easeInOut' as const,
-        repeat: Infinity,
-      },
-    },
-  }
-
-  // Animação dos olhos (piscar)
-  const eyeVariants = {
-    idle: {
-      scaleY: [1, 1, 0.1, 1, 1],
-      transition: {
-        duration: 4,
-        times: [0, 0.9, 0.95, 0.98, 1],
-        repeat: Infinity,
-        repeatDelay: 1,
-      },
-    },
-    listening: {
-      scaleY: 1,
-    },
-    thinking: {
-      scaleY: [1, 0.8, 1],
-      transition: {
-        duration: 0.5,
-        repeat: Infinity,
-      },
-    },
-    speaking: {
-      scaleY: [1, 0.9, 1],
-      transition: {
-        duration: 0.2,
-        repeat: Infinity,
-      },
-    },
-  }
-
   const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
-    if (!shouldBeInteractive || !containerRef.current) return
-
+    if (!isInteractive || !containerRef.current) return
     const rect = containerRef.current.getBoundingClientRect()
     const x = (e.clientX - rect.left) / rect.width - 0.5
     const y = (e.clientY - rect.top) / rect.height - 0.5
-
     mouseX.set(x)
     mouseY.set(y)
   }
@@ -147,158 +76,81 @@ export function AgentAvatar({
     setIsHovered(false)
   }
 
+  // Determinar a fonte da imagem
+  const getAvatarPath = () => {
+    if (imageUrl) return imageUrl
+    if (characterType === 'general') {
+      const fileName = generalCharacterMap[skin.toLowerCase()] || 'General Character.png'
+      return `/avatars/tomodachi/general/${fileName}`
+    }
+    return imageUrl || `/avatars/tomodachi/general/General Character.png`
+  }
+
+  const avatarSrc = getAvatarPath()
+
   return (
-    <motion.div
+    <div 
       ref={containerRef}
-      className={cn('relative cursor-pointer', className)}
+      className={cn('relative perspective-1000', className)}
       style={{ width: dimensions.width, height: dimensions.height }}
       onMouseMove={handleMouseMove}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={handleMouseLeave}
-      whileHover={shouldBeInteractive ? { scale: 1.02 } : undefined}
-      transition={{ duration: 0.2 }}
     >
-      <motion.svg
-        width={dimensions.width}
-        height={dimensions.height}
-        viewBox="0 0 100 125"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
+      <motion.div
+        className="relative w-full h-full flex items-center justify-center p-2"
         style={{
-          rotateX: shouldBeInteractive ? rotateX : 0,
-          rotateY: shouldBeInteractive ? rotateY : 0,
-          transformPerspective: 500,
+          rotateX: isInteractive ? rotateX : 0,
+          rotateY: isInteractive ? rotateY : 0,
+          transformStyle: 'preserve-3d',
         }}
+        initial={isAnimated ? { scale: 0.8, opacity: 0 } : false}
+        animate={isAnimated ? { scale: 1, opacity: 1 } : false}
+        whileHover={isInteractive ? { scale: 1.05 } : undefined}
       >
-        {/* Corpo/Busto */}
-        <motion.g
-          variants={breatheVariants}
-          animate={shouldAnimate ? state : undefined}
-          initial="idle"
-        >
-          {/* Forma principal do corpo */}
-          <path
-            d="M50 35C65 35 75 45 78 60C80 75 75 90 65 100C60 105 55 108 50 108C45 108 40 105 35 100C25 90 20 75 22 60C25 45 35 35 50 35Z"
-            fill={colors.primary}
-          />
+        {/* Glow de Background Neural */}
+        <div className="absolute inset-0 bg-sky-500/10 blur-3xl rounded-full opacity-50 group-hover:opacity-100 transition-opacity" />
 
-          {/* Destaque/Brilho no corpo */}
-          <path
-            d="M50 40C60 40 68 48 70 60C71 70 68 82 60 90"
-            stroke={colors.secondary}
-            strokeWidth="2"
-            strokeLinecap="round"
-            opacity="0.6"
-          />
-
-          {/* Cabeça/Área facial */}
-          <motion.g
-            style={{ x: shouldBeInteractive ? translateX : 0 }}
-          >
-            {/* Olhos */}
-            <motion.g variants={eyeVariants} animate={shouldAnimate ? state : undefined}>
-              {/* Olho esquerdo */}
-              <ellipse
-                cx="38"
-                cy="58"
-                rx="5"
-                ry="6"
-                fill="white"
-              />
-              <circle
-                cx="38"
-                cy="58"
-                r="2.5"
-                fill={colors.secondary}
-              />
-
-              {/* Olho direito */}
-              <ellipse
-                cx="62"
-                cy="58"
-                rx="5"
-                ry="6"
-                fill="white"
-              />
-              <circle
-                cx="62"
-                cy="58"
-                r="2.5"
-                fill={colors.secondary}
-              />
-            </motion.g>
-
-            {/* Boca - muda conforme o estado */}
-            <motion.path
-              d={state === 'speaking' ? 'M42 75Q50 82 58 75' : 'M45 75Q50 78 55 75'}
-              stroke="white"
-              strokeWidth="2"
-              strokeLinecap="round"
-              fill="none"
-              animate={state === 'speaking' ? {
-                d: ['M42 75Q50 82 58 75', 'M42 75Q50 85 58 75', 'M42 75Q50 82 58 75'],
-              } : {}}
-              transition={{ duration: 0.3, repeat: Infinity }}
-            />
-
-            {/* Bochechas */}
-            <circle cx="32" cy="68" r="4" fill={colors.secondary} opacity="0.3" />
-            <circle cx="68" cy="68" r="4" fill={colors.secondary} opacity="0.3" />
-          </motion.g>
-
-          {/* Antenas/Detalhes superiores */}
-          <motion.g
-            animate={shouldAnimate ? {
-              rotate: [-2, 2, -2],
-              transition: { duration: 4, repeat: Infinity, ease: 'easeInOut' },
-            } : {}}
-            style={{ originX: '50px', originY: '40px' }}
-          >
-            <line x1="35" y1="40" x2="30" y2="25" stroke={colors.primary} strokeWidth="3" strokeLinecap="round" />
-            <circle cx="30" cy="25" r="4" fill={colors.secondary} />
-            <line x1="65" y1="40" x2="70" y2="25" stroke={colors.primary} strokeWidth="3" strokeLinecap="round" />
-            <circle cx="70" cy="25" r="4" fill={colors.secondary} />
-          </motion.g>
-        </motion.g>
-
-        {/* Indicador de estado (pensando) */}
-        {state === 'thinking' && (
-          <motion.g
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0 }}
-          >
-            <circle cx="85" cy="30" r="3" fill={colors.secondary} />
-            <motion.circle
-              cx="92" cy="25"
-              r="2"
-              fill={colors.secondary}
-              animate={{ opacity: [0.3, 1, 0.3] }}
-              transition={{ duration: 1, repeat: Infinity }}
-            />
-            <motion.circle
-              cx="97" cy="20"
-              r="1.5"
-              fill={colors.secondary}
-              animate={{ opacity: [0.3, 1, 0.3] }}
-              transition={{ duration: 1, repeat: Infinity, delay: 0.2 }}
-            />
-          </motion.g>
-        )}
-      </motion.svg>
-
-      {/* Efeito de hover */}
-      {isHovered && shouldBeInteractive && (
+        {/* Imagem do Avatar com Motion */}
         <motion.div
-          className="absolute inset-0 rounded-full"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
+          className="relative z-10 w-full h-full"
+          animate={isAnimated ? {
+            y: [-4, 4, -4],
+            transition: {
+              duration: 4,
+              repeat: Infinity,
+              ease: "easeInOut"
+            }
+          } : {}}
+          style={{ z: 50 }}
+        >
+          <Image
+            src={avatarSrc}
+            alt="Agent Avatar"
+            fill
+            className="object-contain drop-shadow-2xl"
+            priority
+          />
+        </motion.div>
+
+        {/* Reflexo Dinâmico / Overlay Glasses */}
+        <motion.div
+          className="absolute inset-0 z-20 pointer-events-none rounded-2xl overflow-hidden opacity-0 group-hover:opacity-100 transition-opacity"
           style={{
-            background: `radial-gradient(circle at center, ${colors.secondary}20 0%, transparent 70%)`,
+            background: 'linear-gradient(135deg, rgba(255,255,255,0.05) 0%, transparent 50%, rgba(255,255,255,0.05) 100%)',
           }}
         />
-      )}
-    </motion.div>
+      </motion.div>
+
+      {/* Sombra Neural */}
+      <motion.div
+        className="absolute -bottom-4 left-1/2 -track-x-1/2 w-1/2 h-2 bg-black/40 blur-md rounded-full"
+        style={{
+          x: shadowX,
+          opacity: isHovered ? 0.3 : 0.2,
+          scale: isHovered ? 1.1 : 1,
+        }}
+      />
+    </div>
   )
 }

@@ -5,6 +5,8 @@ import { AgentGrid, AgentGridSkeleton } from '@/components/avatar'
 import { Agent } from '@/types'
 import { useState, useEffect } from 'react'
 import { Search, Filter, Grid, List } from 'lucide-react'
+import { cn } from '@/lib/utils'
+import { Button } from '@/components/ui/button'
 
 // Dados mockados expandidos
 const mockAgents: Agent[] = [
@@ -34,9 +36,11 @@ const mockAgents: Agent[] = [
       successRate: 98.5,
     },
     avatar: {
-      skin: 'default',
+      type: 'image',
+      skin: 'blue',
       color: '#1F6FEB',
       animationStyle: 'standard',
+      characterType: 'general'
     },
   },
   {
@@ -65,9 +69,12 @@ const mockAgents: Agent[] = [
       successRate: 96.2,
     },
     avatar: {
+      type: 'image',
       skin: 'purple',
-      color: '#7C3AED',
-      animationStyle: 'expressive',
+      color: '#D946EF',
+      animationStyle: 'refined',
+      characterType: 'ordinary',
+      imageUrl: '/avatars/tomodachi/ordinary/1 - Ordinary Female - Neutral - White.png'
     },
   },
   {
@@ -96,9 +103,12 @@ const mockAgents: Agent[] = [
       successRate: 99.1,
     },
     avatar: {
-      skin: 'orange',
+      type: 'image',
+      skin: 'custom',
       color: '#F59E0B',
       animationStyle: 'expressive',
+      characterType: 'ordinary',
+      imageUrl: '/avatars/tomodachi/ordinary/1 - Ordinary Female - Happy - Black.png'
     },
   },
   {
@@ -127,9 +137,12 @@ const mockAgents: Agent[] = [
       successRate: 97.8,
     },
     avatar: {
+      type: 'image',
       skin: 'green',
       color: '#10B981',
-      animationStyle: 'standard',
+      animationStyle: 'steady',
+      characterType: 'ordinary',
+      imageUrl: '/avatars/tomodachi/ordinary/4 - Ordinary Female - Neutral - White.png'
     },
   },
   {
@@ -158,9 +171,12 @@ const mockAgents: Agent[] = [
       successRate: 95.5,
     },
     avatar: {
+      type: 'image',
       skin: 'blue',
       color: '#3B82F6',
-      animationStyle: 'minimal',
+      animationStyle: 'professional',
+      characterType: 'ordinary',
+      imageUrl: '/avatars/tomodachi/ordinary/1 - Ordinary Male - Neutral - Black.png'
     },
   },
   {
@@ -189,9 +205,12 @@ const mockAgents: Agent[] = [
       successRate: 98.8,
     },
     avatar: {
+      type: 'image',
       skin: 'purple',
       color: '#8B5CF6',
-      animationStyle: 'standard',
+      animationStyle: 'precise',
+      characterType: 'ordinary',
+      imageUrl: '/avatars/tomodachi/ordinary/2 - Ordinary Female - Happy - White.png'
     },
   },
 ]
@@ -218,80 +237,93 @@ export default function AgentsPage() {
   })
 
   return (
-    <div className="p-6 lg:p-8">
+    <div className="p-6 lg:p-10 min-h-screen bg-bg-main">
       {/* Header */}
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.4 }}
-        className="mb-8"
+        transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+        className="mb-12"
       >
-        <h1 className="text-2xl font-bold text-neutral-900 mb-2">Agentes</h1>
-        <p className="text-neutral-600">Explore e gerencie seus agentes de IA</p>
+        <h1 className="text-4xl font-black gradient-heading mb-3 tracking-tight">Catálogo de Agentes</h1>
+        <p className="text-slate-400 font-medium tracking-wide">Explore a biblioteca neural de inteligência avançada</p>
       </motion.div>
 
-      {/* Filtros */}
+      {/* Filtros e Busca - Glass */}
       <motion.div
-        className="flex flex-col sm:flex-row gap-4 mb-8"
+        className="flex flex-col xl:flex-row gap-6 mb-12 items-start xl:items-center"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.4, delay: 0.1 }}
+        transition={{ duration: 0.6, delay: 0.1 }}
       >
-        {/* Busca */}
-        <div className="relative flex-1 max-w-md">
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-400" />
-          <input
-            type="text"
-            placeholder="Buscar agentes..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            className="w-full pl-10 pr-4 py-2.5 bg-white border border-neutral-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary/30 transition-all"
-          />
+        {/* Busca Premium */}
+        <div className="relative flex-1 w-full max-w-xl group">
+          <div className="absolute -inset-0.5 bg-gradient-to-r from-sky-500/20 to-blue-500/20 rounded-2xl blur opacity-0 group-focus-within:opacity-100 transition-opacity" />
+          <div className="relative">
+            <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-500 group-focus-within:text-sky-400 transition-colors" />
+            <input
+              type="text"
+              placeholder="Buscar por nome, função ou tecnologia..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="w-full pl-12 pr-4 py-3.5 bg-white/5 border border-white/10 rounded-2xl text-sm text-white placeholder:text-slate-600 focus:outline-none focus:ring-1 focus:ring-white/20 focus:bg-white/[0.08] transition-all"
+            />
+          </div>
         </div>
 
-        {/* Categorias */}
-        <div className="flex items-center gap-2 overflow-x-auto pb-2 sm:pb-0">
+        {/* Categorias - Estilo Pílula Premium */}
+        <div className="flex items-center gap-2 overflow-x-auto pb-4 xl:pb-0 no-scrollbar max-w-full">
           {categories.map((category) => (
-            <button
+            <Button
               key={category}
+              variant={selectedCategory === category ? "glass" : "ghost"}
+              size="sm"
               onClick={() => setSelectedCategory(category)}
-              className={`px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-colors ${
+              className={cn(
+                "px-5 py-2.5 rounded-xl uppercase tracking-widest transition-all duration-300 border h-auto",
                 selectedCategory === category
-                  ? 'bg-primary text-white'
-                  : 'bg-white text-neutral-600 border border-neutral-200 hover:border-neutral-300'
-              }`}
+                  ? "bg-sky-500/20 text-sky-400 border-sky-500/30 shadow-sky-500/10"
+                  : "bg-white/5 text-slate-500 border-white/5"
+              )}
             >
               {category}
-            </button>
+            </Button>
           ))}
         </div>
 
-        {/* View Toggle */}
-        <div className="flex items-center gap-2 border border-neutral-200 rounded-lg p-1">
-          <button
+        {/* View Toggle - Minimalista */}
+        <div className="flex items-center gap-1.5 glass-panel p-1.5 border border-white/5 rounded-2xl ml-auto">
+          <Button
+            variant={viewMode === 'grid' ? "glass" : "ghost"}
+            size="icon"
             onClick={() => setViewMode('grid')}
-            className={`p-2 rounded-md transition-colors ${
-              viewMode === 'grid' ? 'bg-primary/10 text-primary' : 'text-neutral-400 hover:text-neutral-600'
-            }`}
+            className={cn(
+              "h-10 w-10 transition-all",
+              viewMode === 'grid' ? "text-white" : "text-slate-600"
+            )}
           >
             <Grid className="w-4 h-4" />
-          </button>
-          <button
+          </Button>
+          <Button
+            variant={viewMode === 'list' ? "glass" : "ghost"}
+            size="icon"
             onClick={() => setViewMode('list')}
-            className={`p-2 rounded-md transition-colors ${
-              viewMode === 'list' ? 'bg-primary/10 text-primary' : 'text-neutral-400 hover:text-neutral-600'
-            }`}
+            className={cn(
+              "h-10 w-10 transition-all",
+              viewMode === 'list' ? "text-white" : "text-slate-600"
+            )}
           >
             <List className="w-4 h-4" />
-          </button>
+          </Button>
         </div>
       </motion.div>
 
-      {/* Grid de Agentes */}
+      {/* Grid de Agentes - Cinematic */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 0.4, delay: 0.2 }}
+        transition={{ duration: 0.6, delay: 0.2 }}
+        className="relative"
       >
         {isLoading ? (
           <AgentGridSkeleton count={8} />
@@ -303,13 +335,24 @@ export default function AgentsPage() {
             onAgentInstantiate={(agent) => console.log('Instantiated:', agent.name)}
           />
         ) : (
-          <div className="text-center py-20">
-            <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-neutral-100 flex items-center justify-center">
-              <Search className="w-8 h-8 text-neutral-400" />
+          <motion.div 
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            className="text-center py-32 glass-panel border border-dashed border-white/10 rounded-[2rem]"
+          >
+            <div className="w-20 h-20 mx-auto mb-6 rounded-[2rem] bg-white/5 border border-white/10 flex items-center justify-center">
+              <Search className="w-8 h-8 text-slate-600" />
             </div>
-            <h3 className="text-lg font-semibold text-neutral-900 mb-2">Nenhum agente encontrado</h3>
-            <p className="text-neutral-600">Tente ajustar sua busca ou filtros</p>
-          </div>
+            <h3 className="text-2xl font-bold text-white mb-2 tracking-tight">Vazio Dimensional</h3>
+            <p className="text-slate-500 font-medium">Nenhum agente detectado com estes parâmetros.</p>
+            <Button 
+              variant="link"
+              onClick={() => { setSearchQuery(''); setSelectedCategory('Todos'); }}
+              className="mt-8 text-sky-400 hover:text-sky-300"
+            >
+              Resetar Filtros Neuronais
+            </Button>
+          </motion.div>
         )}
       </motion.div>
     </div>

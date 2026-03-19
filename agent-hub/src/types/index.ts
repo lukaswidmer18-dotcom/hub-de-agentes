@@ -34,9 +34,12 @@ export interface AgentMetrics {
 }
 
 export interface AgentAvatar {
+  type?: 'vector' | 'image'
   skin: string
   color: string
-  animationStyle: 'minimal' | 'standard' | 'expressive'
+  animationStyle: 'minimal' | 'standard' | 'expressive' | 'professional' | 'precise' | 'steady' | 'refined' | 'dynamic'
+  imageUrl?: string
+  characterType?: 'general' | 'ordinary'
   customAssets?: string[]
 }
 

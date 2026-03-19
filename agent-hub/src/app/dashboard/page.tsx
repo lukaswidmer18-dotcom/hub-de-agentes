@@ -4,7 +4,10 @@ import { motion } from 'framer-motion'
 import { AgentGrid, AgentGridSkeleton } from '@/components/avatar'
 import { Agent } from '@/types'
 import { useState, useEffect } from 'react'
-import { Bot, Clock, Zap, TrendingUp } from 'lucide-react'
+import { Bot, Clock, Zap, TrendingUp, ArrowRight } from 'lucide-react'
+import { cn } from '@/lib/utils'
+import Link from 'next/link'
+import { Button, buttonVariants } from '@/components/ui/button'
 
 // Dados mockados para demonstração
 const mockAgents: Agent[] = [
@@ -34,9 +37,12 @@ const mockAgents: Agent[] = [
       successRate: 98.5,
     },
     avatar: {
-      skin: 'default',
-      color: '#1F6FEB',
-      animationStyle: 'standard',
+      type: 'image',
+      skin: 'blue',
+      color: '#3B82F6',
+      animationStyle: 'professional',
+      characterType: 'ordinary',
+      imageUrl: '/avatars/tomodachi/ordinary/1 - Ordinary Male - Neutral - Black.png'
     },
   },
   {
@@ -65,9 +71,12 @@ const mockAgents: Agent[] = [
       successRate: 96.2,
     },
     avatar: {
+      type: 'image',
       skin: 'purple',
-      color: '#7C3AED',
-      animationStyle: 'expressive',
+      color: '#8B5CF6',
+      animationStyle: 'precise',
+      characterType: 'ordinary',
+      imageUrl: '/avatars/tomodachi/ordinary/2 - Ordinary Female - Happy - White.png'
     },
   },
   {
@@ -96,9 +105,12 @@ const mockAgents: Agent[] = [
       successRate: 99.1,
     },
     avatar: {
-      skin: 'orange',
+      type: 'image',
+      skin: 'yellow',
       color: '#F59E0B',
       animationStyle: 'expressive',
+      characterType: 'ordinary',
+      imageUrl: '/avatars/tomodachi/ordinary/3 - Ordinary Male - Happy - Black.png'
     },
   },
   {
@@ -127,9 +139,12 @@ const mockAgents: Agent[] = [
       successRate: 97.8,
     },
     avatar: {
+      type: 'image',
       skin: 'green',
       color: '#10B981',
-      animationStyle: 'standard',
+      animationStyle: 'steady',
+      characterType: 'ordinary',
+      imageUrl: '/avatars/tomodachi/ordinary/4 - Ordinary Female - Neutral - White.png'
     },
   },
 ]
@@ -152,78 +167,95 @@ export default function DashboardPage() {
   }, [])
 
   return (
-    <div className="p-6 lg:p-8">
+    <div className="p-6 lg:p-10 min-h-screen bg-bg-main">
       {/* Header */}
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.4 }}
-        className="mb-8"
+        transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+        className="mb-12"
       >
-        <h1 className="text-2xl font-bold text-neutral-900 mb-2">Painel de Controle</h1>
-        <p className="text-neutral-600">Visão geral dos seus agentes e métricas</p>
+        <h1 className="text-4xl font-black gradient-heading mb-3 tracking-tight">Painel de Controle</h1>
+        <p className="text-slate-400 font-medium">Sua infraestrutura de inteligência em tempo real</p>
       </motion.div>
 
       {/* Stats Cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
         {statsCards.map((stat, i) => (
           <motion.div
             key={stat.label}
-            className="bg-white rounded-xl p-6 border border-neutral-200"
+            className="glass-card p-6 group cursor-default"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.4, delay: i * 0.1 }}
+            transition={{ duration: 0.5, delay: i * 0.1 }}
           >
             <div className="flex items-start justify-between">
               <div>
-                <p className="text-sm text-neutral-500 mb-1">{stat.label}</p>
-                <p className="text-2xl font-bold text-neutral-900">{stat.value}</p>
-                <p className={`text-xs mt-1 ${
-                  stat.change.includes('+') ? 'text-success' : 'text-neutral-400'
-                }`}>
-                  {stat.change}
-                </p>
+                <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-2">{stat.label}</p>
+                <p className="text-3xl font-black text-white text-glow mb-2">{stat.value}</p>
+                <div className="flex items-center gap-1.5">
+                  <div className={cn(
+                    "w-1.5 h-1.5 rounded-full animate-pulse",
+                    stat.change.includes('+') || stat.change.includes('98') ? 'bg-sky-400 shadow-[0_0_8px_rgba(14,165,233,0.8)]' : 'bg-slate-600'
+                  )} />
+                  <p className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">
+                    {stat.change}
+                  </p>
+                </div>
               </div>
-              <div className={`p-2 rounded-lg ${
-                stat.color === 'primary' ? 'bg-primary/10' :
-                stat.color === 'accent' ? 'bg-accent/10' :
-                stat.color === 'success' ? 'bg-success/10' :
-                'bg-secondary/10'
-              }`}>
-                <stat.icon className={`w-5 h-5 ${
-                  stat.color === 'primary' ? 'text-primary' :
-                  stat.color === 'accent' ? 'text-accent-dark' :
-                  stat.color === 'success' ? 'text-success' :
-                  'text-secondary-dark'
-                }`} />
+              <div className={cn(
+                "p-3 rounded-xl transition-all duration-300 group-hover:scale-110",
+                stat.color === 'primary' ? 'bg-sky-500/10 text-sky-400 border border-sky-500/20' :
+                stat.color === 'accent' ? 'bg-amber-500/10 text-amber-400 border border-amber-500/20' :
+                stat.color === 'success' ? 'bg-emerald-500/10 text-emerald-400 border border-emerald-500/20' :
+                'bg-cyan-500/10 text-cyan-400 border border-cyan-500/20'
+              )}>
+                <stat.icon className="w-5 h-5 shadow-sm" />
               </div>
             </div>
+            
+            {/* Efeito de brilho no hover */}
+            <div className="absolute inset-x-0 bottom-0 h-1 bg-gradient-to-r from-transparent via-sky-500/20 to-transparent scale-x-0 group-hover:scale-x-100 transition-transform duration-500" />
           </motion.div>
         ))}
       </div>
 
       {/* Agentes Recentes */}
       <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.4, delay: 0.3 }}
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, delay: 0.4 }}
       >
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="text-lg font-semibold text-neutral-900">Agentes Recentes</h2>
-          <a href="/agents" className="text-sm text-primary hover:text-primary-dark">
-            Ver todos
-          </a>
+        <div className="flex items-center justify-between mb-8">
+          <div className="flex items-center gap-3">
+            <h2 className="text-xl font-bold text-white tracking-tight">Agentes Recentes</h2>
+            <span className="px-2.5 py-0.5 rounded-full bg-slate-800 text-slate-400 text-[10px] font-bold uppercase tracking-wider">
+              {agents.length} AGENTES
+            </span>
+          </div>
+          <Link 
+            href="/agents" 
+            className={cn(
+              buttonVariants({ variant: "link" }),
+              "text-sky-400 hover:text-sky-300 gap-2 p-0 h-auto"
+            )}
+          >
+            Ver catálogo completo
+            <ArrowRight className="w-4 h-4" />
+          </Link>
         </div>
 
         {isLoading ? (
           <AgentGridSkeleton count={4} />
         ) : (
-          <AgentGrid
-            agents={agents}
-            onAgentClick={(agent) => console.log('Clicked:', agent.name)}
-            onAgentFavorite={(agent) => console.log('Favorited:', agent.name)}
-            onAgentInstantiate={(agent) => console.log('Instantiated:', agent.name)}
-          />
+          <div className="relative">
+            <AgentGrid
+              agents={agents}
+              onAgentClick={(agent) => console.log('Clicked:', agent.name)}
+              onAgentFavorite={(agent) => console.log('Favorited:', agent.name)}
+              onAgentInstantiate={(agent) => console.log('Instantiated:', agent.name)}
+            />
+          </div>
         )}
       </motion.div>
     </div>

@@ -5,6 +5,8 @@ import { AgentGrid, AgentGridSkeleton } from '@/components/avatar'
 import { Agent } from '@/types'
 import { useState, useEffect } from 'react'
 import { Search, Sparkles } from 'lucide-react'
+import { cn } from '@/lib/utils'
+import { Button } from '@/components/ui/button'
 
 // Dados mockados de templates traduzidos
 const mockTemplates: Agent[] = [
@@ -155,63 +157,77 @@ export default function TemplatesPage() {
   })
 
   return (
-    <div className="p-6 lg:p-8">
+    <div className="p-6 lg:p-10 min-h-screen bg-bg-main relative overflow-hidden">
+      {/* Background Glow Sutil */}
+      <div className="absolute top-0 right-0 w-[40%] h-[40%] bg-brand-primary/5 rounded-full blur-[120px] pointer-events-none" />
+      
       {/* Header */}
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.4 }}
-        className="mb-8"
+        transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+        className="mb-12 relative z-10"
       >
-        <div className="flex items-center gap-3 mb-2">
-          <div className="p-2 bg-primary/10 rounded-lg text-primary">
-            <Sparkles className="w-5 h-5" />
+        <div className="flex items-center gap-4 mb-4">
+          <div className="p-3 bg-sky-500/10 rounded-2xl text-sky-400 border border-sky-500/20 shadow-[0_0_15px_rgba(14,165,233,0.15)]">
+            <Sparkles className="w-6 h-6" />
           </div>
-          <h1 className="text-2xl font-bold text-neutral-900">Modelos de Agentes</h1>
+          <h1 className="text-4xl font-black gradient-heading tracking-tight">Galeria de Templates</h1>
         </div>
-        <p className="text-neutral-600">Comece rapidamente com configurações pré-definidas para diferentes necessidades</p>
+        <p className="text-slate-400 font-medium tracking-wide max-w-2xl">
+          Acelere sua produtividade com arquiteturas neurais pré-configuradas para missões específicas.
+        </p>
       </motion.div>
 
-      {/* Filtros */}
+      {/* Filtros e Busca - Glass */}
       <motion.div
-        className="flex flex-col sm:flex-row gap-4 mb-8"
+        className="flex flex-col xl:flex-row gap-6 mb-12 items-start xl:items-center relative z-10"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.4, delay: 0.1 }}
+        transition={{ duration: 0.6, delay: 0.1 }}
       >
-        <div className="relative flex-1 max-w-md">
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-400" />
-          <input
-            type="text"
-            placeholder="Buscar modelos..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            className="w-full pl-10 pr-4 py-2.5 bg-white border border-neutral-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary/30 transition-all"
-          />
+        {/* Busca Premium */}
+        <div className="relative flex-1 w-full max-w-xl group">
+          <div className="absolute -inset-0.5 bg-gradient-to-r from-sky-500/20 to-blue-500/20 rounded-2xl blur opacity-0 group-focus-within:opacity-100 transition-opacity" />
+          <div className="relative">
+            <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-500 group-focus-within:text-sky-400 transition-colors" />
+            <input
+              type="text"
+              placeholder="Buscar modelos por categoria ou funcionalidade..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="w-full pl-12 pr-4 py-3.5 bg-white/5 border border-white/10 rounded-2xl text-sm text-white placeholder:text-slate-600 focus:outline-none focus:ring-1 focus:ring-white/20 focus:bg-white/[0.08] transition-all"
+            />
+          </div>
         </div>
 
-        <div className="flex items-center gap-2 overflow-x-auto pb-2 sm:pb-0">
+        {/* Categorias - Estilo Pílula Premium */}
+        <div className="flex items-center gap-2 overflow-x-auto pb-4 xl:pb-0 no-scrollbar max-w-full">
           {categories.map((category) => (
-            <button
+            <Button
               key={category}
+              variant={selectedCategory === category ? "glass" : "ghost"}
+              size="sm"
               onClick={() => setSelectedCategory(category)}
-              className={`px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-colors ${
+              className={cn(
+                "px-5 py-2.5 rounded-xl uppercase tracking-widest transition-all duration-300 border h-auto",
                 selectedCategory === category
-                  ? 'bg-primary text-white'
-                  : 'bg-white text-neutral-600 border border-neutral-200 hover:border-neutral-300'
-              }`}
+                  ? "bg-sky-500/20 text-sky-400 border-sky-500/30 shadow-sky-500/10"
+                  : "bg-white/5 text-slate-500 border-white/5"
+              )}
             >
               {category}
-            </button>
+            </Button>
           ))}
         </div>
       </motion.div>
 
-      {/* Grid de Templates */}
+      {/* Grid de Templates - Cinematic */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 0.4, delay: 0.2 }}
+        transition={{ duration: 0.6, delay: 0.2 }}
+        className="relative z-10"
       >
         {isLoading ? (
           <AgentGridSkeleton count={4} />
@@ -221,10 +237,17 @@ export default function TemplatesPage() {
             onAgentClick={(t) => console.log('Selecionou template:', t.name)}
           />
         ) : (
-          <div className="text-center py-20">
-            <h3 className="text-lg font-semibold text-neutral-900 mb-2">Nenhum modelo encontrado</h3>
-            <p className="text-neutral-600">Tente ajustar seus termos de busca ou filtros</p>
-          </div>
+          <motion.div 
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            className="text-center py-32 glass-panel border border-dashed border-white/10 rounded-[2rem]"
+          >
+            <div className="w-20 h-20 mx-auto mb-6 rounded-[2rem] bg-white/5 border border-white/10 flex items-center justify-center">
+              <Sparkles className="w-8 h-8 text-slate-600" />
+            </div>
+            <h3 className="text-2xl font-bold text-white mb-2 tracking-tight">Nenhum Template Identificado</h3>
+            <p className="text-slate-500 font-medium">Refine seus filtros para encontrar a arquitetura ideal.</p>
+          </motion.div>
         )}
       </motion.div>
     </div>

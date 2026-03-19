@@ -6,6 +6,7 @@ import { Message } from '@/types'
 import { useState, useRef, useEffect } from 'react'
 import { Send, User, Bot, Plus, Search, ChevronRight } from 'lucide-react'
 import { cn } from '@/lib/utils'
+import { Button } from '@/components/ui/button'
 
 // Mock de histórico de conversas traduzido
 const mockConversations = [
@@ -64,96 +65,111 @@ export default function WorkspacePage() {
   }
 
   return (
-    <div className="flex h-[calc(100vh-64px)] bg-white overflow-hidden">
-      {/* Sidebar de Conversas */}
-      <div className="w-80 border-r border-neutral-200 flex flex-col bg-neutral-50/50">
-        <div className="p-4 border-b border-neutral-200">
-          <button className="w-full flex items-center justify-center gap-2 bg-primary text-white py-2 rounded-lg text-sm font-medium hover:bg-primary-dark transition-colors shadow-sm">
+    <div className="flex h-[calc(100vh-64px)] bg-bg-main overflow-hidden selection:bg-sky-500/30">
+      {/* Sidebar de Conversas - Glass */}
+      <div className="w-80 border-r border-white/5 flex flex-col bg-slate-950/20 backdrop-blur-xl">
+        <div className="p-6 border-b border-white/5">
+          <Button 
+            className="w-full h-12 gap-2"
+          >
             <Plus className="w-4 h-4" />
             Nova Conversa
-          </button>
+          </Button>
         </div>
         
-        <div className="p-4">
-          <div className="relative mb-4">
-            <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-400" />
+        <div className="p-6 overflow-y-auto custom-scrollbar">
+          <div className="relative mb-6">
+            <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-500" />
             <input
               type="text"
-              placeholder="Buscar conversas..."
-              className="w-full pl-9 pr-4 py-2 bg-white border border-neutral-200 rounded-lg text-xs focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all"
+              placeholder="Buscar histórico..."
+              className="w-full pl-10 pr-4 py-2.5 bg-white/5 border border-white/10 rounded-xl text-xs text-white placeholder:text-slate-600 focus:outline-none focus:ring-2 focus:ring-sky-500/20 focus:bg-white/10 transition-all"
             />
           </div>
           
-          <div className="space-y-1">
-            <p className="px-2 text-[10px] font-bold text-neutral-400 uppercase tracking-widest mb-2">Recentes</p>
+          <div className="space-y-2">
+            <p className="px-2 text-[10px] font-black text-slate-500 uppercase tracking-[0.2em] mb-4">Recentes</p>
             {mockConversations.map((conv) => (
               <button
                 key={conv.id}
                 className={cn(
-                  "w-full text-left p-3 rounded-xl transition-all group hover:bg-white hover:shadow-sm border border-transparent",
-                  conv.id === 'c1' ? "bg-white shadow-sm border-neutral-200" : ""
+                  "w-full text-left p-4 rounded-2xl transition-all duration-300 group border border-transparent",
+                  conv.id === 'c1' 
+                    ? "bg-sky-500/10 border-sky-500/20 shadow-lg shadow-sky-500/5" 
+                    : "hover:bg-white/5"
                 )}
               >
-                <div className="flex justify-between items-start mb-1">
-                  <span className="text-sm font-semibold text-neutral-900 line-clamp-1">{conv.agentName}</span>
-                  <span className="text-[10px] text-neutral-400">{conv.timestamp}</span>
+                <div className="flex justify-between items-start mb-1.5">
+                  <span className={cn(
+                    "text-sm font-bold tracking-tight",
+                    conv.id === 'c1' ? "text-sky-400" : "text-slate-200 group-hover:text-white"
+                  )}>{conv.agentName}</span>
+                  <span className="text-[10px] font-medium text-slate-500">{conv.timestamp}</span>
                 </div>
-                <p className="text-xs text-neutral-500 line-clamp-1">{conv.lastMessage}</p>
+                <p className="text-xs text-slate-500 line-clamp-1 group-hover:text-slate-400">{conv.lastMessage}</p>
               </button>
             ))}
           </div>
         </div>
       </div>
 
-      {/* Área de Chat */}
-      <div className="flex-1 flex flex-col min-w-0 bg-neutral-50/30">
+      {/* Área de Chat - Deep Background */}
+      <div className="flex-1 flex flex-col min-w-0 bg-slate-950/10 relative">
+        {/* Background Decorativo Sutil */}
+        <div className="absolute top-0 right-0 w-[30%] h-[30%] bg-sky-500/5 rounded-full blur-[100px] pointer-events-none" />
+        
         {/* Header do Chat */}
-        <div className="h-16 flex items-center justify-between px-6 border-b border-neutral-200 bg-white shadow-sm z-10">
-          <div className="flex items-center gap-3">
-            <AgentAvatar size="sm" skin="default" state="idle" />
+        <div className="h-16 flex items-center justify-between px-8 border-b border-white/5 bg-slate-950/40 backdrop-blur-md z-10">
+          <div className="flex items-center gap-4">
+            <div className="relative">
+              <AgentAvatar size="sm" type="image" skin="blue" state="idle" />
+              <div className="absolute -bottom-0.5 -right-0.5 w-3 h-3 bg-emerald-500 border-2 border-slate-950 rounded-full shadow-[0_0_10px_rgba(16,185,129,0.5)]"></div>
+            </div>
             <div>
-              <h2 className="text-sm font-bold text-neutral-900">Assistente de Código</h2>
-              <div className="flex items-center gap-1.5">
-                <span className="w-2 h-2 rounded-full bg-success"></span>
-                <span className="text-[10px] text-neutral-500 font-medium">Online e pronto</span>
-              </div>
+              <h2 className="text-sm font-bold text-white tracking-tight">Assistente de Código</h2>
+              <p className="text-[10px] text-slate-500 font-bold uppercase tracking-wider">Interface Neural Ativa</p>
             </div>
           </div>
           
-          <div className="flex items-center gap-4">
-            <button className="text-xs font-semibold text-neutral-500 hover:text-neutral-900 transition-colors">Configurar Agente</button>
-            <div className="w-px h-4 bg-neutral-200"></div>
-            <button className="p-2 rounded-lg hover:bg-neutral-100 text-neutral-500 transition-colors">
+          <div className="flex items-center gap-6">
+            <Button variant="ghost" className="text-[10px] uppercase tracking-widest h-9 px-4">
+              Parâmetros
+            </Button>
+            <div className="w-px h-10 bg-white/5"></div>
+            <Button variant="outline" size="icon" className="h-10 w-10">
               <ChevronRight className="w-4 h-4" />
-            </button>
+            </Button>
           </div>
         </div>
 
-        {/* Mensagens */}
-        <div className="flex-1 overflow-y-auto p-6 space-y-6">
+        {/* Mensagens - Estilo Cinematic */}
+        <div className="flex-1 overflow-y-auto p-8 space-y-10 custom-scrollbar">
           <AnimatePresence initial={false}>
             {messages.map((msg) => (
               <motion.div
                 key={msg.id}
-                initial={{ opacity: 0, y: 10, scale: 0.95 }}
+                initial={{ opacity: 0, y: 20, scale: 0.98 }}
                 animate={{ opacity: 1, y: 0, scale: 1 }}
+                transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
                 className={cn(
-                  "flex items-start gap-4 max-w-[85%]",
+                  "flex items-start gap-4 max-w-[80%]",
                   msg.role === 'user' ? "ml-auto flex-row-reverse" : ""
                 )}
               >
                 <div className={cn(
-                  "w-8 h-8 rounded-lg flex items-center justify-center shrink-0",
-                  msg.role === 'assistant' ? "bg-primary text-white" : "bg-neutral-200 text-neutral-600"
+                  "w-9 h-9 rounded-xl flex items-center justify-center shrink-0 border transition-all duration-500",
+                  msg.role === 'assistant' 
+                    ? "bg-gradient-to-br from-brand-primary to-brand-secondary text-white border-white/20 shadow-lg shadow-sky-500/20" 
+                    : "bg-slate-800 text-slate-400 border-white/5"
                 )}>
                   {msg.role === 'assistant' ? <Bot className="w-5 h-5" /> : <User className="w-5 h-5" />}
                 </div>
                 
                 <div className={cn(
-                  "p-4 rounded-2xl shadow-sm text-sm leading-relaxed",
+                  "p-5 rounded-2xl text-[13px] leading-relaxed shadow-xl backdrop-blur-md transition-all duration-500",
                   msg.role === 'assistant' 
-                    ? "bg-white border border-neutral-200 text-neutral-800 rounded-tl-none" 
-                    : "bg-primary text-white rounded-tr-none"
+                    ? "bg-white/5 border border-white/10 text-slate-200 rounded-tl-none" 
+                    : "bg-gradient-to-br from-sky-600/20 to-blue-600/20 border border-sky-400/20 text-white rounded-tr-none shadow-sky-500/5"
                 )}>
                   {msg.content}
                 </div>
@@ -163,17 +179,17 @@ export default function WorkspacePage() {
           
           {isTyping && (
             <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
+              initial={{ opacity: 0, x: -10 }}
+              animate={{ opacity: 1, x: 0 }}
               className="flex items-center gap-4"
             >
-              <div className="w-8 h-8 rounded-lg bg-primary text-white flex items-center justify-center">
+              <div className="w-9 h-9 rounded-xl bg-slate-800 border border-white/5 text-slate-500 flex items-center justify-center">
                 <Bot className="w-5 h-5" />
               </div>
-              <div className="flex gap-1 p-3 bg-white border border-neutral-200 rounded-2xl rounded-tl-none shadow-sm">
-                <span className="w-1.5 h-1.5 bg-neutral-300 rounded-full animate-bounce"></span>
-                <span className="w-1.5 h-1.5 bg-neutral-300 rounded-full animate-bounce delay-75"></span>
-                <span className="w-1.5 h-1.5 bg-neutral-300 rounded-full animate-bounce delay-150"></span>
+              <div className="flex gap-1.5 p-4 bg-white/5 border border-white/10 rounded-2xl rounded-tl-none backdrop-blur-md">
+                <span className="w-1.5 h-1.5 bg-sky-500 rounded-full animate-bounce shadow-[0_0_8px_rgba(14,165,233,0.5)]"></span>
+                <span className="w-1.5 h-1.5 bg-sky-500 rounded-full animate-bounce delay-150 shadow-[0_0_8px_rgba(14,165,233,0.5)]"></span>
+                <span className="w-1.5 h-1.5 bg-sky-500 rounded-full animate-bounce delay-300 shadow-[0_0_8px_rgba(14,165,233,0.5)]"></span>
               </div>
             </motion.div>
           )}
@@ -181,35 +197,39 @@ export default function WorkspacePage() {
           <div ref={messagesEndRef} />
         </div>
 
-        {/* Input de Mensagem */}
-        <div className="p-6 bg-white border-t border-neutral-200">
-          <form onSubmit={handleSendMessage} className="max-w-4xl mx-auto flex gap-4">
-            <div className="flex-1 relative">
-              <textarea
-                value={inputValue}
-                onChange={(e) => setInputValue(e.target.value)}
-                onKeyDown={(e) => {
-                  if (e.key === 'Enter' && !e.shiftKey) {
-                    e.preventDefault()
-                    handleSendMessage(e)
-                  }
-                }}
-                placeholder="Como posso ajudar hoje?"
-                rows={1}
-                className="w-full pl-4 pr-12 py-3 bg-neutral-100 border border-transparent rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 focus:bg-white focus:border-primary/20 transition-all resize-none min-h-[48px]"
-              />
-              <button
-                type="submit"
-                disabled={!inputValue.trim() || isTyping}
-                className="absolute right-3 top-1/2 -translate-y-1/2 p-2 bg-primary text-white rounded-lg disabled:opacity-50 disabled:bg-neutral-400 transition-all active:scale-95 shadow-lg shadow-primary/20"
-              >
-                <Send className="w-4 h-4" />
-              </button>
+        {/* Input de Mensagem - Minimalista Elevado */}
+        <div className="p-8 bg-slate-950/20 backdrop-blur-xl border-t border-white/5">
+          <form onSubmit={handleSendMessage} className="max-w-4xl mx-auto">
+            <div className="relative group">
+              <div className="absolute -inset-0.5 bg-gradient-to-r from-brand-primary/20 to-brand-secondary/20 rounded-2xl blur opacity-0 group-focus-within:opacity-100 transition-opacity duration-500" />
+              <div className="relative flex items-center gap-3">
+                <textarea
+                  value={inputValue}
+                  onChange={(e) => setInputValue(e.target.value)}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter' && !e.shiftKey) {
+                      e.preventDefault()
+                      handleSendMessage(e)
+                    }
+                  }}
+                  placeholder="Envie um comando..."
+                  rows={1}
+                  className="w-full pl-6 pr-14 py-4 bg-white/5 border border-white/10 rounded-2xl text-sm text-white placeholder:text-slate-600 focus:outline-none focus:ring-1 focus:ring-white/20 focus:bg-white/[0.08] transition-all resize-none min-h-[56px] custom-scrollbar"
+                />
+                <Button
+                  type="submit"
+                  disabled={!inputValue.trim() || isTyping}
+                  size="icon"
+                  className="absolute right-2 top-1/2 -translate-y-1/2 h-10 w-10 shadow-sky-500/20"
+                >
+                  <Send className="w-4 h-4" />
+                </Button>
+              </div>
             </div>
+            <p className="mt-4 text-[10px] text-center text-slate-600 font-bold uppercase tracking-[0.2em]">
+              SISTEMA NEURAL : PRONTO PARA OPERAÇÃO
+            </p>
           </form>
-          <p className="mt-3 text-[10px] text-center text-neutral-400 font-medium">
-            Pressione Enter para enviar. Use Shift + Enter para uma nova linha.
-          </p>
         </div>
       </div>
     </div>
