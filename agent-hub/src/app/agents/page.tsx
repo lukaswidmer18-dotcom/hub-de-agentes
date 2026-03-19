@@ -39,8 +39,9 @@ const mockAgents: Agent[] = [
       type: 'image',
       skin: 'blue',
       color: '#1F6FEB',
-      animationStyle: 'standard',
-      characterType: 'general'
+      animationStyle: 'professional',
+      characterType: 'ordinary',
+      imageUrl: '/avatars/tomodachi/ordinary/1 - Ordinary Male - Neutral - Black.png'
     },
   },
   {
@@ -258,9 +259,9 @@ export default function AgentsPage() {
       >
         {/* Busca Premium */}
         <div className="relative flex-1 w-full max-w-xl group">
-          <div className="absolute -inset-0.5 bg-gradient-to-r from-sky-500/20 to-blue-500/20 rounded-2xl blur opacity-0 group-focus-within:opacity-100 transition-opacity" />
+          <div className="absolute -inset-0.5 bg-gradient-to-r from-yellow-400/15 to-yellow-500/10 rounded-2xl blur opacity-0 group-focus-within:opacity-100 transition-opacity" />
           <div className="relative">
-            <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-500 group-focus-within:text-sky-400 transition-colors" />
+            <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-[#BFBFBF] group-focus-within:text-yellow-400 transition-colors" />
             <input
               type="text"
               placeholder="Buscar por nome, função ou tecnologia..."
@@ -282,8 +283,8 @@ export default function AgentsPage() {
               className={cn(
                 "px-5 py-2.5 rounded-xl uppercase tracking-widest transition-all duration-300 border h-auto",
                 selectedCategory === category
-                  ? "bg-sky-500/20 text-sky-400 border-sky-500/30 shadow-sky-500/10"
-                  : "bg-white/5 text-slate-500 border-white/5"
+                  ? "bg-yellow-400/15 text-yellow-400 border-yellow-400/30 shadow-yellow-400/10"
+                  : "bg-white/5 text-[#BFBFBF] border-white/5"
               )}
             >
               {category}
@@ -348,7 +349,7 @@ export default function AgentsPage() {
             <Button 
               variant="link"
               onClick={() => { setSearchQuery(''); setSelectedCategory('Todos'); }}
-              className="mt-8 text-sky-400 hover:text-sky-300"
+              className="mt-8 text-yellow-400 hover:text-yellow-300"
             >
               Resetar Filtros Neuronais
             </Button>

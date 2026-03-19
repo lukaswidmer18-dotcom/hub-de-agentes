@@ -32,7 +32,7 @@ export function AgentCard({
       layoutId={`agent-card-${agent.id}`}
       className={cn(
         'group relative glass-card p-0 overflow-hidden',
-        'hover:border-sky-500/30 transition-all duration-500 cursor-pointer',
+        'transition-all duration-500 cursor-pointer',
         className
       )}
       initial={{ opacity: 0, y: 20, scale: 0.98 }}
@@ -48,7 +48,8 @@ export function AgentCard({
       {/* Badge de template - Premium */}
       {agent.isTemplate && (
         <div className="absolute top-4 left-4 z-10">
-          <span className="px-3 py-1 text-[10px] font-black uppercase tracking-widest bg-amber-500/10 text-amber-500 border border-amber-500/20 rounded-lg backdrop-blur-md">
+          <span className="px-3 py-1 text-[10px] font-black uppercase tracking-widest rounded-lg backdrop-blur-md"
+            style={{ background: 'rgba(255,192,0,0.12)', color: '#FFC000', border: '1px solid rgba(255,192,0,0.3)' }}>
             Template
           </span>
         </div>
@@ -63,12 +64,12 @@ export function AgentCard({
           onFavorite?.()
         }}
       >
-        <Star className="w-4 h-4 text-slate-400 hover:text-amber-400 transition-colors" />
+        <Star className="w-4 h-4 transition-colors" style={{ color: '#BFBFBF' }} />
       </Button>
 
       {/* Área do Avatar - Deep Background */}
-      <div className="relative h-44 bg-slate-900/40 flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-sky-500/5 to-transparent opacity-50" />
+      <div className="relative h-44 flex items-center justify-center overflow-hidden" style={{ background: 'rgba(26,40,33,0.6)' }}>
+        <div className="absolute inset-0 opacity-30" style={{ background: 'radial-gradient(circle at 50% 50%, rgba(255,192,0,0.08), transparent 70%)' }} />
         <motion.div
           className="relative z-10"
           whileHover={{ scale: 1.1, rotate: [0, -5, 5, 0] }}
@@ -87,7 +88,7 @@ export function AgentCard({
         </motion.div>
 
         {/* Círculo de luz orbital */}
-        <div className="absolute w-32 h-32 bg-sky-500/10 blur-[60px] rounded-full group-hover:bg-sky-500/20 transition-all duration-700" />
+        <div className="absolute w-32 h-32 blur-[60px] rounded-full transition-all duration-700" style={{ background: 'rgba(255,192,0,0.08)' }} />
       </div>
 
       {/* Conteúdo */}
@@ -98,7 +99,7 @@ export function AgentCard({
           </h3>
         </div>
 
-        <p className="text-sm text-slate-400 line-clamp-2 mb-5 leading-relaxed font-medium">
+        <p className="text-sm line-clamp-2 mb-5 leading-relaxed font-medium" style={{ color: '#BFBFBF' }}>
           {agent.description}
         </p>
 
@@ -107,7 +108,8 @@ export function AgentCard({
           {agent.tags.slice(0, 3).map((tag) => (
             <span
               key={tag}
-              className="px-2.5 py-1 text-[10px] font-bold bg-white/5 text-slate-400 border border-white/5 rounded-md uppercase tracking-wider group-hover:bg-white/10 transition-colors"
+              className="px-2.5 py-1 text-[10px] font-bold rounded-md uppercase tracking-wider transition-colors"
+              style={{ background: 'rgba(255,192,0,0.06)', color: '#BFBFBF', border: '1px solid rgba(255,192,0,0.1)' }}
             >
               {tag}
             </span>
@@ -115,14 +117,14 @@ export function AgentCard({
         </div>
 
         {/* Footer com métricas e ação */}
-        <div className="flex items-center justify-between pt-5 border-t border-white/5">
-          <div className="flex items-center gap-4 text-[10px] font-bold text-slate-500 uppercase tracking-widest">
+        <div className="flex items-center justify-between pt-5" style={{ borderTop: '1px solid rgba(255,192,0,0.08)' }}>
+          <div className="flex items-center gap-4 text-[10px] font-bold uppercase tracking-widest" style={{ color: '#BFBFBF' }}>
             <div className="flex items-center gap-1.5">
-              <span className="w-1.5 h-1.5 rounded-full bg-sky-500/40" />
+              <span className="w-1.5 h-1.5 rounded-full" style={{ background: 'rgba(255,192,0,0.5)' }} />
               {agent.metrics.usageCount} USOS
             </div>
             <div className="flex items-center gap-1.5">
-              <span className="w-1.5 h-1.5 rounded-full bg-emerald-500/40" />
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-500/50" />
               {agent.metrics.avgLatency}MS
             </div>
           </div>
@@ -142,7 +144,7 @@ export function AgentCard({
       </div>
       
       {/* Laser Border Effect on hover */}
-      <div className="absolute inset-0 border border-white/5 rounded-2xl pointer-events-none group-hover:border-sky-500/20 transition-colors duration-500" />
+      <div className="absolute inset-0 rounded-2xl pointer-events-none transition-colors duration-500" style={{ border: '1px solid rgba(255,192,0,0.06)' }} />
     </motion.div>
   )
 }

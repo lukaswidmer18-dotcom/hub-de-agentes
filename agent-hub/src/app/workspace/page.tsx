@@ -65,7 +65,7 @@ export default function WorkspacePage() {
   }
 
   return (
-    <div className="flex h-[calc(100vh-64px)] bg-bg-main overflow-hidden selection:bg-sky-500/30">
+    <div className="flex h-[calc(100vh-64px)] bg-bg-main overflow-hidden selection:bg-yellow-400/20">
       {/* Sidebar de Conversas - Glass */}
       <div className="w-80 border-r border-white/5 flex flex-col bg-slate-950/20 backdrop-blur-xl">
         <div className="p-6 border-b border-white/5">
@@ -83,7 +83,7 @@ export default function WorkspacePage() {
             <input
               type="text"
               placeholder="Buscar histórico..."
-              className="w-full pl-10 pr-4 py-2.5 bg-white/5 border border-white/10 rounded-xl text-xs text-white placeholder:text-slate-600 focus:outline-none focus:ring-2 focus:ring-sky-500/20 focus:bg-white/10 transition-all"
+              className="w-full pl-10 pr-4 py-2.5 bg-white/5 border border-white/10 rounded-xl text-xs text-white placeholder:text-slate-600 focus:outline-none focus:ring-2 focus:ring-yellow-400/20 focus:bg-white/10 transition-all"
             />
           </div>
           
@@ -95,14 +95,14 @@ export default function WorkspacePage() {
                 className={cn(
                   "w-full text-left p-4 rounded-2xl transition-all duration-300 group border border-transparent",
                   conv.id === 'c1' 
-                    ? "bg-sky-500/10 border-sky-500/20 shadow-lg shadow-sky-500/5" 
+                    ? "border" 
                     : "hover:bg-white/5"
                 )}
               >
                 <div className="flex justify-between items-start mb-1.5">
                   <span className={cn(
                     "text-sm font-bold tracking-tight",
-                    conv.id === 'c1' ? "text-sky-400" : "text-slate-200 group-hover:text-white"
+                    conv.id === 'c1' ? "text-yellow-400" : "text-slate-200 group-hover:text-white"
                   )}>{conv.agentName}</span>
                   <span className="text-[10px] font-medium text-slate-500">{conv.timestamp}</span>
                 </div>
@@ -116,7 +116,7 @@ export default function WorkspacePage() {
       {/* Área de Chat - Deep Background */}
       <div className="flex-1 flex flex-col min-w-0 bg-slate-950/10 relative">
         {/* Background Decorativo Sutil */}
-        <div className="absolute top-0 right-0 w-[30%] h-[30%] bg-sky-500/5 rounded-full blur-[100px] pointer-events-none" />
+        <div className="absolute top-0 right-0 w-[30%] h-[30%] rounded-full blur-[100px] pointer-events-none" style={{ background: 'rgba(255,192,0,0.04)' }} />
         
         {/* Header do Chat */}
         <div className="h-16 flex items-center justify-between px-8 border-b border-white/5 bg-slate-950/40 backdrop-blur-md z-10">
@@ -159,7 +159,7 @@ export default function WorkspacePage() {
                 <div className={cn(
                   "w-9 h-9 rounded-xl flex items-center justify-center shrink-0 border transition-all duration-500",
                   msg.role === 'assistant' 
-                    ? "bg-gradient-to-br from-brand-primary to-brand-secondary text-white border-white/20 shadow-lg shadow-sky-500/20" 
+                    ? "text-white border-white/20 shadow-lg" 
                     : "bg-slate-800 text-slate-400 border-white/5"
                 )}>
                   {msg.role === 'assistant' ? <Bot className="w-5 h-5" /> : <User className="w-5 h-5" />}
@@ -169,7 +169,7 @@ export default function WorkspacePage() {
                   "p-5 rounded-2xl text-[13px] leading-relaxed shadow-xl backdrop-blur-md transition-all duration-500",
                   msg.role === 'assistant' 
                     ? "bg-white/5 border border-white/10 text-slate-200 rounded-tl-none" 
-                    : "bg-gradient-to-br from-sky-600/20 to-blue-600/20 border border-sky-400/20 text-white rounded-tr-none shadow-sky-500/5"
+                    : "border text-white rounded-tr-none"
                 )}>
                   {msg.content}
                 </div>
@@ -187,9 +187,9 @@ export default function WorkspacePage() {
                 <Bot className="w-5 h-5" />
               </div>
               <div className="flex gap-1.5 p-4 bg-white/5 border border-white/10 rounded-2xl rounded-tl-none backdrop-blur-md">
-                <span className="w-1.5 h-1.5 bg-sky-500 rounded-full animate-bounce shadow-[0_0_8px_rgba(14,165,233,0.5)]"></span>
-                <span className="w-1.5 h-1.5 bg-sky-500 rounded-full animate-bounce delay-150 shadow-[0_0_8px_rgba(14,165,233,0.5)]"></span>
-                <span className="w-1.5 h-1.5 bg-sky-500 rounded-full animate-bounce delay-300 shadow-[0_0_8px_rgba(14,165,233,0.5)]"></span>
+                <span className="w-1.5 h-1.5 bg-yellow-400 rounded-full animate-bounce shadow-[0_0_8px_rgba(255,192,0,0.5)]"></span>
+                <span className="w-1.5 h-1.5 bg-yellow-400 rounded-full animate-bounce delay-150 shadow-[0_0_8px_rgba(255,192,0,0.5)]"></span>
+                <span className="w-1.5 h-1.5 bg-yellow-400 rounded-full animate-bounce delay-300 shadow-[0_0_8px_rgba(255,192,0,0.5)]"></span>
               </div>
             </motion.div>
           )}

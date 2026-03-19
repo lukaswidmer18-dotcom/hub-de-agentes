@@ -196,7 +196,7 @@ export default function DashboardPage() {
                 <div className="flex items-center gap-1.5">
                   <div className={cn(
                     "w-1.5 h-1.5 rounded-full animate-pulse",
-                    stat.change.includes('+') || stat.change.includes('98') ? 'bg-sky-400 shadow-[0_0_8px_rgba(14,165,233,0.8)]' : 'bg-slate-600'
+                    stat.change.includes('+') || stat.change.includes('98') ? 'bg-yellow-400 shadow-[0_0_8px_rgba(255,192,0,0.8)]' : 'bg-slate-600'
                   )} />
                   <p className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">
                     {stat.change}
@@ -205,7 +205,7 @@ export default function DashboardPage() {
               </div>
               <div className={cn(
                 "p-3 rounded-xl transition-all duration-300 group-hover:scale-110",
-                stat.color === 'primary' ? 'bg-sky-500/10 text-sky-400 border border-sky-500/20' :
+                stat.color === 'primary' ? 'text-yellow-400' :
                 stat.color === 'accent' ? 'bg-amber-500/10 text-amber-400 border border-amber-500/20' :
                 stat.color === 'success' ? 'bg-emerald-500/10 text-emerald-400 border border-emerald-500/20' :
                 'bg-cyan-500/10 text-cyan-400 border border-cyan-500/20'
@@ -215,7 +215,7 @@ export default function DashboardPage() {
             </div>
             
             {/* Efeito de brilho no hover */}
-            <div className="absolute inset-x-0 bottom-0 h-1 bg-gradient-to-r from-transparent via-sky-500/20 to-transparent scale-x-0 group-hover:scale-x-100 transition-transform duration-500" />
+            <div className="absolute inset-x-0 bottom-0 h-1 bg-gradient-to-r from-transparent via-yellow-400/20 to-transparent scale-x-0 group-hover:scale-x-100 transition-transform duration-500" />
           </motion.div>
         ))}
       </div>
@@ -237,7 +237,7 @@ export default function DashboardPage() {
             href="/agents" 
             className={cn(
               buttonVariants({ variant: "link" }),
-              "text-sky-400 hover:text-sky-300 gap-2 p-0 h-auto"
+              "text-yellow-400 hover:text-yellow-300 gap-2 p-0 h-auto"
             )}
           >
             Ver catálogo completo

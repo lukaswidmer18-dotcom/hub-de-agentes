@@ -4,21 +4,21 @@ import { cva, type VariantProps } from "class-variance-authority"
 import { cn } from "@/lib/utils"
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-xl text-sm font-bold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500/50 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 active:scale-95",
+  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-xl text-sm font-bold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-yellow-400/50 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 active:scale-95",
   {
     variants: {
       variant: {
         default:
-          "bg-gradient-to-r from-brand-primary to-brand-secondary text-white shadow-lg shadow-sky-500/20 hover:shadow-sky-500/40 hover:brightness-110",
+          "bg-gradient-to-r from-[#FFC000] to-[#F6D52A] text-[#243F38] shadow-lg shadow-yellow-400/25 hover:shadow-yellow-400/45 hover:brightness-110 font-extrabold",
         destructive:
           "bg-gradient-to-r from-red-600 to-rose-600 text-white shadow-lg shadow-red-500/20 hover:shadow-red-500/40 hover:brightness-110",
         outline:
-          "border border-white/10 bg-white/5 hover:bg-white/10 hover:border-white/20 text-white",
+          "border border-yellow-400/20 bg-white/5 hover:bg-yellow-400/10 hover:border-yellow-400/40 text-white",
         secondary:
-          "bg-white/10 text-white hover:bg-white/20 border border-white/5",
-        ghost: "hover:bg-white/5 text-slate-400 hover:text-white border border-transparent hover:border-white/5",
-        link: "text-sky-400 underline-offset-4 hover:underline",
-        glass: "bg-white/5 backdrop-blur-md border border-white/10 text-white hover:bg-white/10 hover:border-white/20 shadow-xl",
+          "bg-[#243F38] text-white hover:bg-[#2e5048] border border-yellow-400/10",
+        ghost: "hover:bg-yellow-400/10 text-[#BFBFBF] hover:text-white border border-transparent hover:border-yellow-400/15",
+        link: "text-[#FFC000] underline-offset-4 hover:underline",
+        glass: "backdrop-blur-md border text-white hover:brightness-110 shadow-xl",
       },
       size: {
         default: "h-11 px-6 py-2",

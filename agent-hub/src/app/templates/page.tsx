@@ -36,9 +36,12 @@ const mockTemplates: Agent[] = [
       successRate: 97.5,
     },
     avatar: {
+      type: 'image',
       skin: 'orange',
       color: '#F59E0B',
       animationStyle: 'expressive',
+      characterType: 'ordinary',
+      imageUrl: '/avatars/tomodachi/ordinary/3 - Ordinary Female - Happy - White.png'
     },
   },
   {
@@ -67,9 +70,12 @@ const mockTemplates: Agent[] = [
       successRate: 98.2,
     },
     avatar: {
+      type: 'image',
       skin: 'blue',
       color: '#3B82F6',
-      animationStyle: 'standard',
+      animationStyle: 'professional',
+      characterType: 'ordinary',
+      imageUrl: '/avatars/tomodachi/ordinary/5 - Ordinary Male - Neutral - Black.png'
     },
   },
   {
@@ -98,9 +104,12 @@ const mockTemplates: Agent[] = [
       successRate: 99.5,
     },
     avatar: {
+      type: 'image',
       skin: 'green',
       color: '#10B981',
       animationStyle: 'expressive',
+      characterType: 'ordinary',
+      imageUrl: '/avatars/tomodachi/ordinary/3 - Ordinary Male - Neutral - Black.png'
     },
   },
   {
@@ -129,9 +138,12 @@ const mockTemplates: Agent[] = [
       successRate: 96.8,
     },
     avatar: {
+      type: 'image',
       skin: 'purple',
       color: '#7C3AED',
-      animationStyle: 'minimal',
+      animationStyle: 'precise',
+      characterType: 'ordinary',
+      imageUrl: '/avatars/tomodachi/ordinary/1 - Ordinary Female - Neutral - White.png'
     },
   },
 ]
@@ -169,7 +181,7 @@ export default function TemplatesPage() {
         className="mb-12 relative z-10"
       >
         <div className="flex items-center gap-4 mb-4">
-          <div className="p-3 bg-sky-500/10 rounded-2xl text-sky-400 border border-sky-500/20 shadow-[0_0_15px_rgba(14,165,233,0.15)]">
+          <div className="p-3 rounded-2xl border" style={{ background: 'rgba(255,192,0,0.1)', color: '#FFC000', borderColor: 'rgba(255,192,0,0.25)' }}>
             <Sparkles className="w-6 h-6" />
           </div>
           <h1 className="text-4xl font-black gradient-heading tracking-tight">Galeria de Templates</h1>
@@ -188,9 +200,9 @@ export default function TemplatesPage() {
       >
         {/* Busca Premium */}
         <div className="relative flex-1 w-full max-w-xl group">
-          <div className="absolute -inset-0.5 bg-gradient-to-r from-sky-500/20 to-blue-500/20 rounded-2xl blur opacity-0 group-focus-within:opacity-100 transition-opacity" />
+          <div className="absolute -inset-0.5 bg-gradient-to-r from-yellow-400/15 to-yellow-500/10 rounded-2xl blur opacity-0 group-focus-within:opacity-100 transition-opacity" />
           <div className="relative">
-            <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-500 group-focus-within:text-sky-400 transition-colors" />
+            <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-[#BFBFBF] group-focus-within:text-yellow-400 transition-colors" />
             <input
               type="text"
               placeholder="Buscar modelos por categoria ou funcionalidade..."
@@ -212,7 +224,7 @@ export default function TemplatesPage() {
               className={cn(
                 "px-5 py-2.5 rounded-xl uppercase tracking-widest transition-all duration-300 border h-auto",
                 selectedCategory === category
-                  ? "bg-sky-500/20 text-sky-400 border-sky-500/30 shadow-sky-500/10"
+                  ? "bg-yellow-400/15 text-yellow-400 border-yellow-400/30 shadow-yellow-400/10"
                   : "bg-white/5 text-slate-500 border-white/5"
               )}
             >

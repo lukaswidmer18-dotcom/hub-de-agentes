@@ -8,11 +8,11 @@ import { Button } from '@/components/ui/button'
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-bg-main text-slate-50 selection:bg-sky-500/30">
+    <div className="min-h-screen bg-bg-main text-slate-50 selection:bg-yellow-400/20">
       {/* Background Decorativo */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute -top-[10%] -left-[10%] w-[40%] h-[40%] bg-sky-500/10 rounded-full blur-[120px] animate-pulse" />
-        <div className="absolute top-[20%] -right-[5%] w-[30%] h-[30%] bg-blue-600/5 rounded-full blur-[100px]" />
+        <div className="absolute -top-[10%] -left-[10%] w-[40%] h-[40%] rounded-full blur-[120px] animate-pulse" style={{ background: 'rgba(255,192,0,0.06)' }} />
+        <div className="absolute top-[20%] -right-[5%] w-[30%] h-[30%] rounded-full blur-[100px]" style={{ background: 'rgba(36,63,56,0.8)' }} />
       </div>
 
       {/* Header da Landing */}
@@ -25,8 +25,8 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center gap-2 group cursor-pointer">
-              <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-brand-primary to-brand-secondary flex items-center justify-center shadow-lg shadow-sky-500/20 group-hover:scale-110 transition-transform duration-300">
-                <svg width="22" height="22" viewBox="0 0 100 125" fill="none" className="text-white">
+              <div className="w-9 h-9 rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300" style={{ background: 'linear-gradient(135deg, #FFC000, #F6D52A)', boxShadow: '0 4px 16px rgba(255,192,0,0.3)' }}>
+                <svg width="22" height="22" viewBox="0 0 100 125" fill="none" className="text-[#243F38]">
                   <path d="M50 35C65 35 75 45 78 60C80 75 75 90 65 100C60 105 55 108 50 108C45 108 40 105 35 100C25 90 20 75 22 60C25 45 35 35 50 35Z" fill="currentColor" />
                 </svg>
               </div>
@@ -65,7 +65,8 @@ export default function HomePage() {
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.6 }}
-                className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-sky-500/10 border border-sky-500/20 text-sky-400 text-xs font-bold uppercase tracking-widest"
+                className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest"
+                style={{ background: 'rgba(255,192,0,0.1)', border: '1px solid rgba(255,192,0,0.25)', color: '#FFC000' }}
               >
                 <Sparkles className="w-3.5 h-3.5" />
                 <span>Deep Intelligence v2.0</span>

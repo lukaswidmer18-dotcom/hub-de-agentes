@@ -15,6 +15,32 @@ export interface Agent {
   config: AgentConfig
   metrics: AgentMetrics
   avatar: AgentAvatar
+  officeStatus?: AgentOfficeStatus
+}
+
+// ─── Escritório Virtual ───────────────────────────────────────────────────────
+
+export type AgentOfficeStatus = 'available' | 'busy' | 'on-mission'
+
+export interface OfficeMission {
+  id: string
+  title: string
+  description: string
+  status: 'draft' | 'active' | 'completed' | 'paused'
+  priority: 'low' | 'medium' | 'high' | 'critical'
+  assignedDeskIds: string[]
+  createdAt: Date
+  deadline?: Date
+  progress: number
+}
+
+export interface OfficeDesk {
+  id: string
+  row: number
+  col: number
+  label: string
+  agentId: string | null
+  missionId: string | null
 }
 
 export interface AgentConfig {
