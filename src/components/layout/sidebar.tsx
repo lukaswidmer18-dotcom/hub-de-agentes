@@ -18,11 +18,11 @@ import {
 } from 'lucide-react'
 
 const mainNavItems = [
-  { name: 'Dashboard', href: '/dashboard', icon: LayoutDashboard },
-  { name: 'Agentes', href: '/agents', icon: Bot },
-  { name: 'Workspace', href: '/workspace', icon: MessageSquare },
-  { name: 'Templates', href: '/templates', icon: FileText },
-  { name: 'Analytics', href: '/analytics', icon: BarChart3 },
+  { name: 'Início', href: '/dashboard', icon: LayoutDashboard },
+  { name: 'Meus Agentes', href: '/agents', icon: Bot },
+  { name: 'Conversar', href: '/workspace', icon: MessageSquare },
+  { name: 'Modelos', href: '/templates', icon: FileText },
+  { name: 'Relatórios', href: '/analytics', icon: BarChart3 },
   { name: 'Integrações', href: '/integrations', icon: Plug },
 ]
 

@@ -160,7 +160,7 @@ export default function DashboardPage() {
         transition={{ duration: 0.4 }}
         className="mb-8"
       >
-        <h1 className="text-2xl font-bold text-neutral-900 mb-2">Dashboard</h1>
+        <h1 className="text-2xl font-bold text-neutral-900 mb-2">Painel de Controle</h1>
         <p className="text-neutral-600">Visão geral dos seus agentes e métricas</p>
       </motion.div>
 
